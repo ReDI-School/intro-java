@@ -2,7 +2,7 @@
 
 ## Topics
 
-### Lesson 0 - What is programming:
+### What is programming:
 - Introduction
 - Why learn to program
 - What is programming
