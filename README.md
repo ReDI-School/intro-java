@@ -23,7 +23,7 @@
 - Data Types 
 - Variable names
 - First project
-[Variables / First project](https://docs.google.com/presentation/d/1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg/edit?usp=sharing)
+[Slides ](https://docs.google.com/presentation/d/1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg/edit?usp=sharing) :x:
 ### Data Types
 - First Java Program
 - Print
