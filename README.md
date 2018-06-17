@@ -10,11 +10,11 @@
 - What does a developer / programmer do
 
 [Slides](https://docs.google.com/presentation/d/1-w1Y9VTyl8SsIjDyaoh97XTpwgC6tZp0zJPoYgFwvwg/edit?usp=sharing)
-[ ] shorten these slides? 
+- [ ] shorten these slides? 
 ### What Is Java?
 - Java features
 [Slides](https://docs.google.com/presentation/d/1zsuGYIuRmCu7NVsSJEFnrgIW85nR6lLDDd35kUpjW7I/edit?usp=sharing)
-[ ] the slides explain oop already? redo slides
+- [ ]  the slides explain oop already? redo slides
 
 - Compilation
 - Reading code
@@ -26,8 +26,9 @@
 - First project
 
 [Slides](https://docs.google.com/presentation/d/1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg/edit?usp=sharing)
-[ ] redo slides, move variable stuff to data types? 
-[ ] move First Java Program here?
+
+- [ ] redo slides, move variable stuff to data types? 
+- [ ] move First Java Program here?
 ### Data Types
 - First Java Program
 - Print
@@ -70,7 +71,7 @@
 - Switch Case vs if 
 
 [Slides](https://docs.google.com/presentation/d/1lrUGGIwYULLqz-VFGDIhW06NajFyYJdFdp0_gfXCI64/edit?usp=sharing)
-[ ] Move exercises and homework to own file?
+- [ ] Move exercises and homework to own file?
 ### Loops
 - for
 - while
@@ -78,7 +79,7 @@
 - foreach
 - Homework
 [Slides](https://docs.google.com/presentation/d/1rXD7s4BHbhagSCYkUmzy8VBnzEBWFUSoOUEWA01ZLlU/edit?usp=sharing)
-[ ] Move homework to own file?
+- [ ] Move homework to own file?
 ### Methods / Scope
 - Methods
   - Why do we need methods
@@ -88,11 +89,11 @@
 
 [Slides](https://docs.google.com/presentation/d/1Uhl80yqE57XGV-HlMUBvj_ti9O_c2_so7j7Fb70DVho/edit?usp=sharing)
 ### Classes and Constructors
-[ ] Slides
+- [ ] Slides
 
 [Inheritance?:x:](https://docs.google.com/presentation/d/1Y2DO-g82QsFyJBUNSebROA4aQvFErXHzlF-pq7Lhe_s/edit?usp=sharing)
 ### Working with the String Class
-[ ] Slides
+- [ ] Slides
 ### ArrayLists
 - Why using ArrayList
 - Accessing / Updating of ArrayList
@@ -103,4 +104,4 @@
 
 ## More
 [Summary](https://docs.google.com/document/d/17INZXtXc8BCayMM6IADvNOSybVTwyVr97UDeMk7-YEw/edit?usp=sharing)
-[ ] Add further reading material
+- [ ] Add further reading material
