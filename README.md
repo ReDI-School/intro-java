@@ -23,6 +23,7 @@
 - Data Types 
 - Variable names
 - First project
+
 [Slides ](https://docs.google.com/presentation/d/1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg/edit?usp=sharing) :x:
 ### Data Types
 - First Java Program
@@ -34,6 +35,7 @@
   - String
   - Float
   - Boolean
+  
 [Slides](https://docs.google.com/presentation/d/1H5WAZY0fuzNyQ6udyctADzEC3ji1EPj1tYdFXBegVnc/edit?usp=sharing)
 ### Operators
 - Operators
@@ -62,6 +64,7 @@
 - Homework :x:
 - Switch Case
 - Switch Case vs if 
+
 [Slides](https://docs.google.com/presentation/d/1lrUGGIwYULLqz-VFGDIhW06NajFyYJdFdp0_gfXCI64/edit?usp=sharing)
 ### Loops
 - for
@@ -76,6 +79,7 @@
   - Structure
   - Example
 - Scope
+
 [Slides](https://docs.google.com/presentation/d/1Uhl80yqE57XGV-HlMUBvj_ti9O_c2_so7j7Fb70DVho/edit?usp=sharing)
 ### Classes and Constructors
 :x: Slides?
@@ -88,6 +92,7 @@
 - Accessing / Updating of ArrayList
 - ArrayList and loops
 - Exercises
+
 [Slides](https://docs.google.com/presentation/d/1gf6QiQvlA1pWD6MYK2de8SMxeQDVXxv72w51gUrUdTQ/edit?usp=sharing)
 
 ## More
