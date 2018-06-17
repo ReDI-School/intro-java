@@ -16,6 +16,7 @@
 [Slides](https://docs.google.com/presentation/d/1zsuGYIuRmCu7NVsSJEFnrgIW85nR6lLDDd35kUpjW7I/edit?usp=sharing)
 - [ ]  the slides explain oop already? redo slides
 
+## 
 - Compilation
 - Reading code
 - Main / Entry point
