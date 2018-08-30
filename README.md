@@ -13,7 +13,7 @@
 - [ ] shorten these slides? 
 ### What Is Java?
 - Java features
-[Slides](https://docs.google.com/presentation/d/1zsuGYIuRmCu7NVsSJEFnrgIW85nR6lLDDd35kUpjW7I/edit?usp=sharing)
+[Slides](https://docs.google.com/presentation/d/16TPxzJAKEHSATpizypYe_S9P0aoCoZOxO4WixMNacaI/edit?usp=sharing)
 - [ ]  the slides explain oop already? redo slides
 
 ## 
