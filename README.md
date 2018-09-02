@@ -12,24 +12,15 @@
 [Slides](https://docs.google.com/presentation/d/1-w1Y9VTyl8SsIjDyaoh97XTpwgC6tZp0zJPoYgFwvwg/edit?usp=sharing)
 - [ ] shorten these slides? 
 ### What Is Java?
-- Java features
+- Java is not just an isle
+- Translating ⇔ Compyling
+- The IDE (an overview)
+- Our first program
+- Running the program
+- Analyzing the code
+
 [Slides](https://docs.google.com/presentation/d/16TPxzJAKEHSATpizypYe_S9P0aoCoZOxO4WixMNacaI/edit?usp=sharing)
-- [ ]  the slides explain oop already? redo slides
 
-## 
-- Compilation
-- Reading code
-- Main / Entry point
-- Print
-- Variables
-- Data Types 
-- Variable names
-- First project
-
-[Slides](https://docs.google.com/presentation/d/1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg/edit?usp=sharing)
-
-- [ ] redo slides, move variable stuff to data types? 
-- [ ] move First Java Program here?
 ### Data Types
 - First Java Program
 - Print
@@ -41,6 +32,7 @@
   - Float
   - Boolean
   
+[Slides](https://docs.google.com/presentation/d/1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg/edit?usp=sharing)
 [Slides](https://docs.google.com/presentation/d/1H5WAZY0fuzNyQ6udyctADzEC3ji1EPj1tYdFXBegVnc/edit?usp=sharing)
 ### Operators
 - Operators
