@@ -22,15 +22,16 @@
 [Slides](https://docs.google.com/presentation/d/16TPxzJAKEHSATpizypYe_S9P0aoCoZOxO4WixMNacaI/edit?usp=sharing)
 
 ### Data Types
-- First Java Program
-- Print
 - Variables
 - Variable names
 - Data types
-- Primitive types
   - String
   - Float
   - Boolean
+  - int
+- Declaration and initialization
+- Print with different data types
+- Primitive types
   
 [Slides](https://docs.google.com/presentation/d/1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg/edit?usp=sharing)
 [Slides](https://docs.google.com/presentation/d/1H5WAZY0fuzNyQ6udyctADzEC3ji1EPj1tYdFXBegVnc/edit?usp=sharing)
