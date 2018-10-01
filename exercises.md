@@ -96,6 +96,13 @@ last
 2
 Output: 12
 ```
+Hint: 
+```Java
+// How to convert a string to an integer
+String a = "42";
+int b = Integer.parseInt(a);
+```
+
 
 
 ## Recursion
