@@ -59,7 +59,7 @@ Input:
 *
 2
 output: 6
-
+```
 
 ## Recursion
 
