@@ -51,15 +51,52 @@ Iteration 2: mid=3 3*3=9 error=0
 ```
 
 #### Calculator
-Write a program that emulates a calculator. It should support addition, multiplication, substraction and division.
+Write a program that emulates a calculator. 
+It should support:
+- ```+``` (addition)
+- ```-``` (subtraction)
+- ```*``` (multiplication)
+- ```/``` (division)
+
 It accepts the operants and the operation on multiple lines.
 ```
 Input:
 3
 *
 2
-output: 6
+Output: 3 * 2 = 6
 ```
+Hint:
+```Java
+// String comparison works like this:
+Scanner scanner = new Scanner(System.in);
+String a = scanner.next();
+
+if(a.equals("hello")){
+    System.out.println("Are equal");
+}
+
+if("hello".equals(a)){
+    System.out.println("Are equal");
+}
+```
+More features: 
+1. Add looping to the calculator. Instead of exiting after the calculation it should ask the user if they want to continue or quit. If the user enters `quit` the program stops. 
+2. Handle division by zero. As you might have noticed an input of 2/0 crashes the program. Handle that case.
+3. (EXTRA/HARDER) Give the user the possibility to use the last result as one of the values in the next calculation.
+```
+Input:
+3
+*
+2
+Output: 3 * 2 = 6
+Input:
+last
+*
+2
+Output: 12
+```
+
 
 ## Recursion
 
