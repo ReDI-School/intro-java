@@ -53,7 +53,7 @@ Iteration 2: mid=3 3*3=9 error=0
 ## Recursion
 
 ### Towers of hanoi
-Write a program that solved the towers of hanoi game.
+Write a program that solves the towers of hanoi game.
 
 ### Fibonacci
 Write a method that, given an input n, calculates the first n numbers of the fibonacci sequence.
