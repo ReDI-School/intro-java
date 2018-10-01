@@ -50,6 +50,17 @@ Iteration 1: mid=5 5*5=25 error=16
 Iteration 2: mid=3 3*3=9 error=0
 ```
 
+#### Calculator
+Write a program that emulates a calculator. It should support addition, multiplication, substraction and division.
+It accepts the operants and the operation on multiple lines.
+```
+Input:
+3
+*
+2
+output: 6
+
+
 ## Recursion
 
 ### Towers of hanoi
