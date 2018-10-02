@@ -62,7 +62,26 @@ Write a method that prints a given decimal numer in binary form.
 input: 42
 output: 101010
 ```
+Decimal to binary conversion:
+- Calculate `decimal_number / 2` and save the remainder for later
+    - The remainder is calculated with `%` (modulo) 
+- The result is your new decimal_number
+- Redo until `decimal_number == 0`
+- The reverse of all remainders is the binary number
+Example:
+```
+decimal_number = 42
 
+42 % 2 = 0
+21 % 2 = 1
+10 % 2 = 0
+ 5 % 2 = 1
+ 2 % 2 = 0
+ 1 % 2 = 1
+ 0 
+ 
+ binary_number = 101010
+```
 #### Intervallhalbierungsverfahren or Bisection method
 Write a method that calculates the square root of a given numer by using the bisection method.
 ```
