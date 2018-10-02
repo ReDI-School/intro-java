@@ -1,5 +1,9 @@
 # The string class
 
+- Read the explanation of your method and solve the exercise.
+- Present your findings and your solution to the class.
+
+You can find informations about the methods here:
 https://docs.oracle.com/javase/9/docs/api/java/lang/String.html
 
 ### 1. charAt(int index)
