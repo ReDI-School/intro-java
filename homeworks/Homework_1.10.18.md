@@ -50,7 +50,7 @@ if("hello".equals(a)){
 More features: 
 1. Add looping to the calculator. Instead of exiting after the calculation it should ask the user if they want to continue or quit. If the user enters `quit` the program stops. 
 2. Handle division by zero. As you might have noticed an input of ```2/0``` crashes the program. Handle that case.
-3. (EXTRA/HARDER) Give the user the possibility to use the last result as one of the values in the next calculation.
+3. (DIFFICULT / EXTRA) Give the user the possibility to use the last result as one of the values in the next calculation.
 ```
 Input:
 3
@@ -72,9 +72,7 @@ int b = Integer.parseInt(a);
 
 
 
-## Recursion
-
-### Fibonacci
+### Fibonacci (DIFFICULT / EXTRA)
 Write a method that, given an input n, calculates the first n numbers of the fibonacci sequence.
 The fibonacci sequence is defines as: 
 ```
