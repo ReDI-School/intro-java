@@ -29,6 +29,28 @@ output:
 *
 ```
 
+### Multiply
+1. Read a number with Scanner, `multiplicand`
+2. Create a method `printMuliply` which prints multiplication based on 2 input arguments, eg. `printMultiply(2,8);` would print  `2 x 8 = 16` on the console.
+3. Call the above method from a loop and print the times table of the multiplicand, multiples of it from 1 to 10
+
+```
+Input: 2
+Output:
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20
+```
+
+5. EXTRA create a new method `getMultiplyString` which returns the above line, like `2 x 8 = 16` without printing it, and change the main to use this method and have the same output as above
+
 ### Fizzbuzz
 Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
