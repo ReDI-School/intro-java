@@ -1,10 +1,10 @@
-#Homework
+# Homework
 
 
 #### Dec2Bin
 Write a method that prints a given decimal numer in binary form.
 ```
-input: 42
+input:  42
 output: 101010
 ```
 
