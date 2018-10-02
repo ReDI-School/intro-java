@@ -31,8 +31,8 @@ Write a method that reads two strings from the user and outputs if one word is t
 ```
 Input: 
 Vanillepudding
-Pudding
-Output: Pudding is a suffix of Vanillepudding
+pudding
+Output: pudding is a suffix of Vanillepudding
 ```
 ### 4. indexOf(String str)
 Write a method that reads two strings from the user and outputs if one is a part of the other.
@@ -57,10 +57,50 @@ Code|Letter
 
 
 ### 6. startsWith(String prefix)
+Write a method that reads two strings from the user and outputs if one word is the prefix(first part) of the other.
+```
+Input: 
+Vanillepudding
+Vanille
+Output: Vanille is a prefix of Vanillepudding
+```
 ### 7. substring(int beginIndex, int endIndex)
-### 8. valueOf
-### 9. equalsIgnoreCase(String anotherString)
+Write a method that reads a string and a number from the input and splits the given string at the index of the number.
+```
+Input: 
+Vanillepuddingeis
+7
+Output:
+Vanille - puddingeis
+```
+### 8. String.valueOf(int i) and Integer.parseInt()
+Write a method that reads a string from the input, converts it to an integer, adds 10, converts it back to a String and prints it.
+```
+Input: 2
+Output: 12
+```
 
+
+
+### 9.  equals(String anotherString) and equalsIgnoreCase(String anotherString)
+Write a method that reads two strings from the input and checks if they are equal or only equal with case ignored.
+```
+Input:
+Wirsing
+wirsing
+Output: 
+Not equal but equal with case ignored.
+
+Input:
+Wirsing
+Wirsing
+Output: Equal
+
+Input:
+Wirsing
+Vanillepudding
+Output: Not equal
+```
 
 
 
