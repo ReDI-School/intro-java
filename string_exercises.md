@@ -12,10 +12,10 @@ Write a method that prints the index and the character for a given word.
 Input: Hello
 Output:
 Index: 0, Character: H
-Index: 0, Character: e
-Index: 0, Character: l
-Index: 0, Character: l
-Index: 0, Character: o
+Index: 1, Character: e
+Index: 2, Character: l
+Index: 3, Character: l
+Index: 4, Character: o
 ```
 
 ### 2. compareTo(String anotherString)
