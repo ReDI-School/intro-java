@@ -8,15 +8,6 @@ input:  42
 output: 101010
 ```
 
-#### Intervallhalbierungsverfahren or Bisection method
-Write a method that calculates the square root of a given numer by using the bisection method.
-```
-Input: 9
-Output:
-Iteration 1: mid=5 5*5=25 error=16
-Iteration 2: mid=3 3*3=9 error=0
-```
-
 #### Calculator
 Write a program that emulates a calculator. 
 It should support:
