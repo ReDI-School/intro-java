@@ -82,12 +82,7 @@
 - Scope
 
 [Slides](https://docs.google.com/presentation/d/1Uhl80yqE57XGV-HlMUBvj_ti9O_c2_so7j7Fb70DVho/edit?usp=sharing)
-### Classes and Constructors
-- [ ] Slides
 
-[Inheritance?:x:](https://docs.google.com/presentation/d/1Y2DO-g82QsFyJBUNSebROA4aQvFErXHzlF-pq7Lhe_s/edit?usp=sharing)
-### Working with the String Class
-- [ ] Slides
 ### ArrayLists
 - Why using ArrayList
 - Accessing / Updating of ArrayList
@@ -95,6 +90,14 @@
 - Exercises
 
 [Slides](https://docs.google.com/presentation/d/1gf6QiQvlA1pWD6MYK2de8SMxeQDVXxv72w51gUrUdTQ/edit?usp=sharing)
+
+### Classes and Constructors
+- [ ] Slides
+
+[Inheritance?:x:](https://docs.google.com/presentation/d/1Y2DO-g82QsFyJBUNSebROA4aQvFErXHzlF-pq7Lhe_s/edit?usp=sharing)
+### Working with the String Class
+- [ ] Slides
+
 
 ## More
 [Summary](https://docs.google.com/document/d/17INZXtXc8BCayMM6IADvNOSybVTwyVr97UDeMk7-YEw/edit?usp=sharing)
