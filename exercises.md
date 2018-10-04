@@ -174,7 +174,6 @@ The 3rd number is 2 and 4th number is 3. Thefore the 5th number is 2+3=5
 You can solve this iterative (with a for loop) or recursive (without loops).
 A nice tutorial about recursion: https://www.geeksforgeeks.org/recursion/
 
-
 ### Towers of hanoi
 Write a program that solves the towers of hanoi game.
 
@@ -185,6 +184,9 @@ Write a text adventure game. If you need inspiration ask ssomebody with a mac to
 
 ```emacs -batch -l dunnet```
 
+## String
+
+### Caesar Chiffre
 
 ## Arrays
 
