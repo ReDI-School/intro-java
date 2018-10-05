@@ -14,7 +14,8 @@ fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.
 
 ## 2. Pick one of the exrcises that you have not done yet and solve it:
 
-- Read the explanation of the method here: https://docs.oracle.com/javase/9/docs/api/java/lang/String.html
+- Search for you method [here](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html) 
+- Read the explanation and how it is used
 - Solve the exercise with that method
 
 
@@ -98,7 +99,7 @@ Output: 12
 
 
 
-### 9.  equals(String anotherString) and equalsIgnoreCase(String anotherString)
+### 9.  equals(Object anObject) and equalsIgnoreCase(String anotherString)
 Write a method that reads two strings from the input and checks if they are equal or only equal with case ignored.
 ```
 Input:
