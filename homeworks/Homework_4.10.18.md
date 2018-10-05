@@ -15,9 +15,18 @@ fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.
 ## 2. Pick one of the exrcises that you have not done yet and solve it:
 
 - Search for you method [here](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html) 
-- Do not use the `Search` box on the website but the search of the browser. `Ctrl+F` or `⌘ Command+F` brings up the search of the browser.
+- Do not use the `Search` box on the website but the search of the browser.
 - Read the explanation and how it is used
 - Solve the exercise with that method
+
+<details>
+<summary> How to search for a word on a website:</summary><p>
+ 
+ 1. Open the website.
+2. Press `⌘Command + F (Mac)` or `Control + F` (PC).
+3. Type the word you’re looking for.
+4. Press Enter or Return.
+</p></details>
 
 
 ### 1. charAt(int index)
