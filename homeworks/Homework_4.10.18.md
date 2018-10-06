@@ -7,7 +7,8 @@ fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.
 ```
 <details>
 <summary> To check you solution:</summary><p>
- there are 8 * u and 23 * e.
+ 
+ there are 8 `u`s and 23 `e`s.
 </p></details>
 
 <hr/>
