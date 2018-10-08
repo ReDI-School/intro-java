@@ -12,7 +12,7 @@ Example:
 Input: [1,4,7,3,6]
 Output: 21
 ```
-## 2. Write a method that finds the highest element in the list.
+## 2. Write a method that finds the highest integer in the list.
 
 ```Java
 public static int getHighScore(ArrayList<Integer> scoreBoard)
@@ -25,7 +25,7 @@ Example:
 Input: [1,4,7,3,6]
 Output: 7
 ```
-## 3. Write a method that reverses the given array.
+## 3. Write a method that returns a new array that contains the elements of the input array in the reverse order
 ```Java
 public static ArrayList<Integer> reverseScores(ArrayList<Integer> scoreBoard)
 {
@@ -39,7 +39,7 @@ Input: [1,4,7,3,6]
 Output: [6,3,7,4,1]
 ```
 
-## 4. Short words
+## 4. Remove words too short
 - Let the user choose how many words they want to input
 - Read that many words
 - Let the user choose a number bigger than 0
@@ -49,7 +49,7 @@ Example:
 ```
 Input:
 4 // four words
-Ananas 
+Ananas
 Zimtzitroneneis
 Apple
 Zartbitterschokolade
