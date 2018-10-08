@@ -36,3 +36,24 @@ Example:
 Input: [1,4,7,3,6]
 Output: [6,3,7,4,1]
 ```
+
+4. Short words
+- Let the user choose how many words they want to input
+- Read that many words
+- Let the user choose a number bigger than 0
+- Remove all words from the ArrayList that are shorter than the given numer
+
+Example:
+```
+Input:
+4 // four words
+Ananas 
+Zimtzitroneneis
+Apple
+Zartbitterschokolade
+6 // remove all shorter than six
+
+Output:
+Zimtzitroneneis
+Zartbitterschokolade
+```
