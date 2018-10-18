@@ -101,6 +101,7 @@ This lesson provides an overview of object oriented programming concepts,
 classes, objects, references, inheritance.
 The focus is on how to use existing classes.
 
+- Modeling and Solving Problems
 - Classes and Objects
 - Properties and Methods
 - Inheritance
@@ -108,9 +109,9 @@ The focus is on how to use existing classes.
 
 [Slides](https://docs.google.com/presentation/d/10grg-OJhOq_yh1vmNeYtcibHmyh4m5B-x_4HwNiSMDA/edit?usp=sharing)
 
-### Developing Classes
+### Implementing Classes
 
-This lesson provides basic information on how to write custom classes.
+This lesson provides basic information on how to write your own classes.
 
 - How to write your own class
 - Properties
@@ -124,7 +125,7 @@ This lesson provides basic information on how to write custom classes.
 This lesson is a continuation of the previous, where
 additional concepts are presented in more details
 and guidelines and examples are provided on how to
-write custom classes with inheritance and interfaces.
+write your own classes with inheritance and interfaces.
 
 - Inheritance
 - Subclasses
