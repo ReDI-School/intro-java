@@ -30,11 +30,11 @@ public class Student extends Person {
 
     /**
      * Get the homework currently assigned to the student. If no homework
-     * is assigned yet and this method is invoked, an exception is generated.
+     * is assigned yet and this method is invoked, an exception is thrown.
      *
-     * @return The homework currently assigned to the student.
+     * @return The homework the student is doing next.
      */
-    public Homework getHomework() {
+    public Homework getNextHomework() {
         if (hasHomeworkAssigned()) {
             return homework;
         }

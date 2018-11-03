@@ -10,7 +10,7 @@ public static int sumScores(ArrayList<Integer> scoreBoard) {
 
 Example:
 
-```
+```text
 Input: [1,4,7,3,6]
 Output: 21
 ```
@@ -25,7 +25,7 @@ public static int getHighScore(ArrayList<Integer> scoreBoard) {
 
 Example:
 
-```
+```text
 Input: [1,4,7,3,6]
 Output: 7
 ```
@@ -40,7 +40,7 @@ public static ArrayList<Integer> reverseScores(ArrayList<Integer> scoreBoard) {
 
 Example:
 
-```
+```text
 Input: [1,4,7,3,6]
 Output: [6,3,7,4,1]
 ```
@@ -54,7 +54,7 @@ Output: [6,3,7,4,1]
 
 Example:
 
-```
+```text
 Input:
 4 // four words
 Ananas
@@ -134,7 +134,7 @@ public static ArrayList<String> commonValues(
 A common exercise is counting how many times a word occur in a set. For every unique word
 in the set, you should print the number of occurrences:
 
-```
+```text
 Input:
 6 // number of words
 hello

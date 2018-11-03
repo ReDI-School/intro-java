@@ -2,14 +2,14 @@
 
 ## Write a program that counts how many `e`s and how many `u`s are in the following text
 
-```
+```text
 Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, 
 fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.
 ```
 
 To check you solution:
  
-```
+```text
 there are 8 `u`s and 23 `e`s.
 ```
 
@@ -31,7 +31,7 @@ How to search for a word on a website:
 
 Write a method that prints the index and the character for a given word.
 
-```
+```text
 Input: Hello
 Output:
 Index: 0, Character: H
@@ -45,7 +45,7 @@ Index: 4, Character: o
 
 Write a method that reads two strings from the user and outputs them in lexicographical order.
 
-```
+```text
 Input:
 Banane
 Ananas
@@ -60,7 +60,7 @@ Output: Vanillepudding, Wirsing
 
 Write a method that reads two strings from the user and outputs if one word is the suffix(last part) of the other.
 
-```
+```text
 Input: 
 Vanillepudding
 pudding
@@ -71,7 +71,7 @@ Output: pudding is a suffix of Vanillepudding
 
 Write a method that reads two strings from the user and outputs if one is a part of the other.
 
-```
+```text
 Input: 
 Vanillepuddingeis
 pudding
@@ -96,7 +96,7 @@ The code is:
 
 Write a method that reads two strings from the user and outputs if one word is the prefix(first part) of the other.
 
-```
+```text
 Input: 
 Vanillepudding
 Vanille
@@ -107,7 +107,7 @@ Output: Vanille is a prefix of Vanillepudding
 
 Write a method that reads a string and a number from the input and splits the given string at the index of the number.
 
-```
+```text
 Input: 
 Vanillepuddingeis
 7
@@ -119,7 +119,7 @@ Vanille - puddingeis
 
 Write a method that reads a string from the input, converts it to an integer, adds 10, converts it back to a String and prints it.
 
-```
+```text
 Input: 2
 Output: 12
 ```
@@ -128,7 +128,7 @@ Output: 12
 
 Write a method that reads two strings from the input and checks if they are equal or only equal with case ignored.
 
-```
+```text
 Input:
 Wirsing
 wirsing

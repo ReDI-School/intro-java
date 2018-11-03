@@ -6,14 +6,14 @@
 
 Write a program that, given a number as input, prints a line with that many stars.
 
-```
+```text
 input: 4
 output: * * * *
 ```
 
 Change your program so that it accepts two numbers and prints a rectangle of stars.
 
-```
+```text
 input: 4
 input: 3
 output: 
@@ -26,7 +26,7 @@ output:
 
 Write a program that, given a number as input, prints a triangle with that many stars.
 
-```
+```text
 input: 4
 output: 
 *
@@ -37,7 +37,7 @@ output:
 
 and after this, invert the triangle:
 
-```
+```text
 input: 4
 output: 
 * * * *
@@ -53,7 +53,7 @@ output:
    would print  `2 x 8 = 16` on the console.
 3. Call the above method from a loop and print the times table of the multiplicand, multiples of it from 1 to 10.
 
-```
+```text
 Input: 2
 Output:
 2 x 1 = 2

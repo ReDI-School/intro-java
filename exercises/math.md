@@ -4,7 +4,7 @@
 
 Write a method that prints a given decimal number in binary form.
 
-```
+```text
 input: 42
 output: 101010
 ```
@@ -18,7 +18,7 @@ Decimal to binary conversion:
 
 Example:
 
-```
+```text
 decimal_number = 42
 
 42 % 2 = 0
@@ -44,7 +44,7 @@ It should support:
 
 It accepts the operands and the operation on multiple lines.
 
-```
+```text
 Input:
 3
 *
@@ -74,7 +74,7 @@ More features:
 2. Handle division by zero. As you might have noticed an input of `2/0` crashes the program. Handle that case.
 3. *DIFFICULT / EXTRA* Give the user the possibility to use the last result as one of the values in the next calculation.
 
-```
+```text
 Input:
 3
 *
@@ -101,7 +101,7 @@ Write a method that, given an input n, calculates the first n numbers of the fib
 
 The fibonacci sequence is defines as: 
 
-```
+```text
 fib(1) = 1
 fib(2) = 1
 fib(n) = f(n-1) + f(n-2)
@@ -113,7 +113,7 @@ Or in human language:
 
 Example:
 
-```
+```text
 Fibonacci numbers: 1,1,2,3,5,8,13,21,34,...
 To calculate the 5th fibonacci number we need the 3rd and 4th number.
 To calculate the 4th fibonacci number we need the 3rd and 2nd number.
