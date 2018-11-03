@@ -1,4 +1,4 @@
-# Homework: if & loops
+# Exercises: if & loops
 
 ## Stars
 
@@ -46,7 +46,7 @@ output:
 *
 ```
 
-### Multiply
+## Multiply
 
 1. Read a number with Scanner, `multiplicand`.
 2. Create a method `printMuliply` which prints multiplication based on 2 input arguments, eg. `printMultiply(2,8)`
@@ -71,7 +71,7 @@ Output:
 4. *EXTRA*: create a new method `getMultiplyString` which returns the above line, like `2 x 8 = 16` without printing it,
   and change the main to use this method and have the same output as above.
 
-### FizzBuzz
+## FizzBuzz
 
 Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number
 and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.

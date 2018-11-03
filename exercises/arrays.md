@@ -1,4 +1,4 @@
-# Homework: arrays
+# Exercises: arrays
 
 ## Write a method that calculates the sum of the items
 
@@ -151,10 +151,10 @@ germany, 1
 berlin, 1
 ```
 
-*DIFFICULT*: this exercise is difficult to be implemented in just one method. Try to split them problem
-and reuse existing functions instead.
+*DIFFICULT*: implementing this exercise in just one method is difficult.
+Try to split the problem in smaller ones and reuse existing methods instead.
 
-*HINT*: define and implement first a `count` method and use it in the `wordCount` exercise:
+*HINT*: define and implement first a `count` method and use it in the `wordCount` exercise above:
 
 ```java
 public static int count(ArrayList<String> values, String x) {

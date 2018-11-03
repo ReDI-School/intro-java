@@ -1,4 +1,4 @@
-# Homework: strings
+# Exercises: strings
 
 ## Write a program that counts how many `e`s and how many `u`s are in the following text
 

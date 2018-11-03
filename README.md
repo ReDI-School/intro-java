@@ -14,7 +14,7 @@
 
 ### What Is Java?
 - Java is not just an isle
-- Translating ⇔ Compyling
+- Translating ⇔ Compiling
 - The IDE (an overview)
 - Our first program
 - Running the program
@@ -27,9 +27,9 @@
 - Variable names
 - Data types
   - String
-  - Float
-  - Boolean
   - int
+  - boolean
+  - float
 - Declaration and initialization
 - Print with different data types
 - Primitive types
@@ -39,7 +39,7 @@
 
 ### Operators
 - Operators
-- Assignement
+- Assignment
 - Arithmetic
 - Compound assignment
 - Increment / Decrement
@@ -47,13 +47,12 @@
 - Logic
 
 [Slides](https://docs.google.com/presentation/d/1XbaWt5YQJOjKkeLur9QCxJQyVt1-I4x92LAj4qwBRfM/edit?usp=sharing)
-[Exercise](https://docs.google.com/document/d/1BQe_-iXM_hrf7c1t43TsPYJOr10hgOBwzLO4rL3uMmM/edit?usp=sharing)
-[Answers](https://docs.google.com/document/d/1dm_neM4irMV4QvYAqyODdbVNE9ChhpsPdK5qWdYrm3s/edit?usp=sharing)
+[Exercises](exercises/operators.md)
+[Solutions](exercises/operators_solution.md)
 
 ### Decision Statements
 - Input
   - Scanner
-- Exercise :x:
 - if
 - Conditions
   - Chaining
@@ -61,22 +60,20 @@
 - Number comparison
 - else
 - else if
-- Homework :x:
 - Switch Case
 - Switch Case vs if 
 
 [Slides](https://docs.google.com/presentation/d/1lrUGGIwYULLqz-VFGDIhW06NajFyYJdFdp0_gfXCI64/edit?usp=sharing)
-- [ ] Move exercises and homework to own file?
+[Exercises](exercises/math.md)
 
 ### Loops
 - for
 - while
 - do while
 - foreach
-- Homework
 
 [Slides](https://docs.google.com/presentation/d/1rXD7s4BHbhagSCYkUmzy8VBnzEBWFUSoOUEWA01ZLlU/edit?usp=sharing)
-- [ ] Move homework to own file?
+[Exercises](exercises/if_loops.md)
 
 ### Methods / Scope
 - Methods
@@ -86,6 +83,7 @@
 - Scope
 
 [Slides](https://docs.google.com/presentation/d/1Uhl80yqE57XGV-HlMUBvj_ti9O_c2_so7j7Fb70DVho/edit?usp=sharing)
+[Exercises](exercises/strings.md)
 
 ### ArrayLists
 - Why using ArrayList
@@ -94,6 +92,7 @@
 - Exercises
 
 [Slides](https://docs.google.com/presentation/d/1gf6QiQvlA1pWD6MYK2de8SMxeQDVXxv72w51gUrUdTQ/edit?usp=sharing)
+[Exercises](exercises/arrays.md)
 
 ### Object Oriented Programming
 
@@ -129,7 +128,7 @@ write your own classes with inheritance and interfaces.
 
 - Inheritance
 - Subclasses
-- Examples (bikes, motorbikes, mountainbikes)
+- Examples (bikes, motorbikes, mountain bikes)
 - Overriding methods
 - Interfaces
 - Examples (animals, cats, dogs)

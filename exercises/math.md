@@ -1,4 +1,4 @@
-# Homework: basic math
+# Exercises: basic math
 
 ## Decimal to binary
 
