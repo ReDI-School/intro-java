@@ -9,7 +9,8 @@
 - How to learn programming
 - What does a developer / programmer do
 
-[Slides](https://docs.google.com/presentation/d/1-w1Y9VTyl8SsIjDyaoh97XTpwgC6tZp0zJPoYgFwvwg/edit?usp=sharing)
+Material:
+- [Slides](https://docs.google.com/presentation/d/1-w1Y9VTyl8SsIjDyaoh97XTpwgC6tZp0zJPoYgFwvwg/edit?usp=sharing)
 - [ ] shorten these slides? 
 
 ### What Is Java?
@@ -20,22 +21,24 @@
 - Running the program
 - Analyzing the code
 
-[Slides](https://docs.google.com/presentation/d/16TPxzJAKEHSATpizypYe_S9P0aoCoZOxO4WixMNacaI/edit?usp=sharing)
+Material:
+- [Slides](https://docs.google.com/presentation/d/16TPxzJAKEHSATpizypYe_S9P0aoCoZOxO4WixMNacaI/edit?usp=sharing)
 
 ### Data Types
 - Variables
 - Variable names
 - Data types
-  - String
-  - int
-  - boolean
-  - float
+  - `String`
+  - `int`
+  - `boolean`
+  - `float`
 - Declaration and initialization
 - Print with different data types
 - Primitive types
   
-[Slides](https://docs.google.com/presentation/d/1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg/edit?usp=sharing)
-[Slides](https://docs.google.com/presentation/d/1H5WAZY0fuzNyQ6udyctADzEC3ji1EPj1tYdFXBegVnc/edit?usp=sharing)
+Material:
+- [Slides](https://docs.google.com/presentation/d/1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg/edit?usp=sharing)
+- [Slides](https://docs.google.com/presentation/d/1H5WAZY0fuzNyQ6udyctADzEC3ji1EPj1tYdFXBegVnc/edit?usp=sharing)
 
 ### Operators
 - Operators
@@ -46,34 +49,37 @@
 - Relational
 - Logic
 
-[Slides](https://docs.google.com/presentation/d/1XbaWt5YQJOjKkeLur9QCxJQyVt1-I4x92LAj4qwBRfM/edit?usp=sharing)
-[Exercises](exercises/operators.md)
-[Solutions](exercises/operators_solution.md)
+Material:
+- [Slides](https://docs.google.com/presentation/d/1XbaWt5YQJOjKkeLur9QCxJQyVt1-I4x92LAj4qwBRfM/edit?usp=sharing)
+- [Exercises](exercises/operators.md)
+- [Solutions](exercises/operators_solution.md)
 
 ### Decision Statements
 - Input
-  - Scanner
-- if
+  - `Scanner`
+- `if`
 - Conditions
   - Chaining
 - Boolean expressions
 - Number comparison
-- else
-- else if
-- Switch Case
-- Switch Case vs if 
+- `else`
+- `else if`
+- `switch/case`
+- `switch/case` vs `if` 
 
-[Slides](https://docs.google.com/presentation/d/1lrUGGIwYULLqz-VFGDIhW06NajFyYJdFdp0_gfXCI64/edit?usp=sharing)
-[Exercises](exercises/math.md)
+Material:
+- [Slides](https://docs.google.com/presentation/d/1lrUGGIwYULLqz-VFGDIhW06NajFyYJdFdp0_gfXCI64/edit?usp=sharing)
+- [Exercises](exercises/math.md)
 
 ### Loops
-- for
-- while
-- do while
-- foreach
+- `for`
+- `while`
+- `do/while`
+- shortened `for` (foreach)
 
-[Slides](https://docs.google.com/presentation/d/1rXD7s4BHbhagSCYkUmzy8VBnzEBWFUSoOUEWA01ZLlU/edit?usp=sharing)
-[Exercises](exercises/if_loops.md)
+Material:
+- [Slides](https://docs.google.com/presentation/d/1rXD7s4BHbhagSCYkUmzy8VBnzEBWFUSoOUEWA01ZLlU/edit?usp=sharing)
+- [Exercises](exercises/if_loops.md)
 
 ### Methods / Scope
 - Methods
@@ -82,17 +88,19 @@
   - Example
 - Scope
 
-[Slides](https://docs.google.com/presentation/d/1Uhl80yqE57XGV-HlMUBvj_ti9O_c2_so7j7Fb70DVho/edit?usp=sharing)
-[Exercises](exercises/strings.md)
+Material:
+- [Slides](https://docs.google.com/presentation/d/1Uhl80yqE57XGV-HlMUBvj_ti9O_c2_so7j7Fb70DVho/edit?usp=sharing)
+- [Exercises](exercises/strings.md)
 
 ### ArrayLists
-- Why using ArrayList
-- Accessing / Updating of ArrayList
-- ArrayList and loops
+- Why using `ArrayList`
+- Accessing / Updating of `ArrayList`
+- `ArrayList` and loops
 - Exercises
 
-[Slides](https://docs.google.com/presentation/d/1gf6QiQvlA1pWD6MYK2de8SMxeQDVXxv72w51gUrUdTQ/edit?usp=sharing)
-[Exercises](exercises/arrays.md)
+Material:
+- [Slides](https://docs.google.com/presentation/d/1gf6QiQvlA1pWD6MYK2de8SMxeQDVXxv72w51gUrUdTQ/edit?usp=sharing)
+- [Exercises](exercises/arrays.md)
 
 ### Object Oriented Programming
 
@@ -106,7 +114,9 @@ The focus is on how to use existing classes.
 - Inheritance
 - Using Classes and Objects
 
-[Slides](https://docs.google.com/presentation/d/10grg-OJhOq_yh1vmNeYtcibHmyh4m5B-x_4HwNiSMDA/edit?usp=sharing)
+Material:
+- [Slides](https://docs.google.com/presentation/d/10grg-OJhOq_yh1vmNeYtcibHmyh4m5B-x_4HwNiSMDA/edit?usp=sharing)
+- ["School" class library](libraries/school)
 
 ### Implementing Classes
 
@@ -117,6 +127,7 @@ This lesson provides basic information on how to write your own classes.
 - Methods
 - Constructor
 
+Material:
 - [ ] Slides
 
 ### Inheritance and Interfaces
@@ -133,10 +144,12 @@ write your own classes with inheritance and interfaces.
 - Interfaces
 - Examples (animals, cats, dogs)
 
-[Slides](https://docs.google.com/presentation/d/1Y2DO-g82QsFyJBUNSebROA4aQvFErXHzlF-pq7Lhe_s/edit?usp=sharing)
+Material:
+- [Slides](https://docs.google.com/presentation/d/1Y2DO-g82QsFyJBUNSebROA4aQvFErXHzlF-pq7Lhe_s/edit?usp=sharing)
 
 ### Working with the String Class
 
+Material:
 - [ ] Slides
 
 ## More
