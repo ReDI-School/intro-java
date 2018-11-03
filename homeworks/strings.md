@@ -1,13 +1,36 @@
-# The string class
+# Homework: strings
 
-- Read the explanation of your method and solve the exercise.
-- Present your findings and your solution to the class.
+## Write a program that counts how many `e`s and how many `u`s are in the following text
 
-You can find informations about the methods here:
-https://docs.oracle.com/javase/9/docs/api/java/lang/String.html
+```
+Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, 
+fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.
+```
 
-### 1. charAt(int index)
+To check you solution:
+ 
+```
+there are 8 `u`s and 23 `e`s.
+```
+
+## Pick one of the exercises that you have not done yet and solve it
+
+- Search for you method [here](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html) 
+- Do not use the `Search` box on the website but the search of the browser.
+- Read the explanation and how it is used
+- Solve the exercise with that method
+
+How to search for a word on a website:
+ 
+1. Open the website.
+2. Press `⌘Command + F (Mac)` or `Control + F` (PC).
+3. Type the word you’re looking for.
+4. Press Enter or Return.
+
+### charAt(int index)
+
 Write a method that prints the index and the character for a given word.
+
 ```
 Input: Hello
 Output:
@@ -18,8 +41,10 @@ Index: 3, Character: l
 Index: 4, Character: o
 ```
 
-### 2. compareTo(String anotherString)
+### compareTo(String anotherString)
+
 Write a method that reads two strings from the user and outputs them in lexicographical order.
+
 ```
 Input:
 Banane
@@ -30,46 +55,58 @@ Vanillepudding
 Wirsing
 Output: Vanillepudding, Wirsing
 ```
-### 3. endsWith(String suffix)
+
+### endsWith(String suffix)
+
 Write a method that reads two strings from the user and outputs if one word is the suffix(last part) of the other.
+
 ```
 Input: 
 Vanillepudding
 pudding
 Output: pudding is a suffix of Vanillepudding
 ```
-### 4. indexOf(String str)
+
+### indexOf(String str)
+
 Write a method that reads two strings from the user and outputs if one is a part of the other.
+
 ```
 Input: 
 Vanillepuddingeis
 pudding
 Output: pudding is a part of Vanillepuddingeis
 ```
-### 5. replace(char oldChar, char newChar)
+
+### replace(char oldChar, char newChar)
+
 Use the replace method to decipher this string `lala#lwve#-rwgra22lalang!#<3`
+
 The code is:
 
-
-Code|Letter
-----|------
-`w` | `o`
-`#` | ` ` (space)
-`2` | `m`
+ Code  | Letter
+-------|------
+`w`    | `o`
+`#`    | ` ` (space)
+`2`    | `m`
 `lala` | `i`
-`-` | `p`
+`-`    | `p`
 
+### startsWith(String prefix)
 
-### 6. startsWith(String prefix)
 Write a method that reads two strings from the user and outputs if one word is the prefix(first part) of the other.
+
 ```
 Input: 
 Vanillepudding
 Vanille
 Output: Vanille is a prefix of Vanillepudding
 ```
-### 7. substring(int beginIndex, int endIndex)
+
+### substring(int beginIndex, int endIndex)
+
 Write a method that reads a string and a number from the input and splits the given string at the index of the number.
+
 ```
 Input: 
 Vanillepuddingeis
@@ -77,17 +114,20 @@ Vanillepuddingeis
 Output:
 Vanille - puddingeis
 ```
-### 8. String.valueOf(int i) and Integer.parseInt()
+
+### String.valueOf(int i) and Integer.parseInt()
+
 Write a method that reads a string from the input, converts it to an integer, adds 10, converts it back to a String and prints it.
+
 ```
 Input: 2
 Output: 12
 ```
 
+### equals(Object anObject) and equalsIgnoreCase(String anotherString)
 
-
-### 9.  equals(String anotherString) and equalsIgnoreCase(String anotherString)
 Write a method that reads two strings from the input and checks if they are equal or only equal with case ignored.
+
 ```
 Input:
 Wirsing
@@ -105,7 +145,3 @@ Wirsing
 Vanillepudding
 Output: Not equal
 ```
-
-
-
-
