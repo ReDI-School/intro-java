@@ -2,7 +2,7 @@
 
 This library models a simple school of [teachers](Teacher.java), [students](Student.java), and [homework](Homework.java).
 
-Import the classes
+Import the classes:
 
 ```java
 import org.redischool.introjava.Teacher;
