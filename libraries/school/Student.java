@@ -1,3 +1,5 @@
+package org.redischool.introjava;
+
 /**
  * A student is a person that learns Java at the school.
  *
