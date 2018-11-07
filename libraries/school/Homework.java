@@ -1,3 +1,5 @@
+package org.redischool.introjava;
+
 /**
  * Homework that teachers assign to students.
  */
