@@ -1,3 +1,5 @@
+package org.redischool.introjava;
+
 import java.util.ArrayDeque;
 import java.util.Queue;
 
