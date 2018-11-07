@@ -3,13 +3,17 @@
 ## Car Simulation
 
 Write `Car` class. 
-A car is defined by the following attributes:
+A car is defined by:
+
+How much petrol the car can hold:
 - `int maxFuel`
-How much petrol the car can hold
+
+How much petrol is left:
 - `int fuelLeft`
-How much petrol is left
+
+How much petrol is used per kilometer:
 - `int fuelPerKilometer`
-How much petrol is used per kilometer
+
 
 A car is constructed with how much fuel it can hold and how much fuelPerKilometer it uses:
 - `Car(int maxFuel, int fuelPerKilometer)`
@@ -20,10 +24,10 @@ It returns a negative number if the tank overflows.
 
 Driving uses fuel from the tank. How much fuel is used is defined by fuelPerKilometer. 
 The tank must never become more than empty `< 0`
-- `void drive(int kilometers)` : 
+- `void drive(int kilometers)`
 
 To check how much fuel is left the following method needs to be implemented:
-- `int getFuelLeft()` : 
+- `int getFuelLeft()`
 
 -----
 Use the following main class to check your code:
