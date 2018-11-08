@@ -20,6 +20,7 @@ A car is constructed with how much fuel it can hold and how much fuelPerKilomete
 
 A car can be refueled. The method accepts how much to refuel and returns how much more fuel is needed until the tank is full.
 It returns a negative number if the tank overflows.
+The fuel goes into the tank, but the tank can not become more full than maxFuel.
 - `int refuel(int liters)`
 
 Driving uses fuel from the tank. How much fuel is used is defined by fuelPerKilometer. 
