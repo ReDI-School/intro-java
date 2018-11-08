@@ -27,7 +27,7 @@ Driving uses fuel from the tank. How much fuel is used is defined by fuelPerKilo
 The tank must never become more than empty `< 0`
 - `void drive(int kilometers)`
 
-To check how much fuel is left the following method needs to be implemented:
+To check how much fuel is left in the tank the following method needs to be implemented:
 - `int getFuelLeft()`
 
 -----
