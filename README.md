@@ -130,6 +130,16 @@ This lesson provides basic information on how to write your own classes.
 Material:
 - [ ] Slides
 
+### Class Scope / this
+- Repetition of scope
+- Method scope / Parameters
+- Class Scope
+- `this` keyword
+
+Material:
+- [Slides](https://docs.google.com/presentation/d/1lhI3b7NsllHZxdo_jsa3D8SFG-M4GrIMqDabztrP3Zc)
+- [Exercise](exercises/car_implementation.md)
+
 ### Inheritance and Interfaces
 
 This lesson is a continuation of the previous, where
