@@ -116,7 +116,8 @@ The focus is on how to use existing classes.
 
 Material:
 - [Slides](https://docs.google.com/presentation/d/10grg-OJhOq_yh1vmNeYtcibHmyh4m5B-x_4HwNiSMDA/edit?usp=sharing)
-- ["School" class library](libraries/school): teachers, students and homework
+- [The `school` class library](libraries/school): teachers, students and homework
+- [Exercises](exercises/using_school_library.md) with the `school` class library
 
 ### Implementing Classes
 
@@ -138,7 +139,7 @@ Material:
 
 Material:
 - [Slides](https://docs.google.com/presentation/d/1lhI3b7NsllHZxdo_jsa3D8SFG-M4GrIMqDabztrP3Zc)
-- [Exercise](exercises/car_implementation.md)
+- [Exercise](exercises/implementing_car.md)
 
 ### Inheritance and Interfaces
 

@@ -1,4 +1,4 @@
-# Class Implementation II
+# Exercises: implementing a Calendar
 
 ## Event
 
