@@ -2,7 +2,11 @@
 
 This library models a simple school of [teachers](Teacher.java), [students](Student.java), and [homework](Homework.java).
 
-Import the classes:
+Create a package named `org.redischool.introjava` via the `File->New` menu of IntelliJ IDEA
+and save the 4 classes of this library in this package. This corresponds to the directory
+`org/redischool/introjava` on your computer.
+
+In your main class, that should be located outside of the package just created, import the classes:
 
 ```java
 import org.redischool.introjava.Teacher;

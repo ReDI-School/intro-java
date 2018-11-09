@@ -116,7 +116,7 @@ The focus is on how to use existing classes.
 
 Material:
 - [Slides](https://docs.google.com/presentation/d/10grg-OJhOq_yh1vmNeYtcibHmyh4m5B-x_4HwNiSMDA/edit?usp=sharing)
-- ["School" class library](libraries/school): teachers, students and homeworks
+- ["School" class library](libraries/school): teachers, students and homework
 
 ### Implementing Classes
 

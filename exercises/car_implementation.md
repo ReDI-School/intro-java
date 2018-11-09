@@ -14,7 +14,6 @@ How much petrol is left:
 How much petrol is used per kilometer:
 - `int fuelPerKilometer`
 
-
 A car is constructed with how much fuel it can hold and how much fuelPerKilometer it uses:
 - `Car(int maxFuel, int fuelPerKilometer)`
 
@@ -31,9 +30,10 @@ To check how much fuel is left in the tank the following method needs to be impl
 - `int getFuelLeft()`
 
 -----
+
 Use the following main class to check your code:
 
-```Java
+```java
 import org.redischool.introjava.Car;
 
 public class Main {
@@ -84,5 +84,4 @@ public class Main {
 
     }
 }
-
 ```
