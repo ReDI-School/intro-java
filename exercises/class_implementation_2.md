@@ -38,3 +38,7 @@ It can be calculated how many days are left until the Event from a given date (m
 
 - `int daysLeft(int month, int day)`
 
+
+------
+
+Write a main function to test your class. The real test class will be uploaded later.
