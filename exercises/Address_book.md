@@ -102,11 +102,7 @@ public class Main {
 ```
 </details>
 
-## Address book with ArrayList and forEach
-
-* Do as above, but with a for each loop instead of a normal for loop.
-
-## Address book with Entry object
+## Address book with TelephoneEntry object
 
 * Replace the two arrays with one array
 * Instead of using Strings use an `TelephoneEntry` class. 
@@ -141,6 +137,42 @@ public class Main {
       }
     }
 }
+
+
+NEW FILE in the `com.redi` package.
+
+package com.redi;
+
+public class TelephoneEntry {
+
+    String name;
+    String number;
+
+    public TelephoneEntry(String name,
+                          String number) {
+       this.name = name;
+       this.number = number;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+```
+</details>
+
+## Address book with  forEach
+
+* Do as above, but with a for each loop instead of a normal for loop.
+
+<details>
+  <summary>Solution</summary>
+
+```java
 ```
 </details>
 
