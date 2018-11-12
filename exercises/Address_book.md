@@ -29,8 +29,21 @@ You are going to implement it in differnt ways:
 * Use a `for` loop to loop over the names array
   * If the name in the array equals what you found from `Scanner` then print that out
 
-## Address book with ArrayList and foreach
+## Address book with ArrayList
+
+* Do as above, but with `ArrayList` instead of normal arrays
+
+## Address book with ArrayList and forEach
+
+* Do as above, but with a for each loop instead of a normal for loop.
+
 ## Address book with Entry object
+
+* Replace the two arrays with one array
+* Instead of using Strings use an `TelephoneEntry` class. 
+  * This class should have a constructor that takes in a name and number.
+* Ensure the program works as above.
+
 ## Address book with Maps instead of loops
 
 
