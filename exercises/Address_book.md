@@ -95,6 +95,13 @@ public class Main {
 
 * Do as above, but with `ArrayList` instead of normal arrays
 
+<details>
+  <summary>Solution</summary>
+
+```java
+```
+</details>
+
 ## Address book with ArrayList and forEach
 
 * Do as above, but with a for each loop instead of a normal for loop.
@@ -105,6 +112,37 @@ public class Main {
 * Instead of using Strings use an `TelephoneEntry` class. 
   * This class should have a constructor that takes in a name and number.
 * Ensure the program works as above.
+
+<details>
+  <summary>Solution</summary>
+
+```java
+package com.redi;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+       String name = scanner.next();
+
+       ArrayList<TelephoneEntry> phonebook = new ArrayList<>();
+
+       phonebook.add(new TelephoneEntry("Aaron", "111"));
+       phonebook.add(new TelephoneEntry("Fred", "222"));
+       phonebook.add(new TelephoneEntry("Jonas", "666"));
+
+      for(int i = 0; i < phonebook.size(); i++) {
+          if (phonebook.get(i).getName().equals(name)) {
+              System.out.println("Number: " + phonebook.get(i).getNumber());
+          }
+      }
+    }
+}
+```
+</details>
 
 ## Address book with Maps instead of loops
 To get a feeling of the speed of a method it is often a good idea to count how many statements are executed for a given input (this is called big-o-notation).
