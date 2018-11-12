@@ -12,16 +12,23 @@ You are going to implement it in differnt ways:
 
 ## Address book with if statements
 
-0. Use Scanner to take in a name
-0. Use if statements to print out
-  0. 0845 50 50 50 if the name is "Aaron"
-  0. 00 49 12345 if the name is "Fred"
-  0. 00 49 11111 if the name is "Jonas"
-0. Add another name and number to our program
-0. And then add another
-0. And then another
+* Use Scanner to take in a name
+* Use if statements to print out
+   * 0845 50 50 50 if the name is "Aaron"
+   * 00 49 12345 if the name is "Fred"
+   * 00 49 11111 if the name is "Jonas"
+* Add another name and number to our program
+* And then add another
+* And then another
 
 ## Address book with normal arrays and normal loops
+
+* Create a normal array that stores three names as `String`s
+* Create a normal array that stores three numbers as `String`s
+* Use Scanner to take in a name
+* Use a `for` loop to loop over the names array
+  * If the name in the array equals what you found from `Scanner` then print that out
+
 ## Address book with ArrayList and foreach
 ## Address book with Entry object
 ## Address book with Maps instead of loops
