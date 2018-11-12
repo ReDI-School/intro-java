@@ -60,7 +60,7 @@ public class Main {
 <details>
   <summary>Solution</summary>
 	
-```
+```java
 package com.redi;
 
 import java.util.ArrayList;
@@ -68,16 +68,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-
-
-    // 1. Introduce the syntax for normal arrays (1. type then brackets, 2. new then type then brackets with a number in them)
-    // 2. Get them to write a program that does nothing except has an  array type of string (name, number, name, number...)
-    //    (express the array size must be the size of list items plus one)
-    // 3. Get someone up on the board to write a for loop - help them
-    // 4. Get them to write a for loop that looks for a name
-    // 5. Say we now only need to change the array, not write more code, more if statements
-    // 6. Talk about what happens if we increase the array size (but not the actual arrays) (i.e. talk about null crashes)
-    //  (quickly get show null checking, then intialising the array with blank values)
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
