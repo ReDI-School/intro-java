@@ -12,43 +12,37 @@ You are going to implement it in differnt ways:
 
 ## Address book with if statements
 
-Write a method getNumber that accepts a name `string` and returns the telephone number of that person. If the person does not exist we return the number of a german telephone information `+49 11 88 0`
-Use: 
-- if
-- else
-- string comparison
-
+* Use Scanner to take in a name
+* Use if statements to print out
+   * 0845 50 50 50 if the name is "Aaron"
+   * 00 49 12345 if the name is "Fred"
+   * 00 49 11111 if the name is "Jonas"
+* Add another name and number to our program
+* And then add another
+* And then another
 
 ## Address book with normal arrays and normal loops
-## Address book with ArrayList and foreach
-## Moving to Object Oriented Programming (Address book as a class)
-Right now we have written all our code in the main class and the main method. That is fine for very small projects but in real programs we want to have as little logic as possible in the main class and method. Thefore we should write a class that abstracts the written logic for us.
 
-Let's identify what the program does so far and how it translates to methods:
-<details>
-  <summary>Solution</summary>
-  
-- add a contact => `void addContact(TelephoneEntry)`
-- get a number via a name => `String getNumber(String name)`
-</details>
+* Create a normal array that stores three names as `String`s
+* Create a normal array that stores three numbers as `String`s
+* Use Scanner to take in a name
+* Use a `for` loop to loop over the names array
+  * If the name in the array equals what you found from `Scanner` then print that out
 
-What attributes do we need: 
-<details>
-  <summary>Solution</summary>
-- `ArrayList<TelephoneEntry> entries`
-</details>
+## Address book with ArrayList
 
+* Do as above, but with `ArrayList` instead of normal arrays
 
+## Address book with ArrayList and forEach
 
-Should the scanner be a attribute too?
-<details>
-  <summary>Solution</summary>
-  No every class (and every method) should only deal with exactly one thing. Our class allready deals with storing data, therefore it should not care about where the data comes from.
-</details>
+* Do as above, but with a for each loop instead of a normal for loop.
 
+## Address book with Entry object
 
-Implement the class and write some code in the main method to check if your code is correct.
-
+* Replace the two arrays with one array
+* Instead of using Strings use an `TelephoneEntry` class. 
+  * This class should have a constructor that takes in a name and number.
+* Ensure the program works as above.
 
 ## Address book with Maps instead of loops
 To get a feeling of the speed of a method it is often a good idea to count how many statements are executed for a given input (this is called big-o-notation).
