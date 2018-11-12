@@ -23,6 +23,7 @@ You are going to implement it in differnt ways:
 
 <details>
   <summary>Solution</summary>
+	
 ```java
 package com.redi;
 
