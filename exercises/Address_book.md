@@ -12,12 +12,14 @@ You are going to implement it in differnt ways:
 
 ## Address book with if statements
 
-Write a method getNumber that accepts a name `string` and returns the telephone number of that person. If the person does not exist we return the number of a german telephone information `+49 11 88 0`
-Use: 
-- if
-- else
-- string comparison
-
+0. Use Scanner to take in a name
+0. Use if statements to print out
+  0. 0845 50 50 50 if the name is "Aaron"
+  0. 00 49 12345 if the name is "Fred"
+  0. 00 49 11111 if the name is "Jonas"
+0. Add another name and number to our program
+0. And then add another
+0. And then another
 
 ## Address book with normal arrays and normal loops
 ## Address book with ArrayList and foreach
