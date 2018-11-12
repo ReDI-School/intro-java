@@ -21,16 +21,9 @@ You are going to implement it in differnt ways:
 * And then add another
 * And then another
 
-## Address book with normal arrays and normal loops
-
-* Create a normal array that stores three names as `String`s
-* Create a normal array that stores three numbers as `String`s
-* Use Scanner to take in a name
-* Use a `for` loop to loop over the names array
-  * If the name in the array equals what you found from `Scanner` then print that out
-
 <details>
   <summary>Solution</summary>
+```java
 package com.redi;
 
 import java.util.Scanner;
@@ -48,10 +41,20 @@ public class Main {
         } else if(name.equalsIgnoreCase("Jonas")) {
             System.out.println("666");
         }
+	// ADD MORE!
 
     }
 }
+```
 </details>
+
+## Address book with normal arrays and normal loops
+
+* Create a normal array that stores three names as `String`s
+* Create a normal array that stores three numbers as `String`s
+* Use Scanner to take in a name
+* Use a `for` loop to loop over the names array
+  * If the name in the array equals what you found from `Scanner` then print that out
 
 ## Address book with ArrayList
 
