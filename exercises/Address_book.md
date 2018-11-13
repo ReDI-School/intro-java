@@ -1,14 +1,6 @@
 # Address book
 
-We want to write an address book for the following characters: 
-
-Name | Number
------|-------
-Tommy Shelby|+44 017462763
-Charlotte Ritter|+49 0375274032
-Perry Rhodan | +1 334873822
-
-You are going to implement it in differnt ways:
+We want to write an address book and you are going to implement it in differnt ways:
 
 ## Address book with if statements
 
