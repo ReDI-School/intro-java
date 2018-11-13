@@ -165,8 +165,38 @@ public class TelephoneEntry {
   <summary>Solution</summary>
 
 ```java
+for(TelephoneEntry entry : phonebook){
+    if(entry.name.equals(name)){
+        System.out.println(entry.number);
+    }
+}
 ```
 </details>
+
+ ## Moving to Object Oriented Programming (Address book as a class)
+ Right now we have written all our code in the main class and the main method. That is fine for very small projects but in real programs we want to have as little logic as possible in the main class and method. Thefore we should write a class that abstracts the written logic for us.
+
+ Let's identify what the program does so far and how it translates to methods:
+ <details>
+   <summary>Solution</summary>
+   
+ - add a contact => `void addContact(TelephoneEntry)`
+ - get a number via a name => `String getNumber(String name)`
+ </details>
+
+ What attributes do we need: 
+ <details>
+   <summary>Solution</summary>
+ - `ArrayList<TelephoneEntry> entries`
+ </details>
+	
+ Should the scanner be a attribute too?
+ <details>
+   <summary>Solution</summary>
+   No every class (and every method) should only deal with exactly one thing. Our class allready deals with storing data, therefore it should not care about where the data comes from.
+ </details>
+
+ Implement the class and write some code in the main method to check if your code is correct.
 
 ## Address book with Maps instead of loops
 To get a feeling of the speed of a method it is often a good idea to count how many statements are executed for a given input (this is called big-o-notation).
