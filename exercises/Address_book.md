@@ -65,17 +65,18 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.next();
 
-        String[] entries = new String[6];
-        entries[0] = "Aaron";
-        entries[1] = "0845 50 50 50";
-        entries[2] = "Fred";
-        entries[3] = "00 49 12345";
-        entries[4] = "Jonas";
-        entries[5] = "666";
+        String[] names = new String[3];
+	String[] numbers = new String[3];
+        names[0] = "Aaron";
+        numbers[0] = "0845 50 50 50";
+        names[1] = "Fred";
+        numbers[1] = "00 49 12345";
+        names[2] = "Jonas";
+        numbers[2] = "666";
 
-        for(int i = 0; i < entries.length; i++) {
-            if(entries[i].equalsIgnoreCase(name)) {
-               System.out.println("Number: " + entries[i+1]);
+        for(int i = 0; i < names.length; i++) {
+            if(names[i].equalsIgnoreCase(name)) {
+               System.out.println("Number: " + numbers[i]);
             }
         }
     }
@@ -114,7 +115,7 @@ public class Main {
 
         for(int i = 0; i < names.size(); i++) {
             if(names.get(i).equalsIgnoreCase(name)) {
-                System.out.println("Number: " + numbers.get(i+1));
+                System.out.println("Number: " + numbers.get(i));
             }
         }
     }
