@@ -2,6 +2,7 @@
 Try to split your project into multiple blocks that belong together. 
 - What are diffent parts of your application?
 - What is the central feature / interaction?
+- Implement the part that you identified as the msot important part of your program.
 
 
 Answer the questions for the tic tac toe game below.
