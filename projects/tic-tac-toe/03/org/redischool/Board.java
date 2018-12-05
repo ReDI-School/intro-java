@@ -10,36 +10,48 @@ public class Board {
         board = emptyBoard();
     }
 
+
+    /**
+     * @param x    coordinate of a cell
+     * @param y    coordinate of a cell
+     * @param mark that is inserted if empty
+     * @return true if the cell was empty otherwise false.
+     */
     public Boolean addMark(int x, int y, String mark) {
-        int index = getIndex(x, y);
-        if (board.get(index).equals(" ")) {
-            board.set(index, mark);
+        if (board.get(getIndex(x, y)).equals(" ")) {
+            board.set(getIndex(x, y), mark);
             return true;
         }
         return false;
     }
 
+    /**
+     * @return whether there is a winner
+     */
     Boolean isWinning() {
-        if (horizontal()) return true;
-        if (vertical()) return true;
-        if (diagonal()) return true;
-        return false;
+        return (isHorizontal() || isVertical() || isDiagonal());
     }
 
-    private boolean diagonal() {
+
+    /**
+     * isDiagonal checks if there is a winner
+     *
+     * @return true if there is a winner
+     */
+    private boolean isDiagonal() {
+        // check the left to right isDiagonal
+        // check if all are same and not empty
         if (board.get(0).equals(board.get(4)) &&
                 board.get(4).equals(board.get(8)) &&
                 !board.get(0).equals(" ")) {
             return true;
-        } else if(board.get(2).equals(board.get(4)) &&
+            // check the right to left isDiagonal  ...
+        } else return board.get(2).equals(board.get(4)) &&
                 board.get(4).equals(board.get(6)) &&
-                !board.get(2).equals(" ")) {
-            return true;
-        }
-        return false;
+                !board.get(2).equals(" ");
     }
 
-    private boolean vertical() {
+    private boolean isVertical() {
         for (int i = 0; i < 2; i++) {
             if (board.get(i).equals(board.get(i + 3)) &&
                     board.get(i + 3).equals(board.get(i + 6)) &&
@@ -50,21 +62,15 @@ public class Board {
         return false;
     }
 
-    private boolean horizontal() {
+    private boolean isHorizontal() {
         for (int i = 0; i < 2; i++) {
-            int row = i * 3;
-            if (board.get(row + 0).equals(board.get(row + 1)) &&
-                    board.get(row + 1).equals(board.get(row + 2)) &&
-                    !board.get(row + 0).equals(" ")) {
+            if (board.get(i * 3).equals(board.get(i * 3 + 1)) &&
+                    board.get(i * 3 + 1).equals(board.get(i * 3 + 2)) &&
+                    !board.get(i * 3).equals(" ")) {
                 return true;
             }
         }
         return false;
-    }
-
-    String getMark(int x, int y) {
-        int index = getIndex(x, y);
-        return board.get(index);
     }
 
     void print() {

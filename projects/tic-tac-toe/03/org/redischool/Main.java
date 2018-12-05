@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         Board board = new Board();
-
+        board.addMark();
         board.print();
 
         while(true) {
