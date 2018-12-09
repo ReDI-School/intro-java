@@ -115,7 +115,7 @@ The focus is on how to use existing classes.
 - Using Classes and Objects
 
 Material:
-- [Slides] (https://docs.google.com/presentation/d/1JB_iSD1WZhGtIoaw6lvolvkFAGKGZM0xeUH4zRulSVs/edit#slide=id.g49bfbaa2f5_0_5)
+- [Slides](https://docs.google.com/presentation/d/1JB_iSD1WZhGtIoaw6lvolvkFAGKGZM0xeUH4zRulSVs/edit#slide=id.g49bfbaa2f5_0_5)
 - [Slides](https://docs.google.com/presentation/d/10grg-OJhOq_yh1vmNeYtcibHmyh4m5B-x_4HwNiSMDA/edit?usp=sharing)
 - [The `school` class library](libraries/school): teachers, students and homework
 - [Exercises](exercises/using_school_library.md) with the `school` class library
