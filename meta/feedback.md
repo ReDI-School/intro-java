@@ -6,7 +6,9 @@
   - Translate a real life problem to code
 - Code Structure
 - Benefits of OOP
+  - What should be a class, what an object
 - Translate example problems from live coding into own code
+- Difference between `for` and `while`
 
 ## Worked good
 - Exercises with some code and students extend on it
