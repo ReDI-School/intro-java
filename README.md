@@ -38,7 +38,7 @@ Material:
   
 Material:
 - [Slides](https://docs.google.com/presentation/d/1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg/edit?usp=sharing)
-- [Slides](https://docs.google.com/presentation/d/1H5WAZY0fuzNyQ6udyctADzEC3ji1EPj1tYdFXBegVnc/edit?usp=sharing)
+- [Slides](https://docs.google.com/presentation/d/113jN-mJ4Ev80sNsjk8NspoAvUegXHBH9EvHAaV8DwXY/edit?usp=sharing)
 
 ### Operators
 - Operators
@@ -50,7 +50,7 @@ Material:
 - Logic
 
 Material:
-- [Slides](https://docs.google.com/presentation/d/1XbaWt5YQJOjKkeLur9QCxJQyVt1-I4x92LAj4qwBRfM/edit?usp=sharing)
+- [Slides](https://docs.google.com/presentation/d/1KCbPB5X8UH2ar7Sd-qez4SrfPUaPL-TBzco8-5rXsto/edit?usp=sharing)
 - [Exercises](exercises/operators.md)
 - [Solutions](exercises/operators_solution.md)
 
