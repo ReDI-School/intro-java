@@ -46,6 +46,21 @@ output:
 *
 ```
 
+### Border
+
+Write a program that, given two numbers as input, prints the border of a rectangle.
+
+```text
+input: 4
+input: 5
+output: 
+* * * *
+*     *
+*     *
+*     *
+* * * *
+```
+
 ## Multiply
 
 1. Read a number with Scanner, `multiplicand`.
