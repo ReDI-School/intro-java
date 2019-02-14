@@ -90,6 +90,14 @@ Material:
 
 Material:
 - [Slides](https://docs.google.com/presentation/d/1Uhl80yqE57XGV-HlMUBvj_ti9O_c2_so7j7Fb70DVho/edit?usp=sharing)
+
+### Strings
+- Using `Scanner` to read strings
+- Comparing `String`
+- Operations on single characters
+
+Material:
+- [Slides](https://drive.google.com/open?id=1V9Sqz18Fgq7cxAGw18B6Q0dSzI06ClctXZQHC5kqDnw)
 - [Exercises](exercises/strings.md)
 
 ### ArrayLists
@@ -158,11 +166,6 @@ write your own classes with inheritance and interfaces.
 
 Material:
 - [Slides](https://docs.google.com/presentation/d/1Y2DO-g82QsFyJBUNSebROA4aQvFErXHzlF-pq7Lhe_s/edit?usp=sharing)
-
-### Working with the String Class
-
-Material:
-- [ ] Slides
 
 ## More
 
