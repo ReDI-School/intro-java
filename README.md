@@ -10,7 +10,7 @@
 - What does a developer / programmer do
 
 Material:
-- [Slides](https://docs.google.com/presentation/d/1-w1Y9VTyl8SsIjDyaoh97XTpwgC6tZp0zJPoYgFwvwg/edit?usp=sharing)
+- [Slides](https://drive.google.com/open?id=1-w1Y9VTyl8SsIjDyaoh97XTpwgC6tZp0zJPoYgFwvwg)
 - [ ] shorten these slides? 
 
 ### What Is Java?
@@ -22,7 +22,7 @@ Material:
 - Analyzing the code
 
 Material:
-- [Slides](https://docs.google.com/presentation/d/16TPxzJAKEHSATpizypYe_S9P0aoCoZOxO4WixMNacaI/edit?usp=sharing)
+- [Slides](https://drive.google.com/open?id=16TPxzJAKEHSATpizypYe_S9P0aoCoZOxO4WixMNacaI)
 
 ### Data Types
 - Variables
@@ -37,8 +37,8 @@ Material:
 - Primitive types
   
 Material:
-- [Slides](https://docs.google.com/presentation/d/1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg/edit?usp=sharing)
-- [Slides](https://docs.google.com/presentation/d/113jN-mJ4Ev80sNsjk8NspoAvUegXHBH9EvHAaV8DwXY/edit?usp=sharing)
+- [Slides](https://drive.google.com/open?id=1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg)
+- [Slides](https://drive.google.com/open?id=113jN-mJ4Ev80sNsjk8NspoAvUegXHBH9EvHAaV8DwXY)
 
 ### Operators
 - Operators
@@ -50,7 +50,7 @@ Material:
 - Logic
 
 Material:
-- [Slides](https://docs.google.com/presentation/d/1KCbPB5X8UH2ar7Sd-qez4SrfPUaPL-TBzco8-5rXsto/edit?usp=sharing)
+- [Slides](https://drive.google.com/open?id=1KCbPB5X8UH2ar7Sd-qez4SrfPUaPL-TBzco8-5rXsto)
 - [Exercises](exercises/operators.md)
 - [Solutions](exercises/operators_solution.md)
 
@@ -68,7 +68,7 @@ Material:
 - `switch/case` vs `if` 
 
 Material:
-- [Slides](https://docs.google.com/presentation/d/1lrUGGIwYULLqz-VFGDIhW06NajFyYJdFdp0_gfXCI64/edit?usp=sharing)
+- [Slides](https://drive.google.com/open?id=1lrUGGIwYULLqz-VFGDIhW06NajFyYJdFdp0_gfXCI64)
 - [Exercises](exercises/math.md)
 
 ### Loops
@@ -78,7 +78,7 @@ Material:
 - shortened `for` (foreach)
 
 Material:
-- [Slides](https://docs.google.com/presentation/d/1rXD7s4BHbhagSCYkUmzy8VBnzEBWFUSoOUEWA01ZLlU/edit?usp=sharing)
+- [Slides](https://drive.google.com/open?id=1rXD7s4BHbhagSCYkUmzy8VBnzEBWFUSoOUEWA01ZLlU)
 - [Exercises](exercises/if_loops.md)
 
 ### Methods / Scope
@@ -89,7 +89,7 @@ Material:
 - Scope
 
 Material:
-- [Slides](https://docs.google.com/presentation/d/1Uhl80yqE57XGV-HlMUBvj_ti9O_c2_so7j7Fb70DVho/edit?usp=sharing)
+- [Slides](https://drive.google.com/open?id=1Uhl80yqE57XGV-HlMUBvj_ti9O_c2_so7j7Fb70DVho)
 
 ### Strings
 - Using `Scanner` to read strings
@@ -107,7 +107,7 @@ Material:
 - Exercises
 
 Material:
-- [Slides](https://docs.google.com/presentation/d/1gf6QiQvlA1pWD6MYK2de8SMxeQDVXxv72w51gUrUdTQ/edit?usp=sharing)
+- [Slides](https://drive.google.com/open?id=1gf6QiQvlA1pWD6MYK2de8SMxeQDVXxv72w51gUrUdTQ)
 - [Exercises](exercises/arrays.md)
 
 ### Object Oriented Programming
@@ -123,8 +123,8 @@ The focus is on how to use existing classes.
 - Using Classes and Objects
 
 Material:
-- [Slides](https://docs.google.com/presentation/d/1JB_iSD1WZhGtIoaw6lvolvkFAGKGZM0xeUH4zRulSVs/edit#slide=id.g49bfbaa2f5_0_5)
-- [Slides](https://docs.google.com/presentation/d/10grg-OJhOq_yh1vmNeYtcibHmyh4m5B-x_4HwNiSMDA/edit?usp=sharing)
+- [Slides](https://drive.google.com/open?id=1JB_iSD1WZhGtIoaw6lvolvkFAGKGZM0xeUH4zRulSVs)
+- [Slides](https://drive.google.com/open?id=10grg-OJhOq_yh1vmNeYtcibHmyh4m5B-x_4HwNiSMDA)
 - [The `school` class library](libraries/school): teachers, students and homework
 - [Exercises](exercises/using_school_library.md) with the `school` class library
 
@@ -147,7 +147,7 @@ Material:
 - `this` keyword
 
 Material:
-- [Slides](https://docs.google.com/presentation/d/1lhI3b7NsllHZxdo_jsa3D8SFG-M4GrIMqDabztrP3Zc)
+- [Slides](https://drive.google.com/open?id=1lhI3b7NsllHZxdo_jsa3D8SFG-M4GrIMqDabztrP3Zc)
 - [Exercise](exercises/implementing_car.md)
 
 ### Inheritance and Interfaces
@@ -165,9 +165,9 @@ write your own classes with inheritance and interfaces.
 - Examples (animals, cats, dogs)
 
 Material:
-- [Slides](https://docs.google.com/presentation/d/1Y2DO-g82QsFyJBUNSebROA4aQvFErXHzlF-pq7Lhe_s/edit?usp=sharing)
+- [Slides](https://drive.google.com/open?id=1Y2DO-g82QsFyJBUNSebROA4aQvFErXHzlF-pq7Lhe_s)
 
 ## More
 
-[Summary](https://docs.google.com/document/d/17INZXtXc8BCayMM6IADvNOSybVTwyVr97UDeMk7-YEw/edit?usp=sharing)
+[Summary](https://drive.google.com/open?id=17INZXtXc8BCayMM6IADvNOSybVTwyVr97UDeMk7-YEw)
 - [ ] Add further reading material
