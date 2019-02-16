@@ -70,6 +70,7 @@ Material:
 Material:
 - [Slides](https://drive.google.com/open?id=1lrUGGIwYULLqz-VFGDIhW06NajFyYJdFdp0_gfXCI64)
 - [Exercises](exercises/math.md)
+- [Solutions](exercises/math_solution.md)
 
 ### Loops
 - `for`
@@ -80,6 +81,7 @@ Material:
 Material:
 - [Slides](https://drive.google.com/open?id=1rXD7s4BHbhagSCYkUmzy8VBnzEBWFUSoOUEWA01ZLlU)
 - [Exercises](exercises/if_loops.md)
+- [Solutions](exercises/if_loops_solution.md)
 
 ### Methods / Scope
 - Methods

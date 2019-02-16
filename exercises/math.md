@@ -119,9 +119,9 @@ To calculate the 5th fibonacci number we need the 3rd and 4th number.
 To calculate the 4th fibonacci number we need the 3rd and 2nd number.
 To calculate the 3rd fibonacci number we need the 2nd and 1st number.
 
-The 1st number is 1 and 2nd number is 1. Thefore the 3rd number is 1+1=2
-The 2nd number is 1 and 3rd number is 2. Thefore the 4th number is 1+2=3
-The 3rd number is 2 and 4th number is 3. Thefore the 5th number is 2+3=5
+The 1st number is 1 and 2nd number is 1. Therefore the 3rd number is 1+1=2
+The 2nd number is 1 and 3rd number is 2. Therefore the 4th number is 1+2=3
+The 3rd number is 2 and 4th number is 3. Therefore the 5th number is 2+3=5
 ```
 
 You can solve this iterative (with a for loop) or recursive (without loops).
