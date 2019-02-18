@@ -92,6 +92,7 @@ Material:
 
 Material:
 - [Slides](https://drive.google.com/open?id=1Uhl80yqE57XGV-HlMUBvj_ti9O_c2_so7j7Fb70DVho)
+- [Exercises](exercises/methods.md)
 
 ### Strings
 - Using `Scanner` to read strings
