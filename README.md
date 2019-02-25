@@ -92,7 +92,8 @@ Material:
 
 Material:
 - [Slides](https://drive.google.com/open?id=1Uhl80yqE57XGV-HlMUBvj_ti9O_c2_so7j7Fb70DVho)
-- [Exercises](exercises/methods.md)
+- [Exercises on simple methods](exercises/simple_methods.md)
+- [Exercises on reusing methods](exercises/reusing_methods.md)
 
 ### Strings
 - Using `Scanner` to read strings

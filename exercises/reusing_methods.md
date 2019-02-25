@@ -1,6 +1,6 @@
-# Exercises: methods
+# Exercises: reusing methods
 
-## Simple methods
+## Single methods
 
 Methods are reusable pieces of code.
 The last set of exercise requires all the previous ones to be resolved and reused.
