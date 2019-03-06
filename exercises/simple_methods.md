@@ -82,3 +82,13 @@ Search on Google, if you need the formula.
 Use the `double` type, not `int`, for both parameters and return value.
 
 You'll need to calculate the square root of a number, use the method `Math.sqrt()` for that.
+
+## Palindrome
+
+Write a Java method which checks if a word is a palindrome. 
+
+A palindrome is a word which you can read from both sides (from left to right or from right to left) and you will get the same 
+word.
+
+`Examples are:
+Ebbe, Anna, Kajak or Gag`
