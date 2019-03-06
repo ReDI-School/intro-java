@@ -21,6 +21,23 @@ E.g.:
 
 `For max = 5 the method shall return 15, because 1 + 2 + 3 + 4 + 5 are equal to 15`
 
+## multiplyNumbers
+
+Write a method `public static int multiplyNumbers(int max)` which multiplies all numbers from 1 to max using a while loop.
+
+E.g.:
+
+`For max = 5 the method shall return 120, because 1 * 2 * 3 * 4 * 5 gives 120.`
+
+## findClosestDivisbleNumber
+
+Write a method `public static int findClosestDivisibleNumber(int number, int divisor)` which finds the number which is divisible 
+by another number and which is closest to another given number 
+
+E.g.: 
+
+`Number given is 13. Given divisor is 5. Result shall be 10.`
+
 ## areEqual
 
 Write a method that, given four `int`, returns if they're all equal, so if they all have the same value.
