@@ -178,3 +178,31 @@ public static ArrayList<String> union(
 	// any of the two
 }
 ```
+
+# Hangman
+
+Let's implement a simple hangman game:
+
+## 1. getLetterIndexes
+
+Write a method `public static ArrayList<Integer> getLetterIndexes(String word, char letter)` which returns an ArrayList with all indexes where the `letter` appears in the word.
+
+E.g.:
+`For word "hello" and letter 'l' the method shall return an arraylist which contains [2, 3]`
+
+## 2. changeLettersInArrayList
+
+Write a method `public static void changeLettersInArrayList(ArrayList<Character> currentWordList, ArrayList<Integer> indexPositions, Character newLetter)` which changes the current letter in the ArrayList `currentWordList` at the position `indexPositions` to the `newLetter`
+
+## Implement Hangman
+Implement the game hangman.
+
+1. Give read a `word` from a user
+2. Create an `ArrayList<Character> of length word.length with the Character '_'`
+3. As long as the ArrayList created in 2. still contains dashes ('_') ask the user for an character
+4. If the `word` contains the given character replace the dashes in the `ArrayList` by this character
+5. Print the new `ArrayList`
+6. If the `ArrayList` does not contain any dashes, write "You won the game" to the screen!
+
+*Hint*
+Use the methods from 1. and 2. for implementing the game
