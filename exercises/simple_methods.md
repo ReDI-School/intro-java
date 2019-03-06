@@ -12,6 +12,14 @@ call the single methods of this exercise, and print results.
 
 The methods should not have any hardcoded number or string.
 
+## addNumbers
+
+Write a method `public static int addNumbers(int max)` to add together all numbers from 1 to max.
+
+E.g.:
+
+`For max = 5 the method shall return 15, because 1 + 2 + 3 + 4 + 5 are equal to 15`
+
 ## areEqual
 
 Write a method that, given four `int`, returns if they're all equal, so if they all have the same value.
