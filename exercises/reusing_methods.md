@@ -68,3 +68,43 @@ Print all the prime numbers you find between `a` and `b`, inclusive.
 
 Ask the user for a number `n` between 1 and 250.000.
 Print the first `n` prime numbers you can find, starting from `2`.
+
+## Password check
+
+### 1. Minimum character count
+
+Write a method `public static boolean isStringLongerThan(String word, int lowerBound)` which returns `true` if `word` hast at least `lowerBound` characters.
+
+### 2. Contains letters and digits
+
+A password is just allowed to contrain letters and digits. Write a method `public static boolean containsOnlyLettersAndDigits(String word)` which returns true if a `word` just contains letters and digits.
+
+`True for:
+12Polizei, 1234Password and 13Zwölf11
+
+False for:
+P4$$w0rd, G€h€!m and P@ssword`
+
+*HINT*
+to check if a character is a letter or digit you can use the method:
+`Character.isLetterOrDigit(character)`
+
+### 3. At least n digits
+
+Write a method `public staic boolean containsEnoughDigits(String word, int lowerboud)` which checks if a string has at least `lowerBound` digits
+
+*HINT*
+to check if a character is a digit you can use the method:
+`Character.isDigit(character)`
+
+### Check password validity
+
+Write a method `public static boolean isValidPassword(String password)` which checks if a password is a valid. 
+
+A password is valid if:
+ - if it is minimum 10 characters long.
+ - if it just contains of letters and digits
+ - if it has at least 2 numbers
+
+*HINTS*
+Reuse the methods you implemented in `1, 2 and 3`
