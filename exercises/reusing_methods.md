@@ -80,9 +80,9 @@ Write a method `public static boolean isStringLongerThan(String word, int lowerB
 A password is just allowed to contrain letters and digits. Write a method `public static boolean containsOnlyLettersAndDigits(String word)` which returns true if a `word` just contains letters and digits.
 
 `True for:
-12Polizei, 1234Password and 13Zwölf11
+12Polizei, 1234Password and 13Zwölf11`
 
-False for:
+`False for:
 P4$$w0rd, G€h€!m and P@ssword`
 
 *HINT*
