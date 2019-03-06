@@ -15,6 +15,7 @@ The methods should not have any hardcoded number or string.
 ## addNumbers
 
 Write a method `public static int addNumbers(int max)` to add together all numbers from 1 to max.
+Please use a for loop to sum up all numbers.
 
 E.g.:
 
