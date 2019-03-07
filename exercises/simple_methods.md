@@ -92,3 +92,11 @@ word.
 
 `Examples are:
 Ebbe, Anna, Kajak or Gag`
+
+## Number Pyramid
+
+Write a method `public static void main printNumberPyramid(int width)` to print such a pattern (s. below) for width rows. Every row grows up from 1 to x and back to one. It will help to write a second method like `public static void printNumberPyramidRow(int row, int maxWidth)`, which prints one row of the pyramid.
+
+      1  
+     121  
+    12321  
