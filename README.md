@@ -95,6 +95,7 @@ Material:
 - [Exercises on simple methods](exercises/simple_methods.md)
 - [Solutions for simple methods](exercises/simple_methods_solution.md)
 - [Exercises on reusing methods](exercises/reusing_methods.md)
+- [Solutions for reusing methods](exercises/reusing_methods_solution.md)
 
 ### Strings
 - Using `Scanner` to read strings

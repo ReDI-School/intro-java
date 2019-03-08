@@ -1,6 +1,6 @@
 # Exercises: reusing methods
 
-## Single methods
+## Prime numbers
 
 Methods are reusable pieces of code.
 The last set of exercise requires all the previous ones to be resolved and reused.
@@ -18,7 +18,7 @@ and ask again, until the user types a valid number.
 - It shall have two parameters, `min` and `max`, both of type `int` and return an `int`.
 - You may need to use a `Scanner` inside to read from `System.in`.
 
-### Prime numbers 
+### Checking Prime numbers
 
 Define a method that checks if a number is a prime number.
 Prime numbers are numbers divisible only by 1 and themselves.
@@ -44,11 +44,9 @@ We'll implement a much simpler solution.
 
 The test can be improved, without changing it dramatically. Try to find out how.
 
-## Searching for prime numbers
-
-Reusing the methods defined above, implement the following 3 programs:
-
 ### Finding a prime number manually
+
+Reusing the methods defined above, implement this and the following two programs.
 
 Ask the user for a number between 1 and 1.000.000.000. Check if the number
 is prime or not. If it is, inform the user and terminate the program.
@@ -66,45 +64,45 @@ Print all the prime numbers you find between `a` and `b`, inclusive.
 
 ### Collecting prime numbers
 
-Ask the user for a number `n` between 1 and 250.000.
+Ask the user for a number `n` between 1 and 50.000.
 Print the first `n` prime numbers you can find, starting from `2`.
 
 ## Password check
 
 ### 1. Minimum character count
 
-Write a method `public static boolean isStringLongerThan(String word, int lowerBound)` which returns `true` if `word` hast at least `lowerBound` characters.
+Write a method `public static boolean isStringLongerThan(String word, int lowerBound)` which returns
+`true` if `word` has at least `lowerBound` characters.
 
 ### 2. Contains letters and digits
 
-A password is just allowed to contrain letters and digits. Write a method `public static boolean containsOnlyLettersAndDigits(String word)` which returns true if a `word` just contains letters and digits.
+A password is just allowed to contain letters and digits. Write a method
+`public static boolean containsOnlyLettersAndDigits(String word)` which returns true if a `word` just
+contains letters and digits.
 
-`True for:
-12Polizei, 1234Password and 13Zwölf11`
+Examples:
 
-`False for:
-P4$$w0rd, G€h€!m and P@ssword`
+- `true` for: `12Polizei`, `1234Password` and `13Zwölf11`
+- `false` for: `P4$$w0rd`, `G€h€!m` and `P@ssword`
 
-*HINT*
-to check if a character is a letter or digit you can use the method:
-`Character.isLetterOrDigit(character)`
+*HINT*: to check if a character is a letter or digit you can use the method
+`Character.isLetterOrDigit(character)`.
 
 ### 3. At least n digits
 
-Write a method `public staic boolean containsEnoughDigits(String word, int lowerboud)` which checks if a string has at least `lowerBound` digits
+Write a method `public static boolean containsEnoughDigits(String word, int lowerBound)` which checks
+if a string has at least `lowerBound` digits.
 
-*HINT*
-to check if a character is a digit you can use the method:
-`Character.isDigit(character)`
+*HINT*: to check if a character is a digit you can use the method
+`Character.isDigit(character)`.
 
 ### Check password validity
 
 Write a method `public static boolean isValidPassword(String password)` which checks if a password is a valid. 
 
 A password is valid if:
- - if it is minimum 10 characters long.
- - if it just contains of letters and digits
- - if it has at least 2 numbers
+ - it is minimum 10 characters long
+ - it just contains of letters and digits
+ - it has at least 2 numbers
 
-*HINTS*
-Reuse the methods you implemented in `1, 2 and 3`
+*HINT*: reuse the methods you implemented in 1, 2 and 3.
