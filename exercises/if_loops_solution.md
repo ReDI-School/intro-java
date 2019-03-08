@@ -206,37 +206,3 @@ class FizzBuzz {
     }
 }
 ```
-
-## Number Pyramid
-
-```java
-import java.util.Scanner;
-
-class Pyramid {
-
-    public static void main(String[] args) {
-
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Height: ");
-        int height = scanner.nextInt();
-
-        for (int i = 1; i <= height; i++) {
-            printPyramidRow(i, height);
-        }
-    }
-
-    public static void printPyramidRow(int row, int maxHeight) {
-        for (int i = 0; i < maxHeight - row; i++) {
-            System.out.print(" ");
-        }
-        for (int i = 1; i <= row; i++) {
-            System.out.print(i);
-        }
-        for (int i = row - 1; i >= 1; i--) {
-            System.out.print(i);
-        }
-        System.out.println();
-    }
-}
-```

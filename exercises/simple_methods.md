@@ -14,7 +14,7 @@ The methods should not have any hardcoded number or string.
 
 ## addNumbers
 
-Write a method `public static int addNumbers(int max)` to add together all numbers from 1 to max.
+Write a method `public static int addNumbers(int max)` to add together all numbers from 1 to `max`.
 Please use a for loop to sum up all numbers.
 
 E.g.:
@@ -23,7 +23,8 @@ E.g.:
 
 ## multiplyNumbers
 
-Write a method `public static int multiplyNumbers(int max)` which multiplies all numbers from 1 to max using a while loop.
+Write a method `public static int multiplyNumbers(int max)` which multiplies all numbers from 1 to `max`.
+Please use a for loop to multiply all numbers.
 
 E.g.:
 
@@ -31,8 +32,8 @@ E.g.:
 
 ## findClosestDivisbleNumber
 
-Write a method `public static int findClosestDivisibleNumber(int number, int divisor)` which finds the number which is divisible 
-by another number and which is closest to another given number 
+Write a method `public static int findClosestDivisibleNumber(int number, int divisor)` which finds the number
+which is divisible by another number and which is closest to another given number 
 
 E.g.: 
 
@@ -44,9 +45,13 @@ Write a method that, given four `int`, returns if they're all equal, so if they 
 
 Do the exercise again with `String`.
 
-## greaterOfThree
+## greatest
 
 Write a method that, given three `int`, returns the greater of the three.
+The method must work also in corner cases, like when all the numbers are
+the same and when two numbers are the same.
+
+*EXTRA*: extend the exercise to 4 or 5 numbers.
 
 ## powerOf
 
@@ -61,6 +66,10 @@ Examples:
 - powerOf(-3.5, 2) = -3.5 × -3.5 (two times)
 - powerOf(10, 1) = 10 (one time)
 - powerOf(99, 0) = 1 (zero times)
+
+*NOTE*: you may find that a method like this already exist.
+It is called `Math.pow()`. Since this is exercise, please don't use it
+and try to implement the exercise manually with a for loop.
 
 ## areaOfCircle
 
@@ -87,8 +96,26 @@ You'll need to calculate the square root of a number, use the method `Math.sqrt(
 
 Write a Java method which checks if a word is a palindrome. 
 
-A palindrome is a word which you can read from both sides (from left to right or from right to left) and you will get the same 
-word.
+A palindrome is a word which you can read from both sides (from left to right or from right to left)
+and you will get the same word.
 
 `Examples are:
 Ebbe, Anna, Kajak or Gag`
+
+## Number Pyramid
+
+Write a method like `public static void printPyramid(int height)` that prints such pyramid pattern (s. below)
+for `height` rows. Every row grows up from 1 to the row number and back to one. It will help to write a method
+like `public static void printPyramidRow(int row, int maxHeight)`, which prints one row of the pyramid.
+
+Example for `height` = 5:
+
+```text
+    1
+   121
+  12321
+ 1234321
+123454321
+```
+
+*HINT*: print some spaces, then increasing numbers, then decreasing numbers.
