@@ -105,6 +105,7 @@ Material:
 Material:
 - [Slides](https://drive.google.com/open?id=1V9Sqz18Fgq7cxAGw18B6Q0dSzI06ClctXZQHC5kqDnw)
 - [Exercises](exercises/strings.md)
+- [Solutions](exercises/strings_solution.md)
 
 ### ArrayLists
 - Why using `ArrayList`
