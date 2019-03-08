@@ -90,3 +90,21 @@ Output:
 
 Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number
 and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+## Number Pyramid
+
+Write a program that, given the height as input, prints such pyramid pattern (s. below) for `height` rows.
+Every row grows up from 1 to the row number and back to one. It will help to write a method
+like `public static void printPyramidRow(int row, int maxHeight)`, which prints one row of the pyramid.
+
+Example for `height` = 5:
+
+```text
+    1
+   121
+  12321
+ 1234321
+123454321
+```
+
+*HINT*: print some spaces, then increasing numbers, then decreasing numbers.
