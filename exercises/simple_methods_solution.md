@@ -1,4 +1,4 @@
-# Exercises: simple methods
+# Solution to exercises: simple methods
 
 ## addNumbers
 

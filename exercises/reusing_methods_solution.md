@@ -1,4 +1,4 @@
-# Exercises: reusing methods
+# Solution to exercises: reusing methods
 
 ## Prime numbers
 
