@@ -13,6 +13,15 @@ To check you solution:
 there are 8 `u`s and 23 `e`s.
 ```
 
+## Palindrome
+
+Write a Java method which checks if a word is a palindrome. 
+
+A palindrome is a word which you can read from both sides (from left to right or from right to left)
+and you will get the same word.
+
+Examples are: Ebbe, Anna, Kajak or Gag.
+
 ## Pick one of the exercises that you have not done yet and solve it
 
 - Search for you method [here](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html) 

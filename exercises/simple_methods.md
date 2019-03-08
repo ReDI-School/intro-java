@@ -33,7 +33,7 @@ E.g.:
 ## findClosestDivisbleNumber
 
 Write a method `public static int findClosestDivisibleNumber(int number, int divisor)` which finds the number
-which is divisible by another number and which is closest to another given number 
+which is divisible by another number and which is closest to another given number.
 
 E.g.: 
 
@@ -91,16 +91,6 @@ Search on Google, if you need the formula.
 Use the `double` type, not `int`, for both parameters and return value.
 
 You'll need to calculate the square root of a number, use the method `Math.sqrt()` for that.
-
-## Palindrome
-
-Write a Java method which checks if a word is a palindrome. 
-
-A palindrome is a word which you can read from both sides (from left to right or from right to left)
-and you will get the same word.
-
-`Examples are:
-Ebbe, Anna, Kajak or Gag`
 
 ## Number Pyramid
 
