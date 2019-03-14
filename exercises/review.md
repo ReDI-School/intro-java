@@ -266,21 +266,27 @@ Mark all the correct answers:
 ## Coding
 
 23. Write a method which returns which of two numbers is the smaller one.
-The method shall return -1 it the first number is the smaller one, 0 if both number are equal and 1 if the second number is the smaller one.
+The method shall return `-1` it the first number is the smaller one, `0` if both number are equal and `1` if the second number is the smaller one.
 The signature of this method shall look like this:
+```
 public static int compare(double number1, double number2)
+```
 
-24. Write two methods. One method takes the age of a person as input and returns if this person is an adult or not. 
+24. Write two methods. 
+- One method takes the age of a person as input and returns if this person is an adult or not. 
+- Write a second method which prints “Please enter” or “You have to stay outside” dependent from the result of this method.
 
-Write a second method which prints “Please enter” or “You have to stay outside” dependent from the result of this method.
 The two methods shall have the following signatures:
+```
 public static boolean isAdult(int age)
 public static void canEnter(boolean isAdult)
+```
 
-25. Extend the method public bool isAdult(int age) to a method with this signature boolean isAdult(int age, string country). Implement a second method getMinAdultAge(String country) which returns the age a person needs to have to be an adult in this country. Use this age to evaluate if a person is an adult in the given country. Implement the second method for at least 2 different countries.
-Q26. Write a method which calculates the volume of a cylinder. 
-A cylinder with radius r units and height h units has a volume of V :
+25. Extend the method public bool `isAdult(int age)` to a method with this signature `boolean isAdult(int age, string country)`. Implement a second method `getMinAdultAge(String country)` which returns the age a person needs to have to be an adult in this country. Use this age to evaluate if a person is an adult in the given country. Implement the second method for at least 2 different countries.
 
-26. For this task, we want to reuse our method calculating the area of a circle. The volume is of a cylinder = area of circle * height 
+25. Write a mthod to calculate the area of a circle: 
+`A = π*r^2`
+
+26. Write a method which calculates the volume of a cylinder. For this task, we want to reuse our method calculating the area of a circle. The volume is of a cylinder = area of circle * height 
 The method shall have the following signature:
-public static double calculateCylinderVolume(double radius, double height)
+`public static double calculateCylinderVolume(double radius, double height)
