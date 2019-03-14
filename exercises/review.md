@@ -1,5 +1,5 @@
 # Questions
- 
+
 1. If I want to store a whole number of 4 billion, which data type would I use?
 2. If I want to make a quiz program and I need a variable for the answer, which is a single letter. What data type would I use?
 3. Is this allowed?
@@ -77,7 +77,7 @@ class Question {
 
 13. What will happen?
 
-```
+```java
 class Question {
 
    public static void main(String args[]){
@@ -95,7 +95,7 @@ class Question {
 
 14. What will happen?
 
-```
+```java
 class Question {
 
    public static void main(String args[]){
@@ -112,8 +112,8 @@ class Question {
 ```
 
 15.  What will happen?
- 
-```
+
+```java
 class Question {
 
    public static void main(String args[]){
@@ -134,7 +134,7 @@ class Question {
 
 16. What will happen?
 
-```
+```java
 class Question {
 
    public static void main(String args[]){
@@ -154,7 +154,7 @@ class Question {
 
 17. What will happen?
 
-```
+```java
 class Question {
 
    public static void main(String args[]){
@@ -171,7 +171,7 @@ class Question {
 
 18. What will happen?
 
-```
+```java
 class Question {
 
    public static void main(String args[]){
@@ -179,7 +179,7 @@ class Question {
        boolean oldEnough = checkAge(myAge);
        System.out.println(oldEnough);
    }
-  
+
    public static boolean checkAge(int age){
        if(age >= 18){
            return true;
@@ -193,7 +193,7 @@ class Question {
 
 19. What will happen here?
 
-```
+```java
 class Question {
 
    public static void main(String args[]){
@@ -203,10 +203,10 @@ class Question {
    }
 }
 ```
- 
+
 20.   What will happen here?
 
-```
+```java
 class Question {
    public static void main(String args[]){
        System.out.println(sayHello());
@@ -220,7 +220,7 @@ class Question {
 
 21. What does this print out?
 
-```
+```java
 public class MyClass
 {
   public static void myMethod(int x, int y)
@@ -256,11 +256,11 @@ Mark all the correct answers:
 - [ ] 5 <= x <= 10
 - [ ] 4 < x < 11
 - [ ] 5 ≤ x ≤ 10
-- [ ] 5 <= x && x <= 10 
+- [ ] 5 <= x && x <= 10
 - [ ] 5 =< x && x =< 10
 - [ ] 5 <= x || x <= 10
-- [ ] 4 < x && !(x > 10) 
-- [ ] !(x < 5 || 10 < x) 
+- [ ] 4 < x && !(x > 10)
+- [ ] !(x < 5 || 10 < x)
 - [ ] 5 ≤ x && x ≤ 10
 
 ## Coding
@@ -268,25 +268,27 @@ Mark all the correct answers:
 23. Write a method which returns which of two numbers is the smaller one.
 The method shall return `-1` it the first number is the smaller one, `0` if both number are equal and `1` if the second number is the smaller one.
 The signature of this method shall look like this:
-```
+```java
 public static int compare(double number1, double number2)
 ```
 
-24. Write two methods. 
-- One method takes the age of a person as input and returns if this person is an adult or not. 
+24. Write two methods.
+- One method takes the age of a person as input and returns if this person is an adult or not.
 - Write a second method which prints “Please enter” or “You have to stay outside” dependent from the result of this method.
 
 The two methods shall have the following signatures:
-```
+```java
 public static boolean isAdult(int age)
 public static void canEnter(boolean isAdult)
 ```
 
 25. Extend the method public bool `isAdult(int age)` to a method with this signature `boolean isAdult(int age, string country)`. Implement a second method `getMinAdultAge(String country)` which returns the age a person needs to have to be an adult in this country. Use this age to evaluate if a person is an adult in the given country. Implement the second method for at least 2 different countries.
 
-25. Write a mthod to calculate the area of a circle: 
+25. Write a mthod to calculate the area of a circle:
 `A = π*r^2`
 
-26. Write a method which calculates the volume of a cylinder. For this task, we want to reuse our method calculating the area of a circle. The volume is of a cylinder = area of circle * height 
+26. Write a method which calculates the volume of a cylinder. For this task, we want to reuse our method calculating the area of a circle. The volume is of a cylinder = area of circle * height
 The method shall have the following signature:
-`public static double calculateCylinderVolume(double radius, double height)
+```java
+public static double calculateCylinderVolume(double radius, double height)
+```
