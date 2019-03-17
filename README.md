@@ -1,6 +1,6 @@
 # Introduction to Java
 
-## Topics
+## Topics (part 1)
 
 ### What is programming:
 - Introduction
@@ -116,6 +116,15 @@ Material:
 Material:
 - [Slides](https://drive.google.com/open?id=1gf6QiQvlA1pWD6MYK2de8SMxeQDVXxv72w51gUrUdTQ)
 - [Exercises](exercises/arrays.md)
+
+## Middle-course review
+
+This is a list of questions that covers the topics taught so far.
+  
+- [Questions](exercises/review.md)
+- [Answers](exercises/review_answers.md)
+
+## Topics (part 2)
 
 ### Object Oriented Programming
 
