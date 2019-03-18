@@ -2,6 +2,8 @@
 
 ## Topics (part 1)
 
+The following topics explain basic principle of programming.
+
 ### What is programming:
 - Introduction
 - Why learn to program
@@ -126,37 +128,40 @@ This is a list of questions that covers the topics taught so far.
 
 ## Topics (part 2)
 
-### Object Oriented Programming
+The following topics explain the Object Oriented Programming model of Java.
 
-This lesson provides an overview of object oriented programming concepts,
-classes, objects, references, inheritance.
-The focus is on how to use existing classes.
+### Using Classes
 
-- Modeling and Solving Problems
+This lesson provides an overview of classes, objects and references.
+The focus is on using existing classes.
+
 - Classes and Objects
 - Properties and Methods
-- Inheritance
 - Using Classes and Objects
+- References
 
 Material:
-- [Slides](https://drive.google.com/open?id=1JB_iSD1WZhGtIoaw6lvolvkFAGKGZM0xeUH4zRulSVs)
 - [Slides](https://drive.google.com/open?id=10grg-OJhOq_yh1vmNeYtcibHmyh4m5B-x_4HwNiSMDA)
-- [The `school` class library](libraries/school): teachers, students and homework
-- [Exercises](exercises/using_school_library.md) with the `school` class library
+- [ ] Exercises with the Java Standard library
+- [ ] Solutions for the exercises with the Java Standard Library
+- [The "School" library](libraries/school): teachers, students and homework
+- [Exercises](exercises/using_school_library.md) with the "School" library
+- [ ] Solutions for exercises with the "School" library
 
 ### Implementing Classes
 
 This lesson provides basic information on how to write your own classes.
 
 - How to write your own class
-- Properties
-- Methods
-- Constructor
+- Writing the constructor
+- Writing properties
+- Writing methods
 
 Material:
-- [ ] Slides
+- [Slides](https://drive.google.com/open?id=1JB_iSD1WZhGtIoaw6lvolvkFAGKGZM0xeUH4zRulSVs)
 
 ### Class Scope / this
+
 - Repetition of scope
 - Method scope / Parameters
 - Class Scope
