@@ -5,6 +5,7 @@
 The following topics explain basic principle of programming.
 
 ### What is programming:
+
 - Introduction
 - Why learn to program
 - What is programming
@@ -16,6 +17,7 @@ Material:
 - [ ] shorten these slides? 
 
 ### What Is Java?
+
 - Java is not just an isle
 - Translating ⇔ Compiling
 - The IDE (an overview)
@@ -27,6 +29,7 @@ Material:
 - [Slides](https://drive.google.com/open?id=16TPxzJAKEHSATpizypYe_S9P0aoCoZOxO4WixMNacaI)
 
 ### Data Types
+
 - Variables
 - Variable names
 - Data types
@@ -43,6 +46,7 @@ Material:
 - [Slides](https://drive.google.com/open?id=113jN-mJ4Ev80sNsjk8NspoAvUegXHBH9EvHAaV8DwXY)
 
 ### Operators
+
 - Operators
 - Assignment
 - Arithmetic
@@ -57,6 +61,7 @@ Material:
 - [Solutions](exercises/operators_solution.md)
 
 ### Decision Statements
+
 - Input
   - `Scanner`
 - `if`
@@ -75,6 +80,7 @@ Material:
 - [Solutions](exercises/math_solution.md)
 
 ### Loops
+
 - `for`
 - `while`
 - `do/while`
@@ -86,6 +92,7 @@ Material:
 - [Solutions](exercises/if_loops_solution.md)
 
 ### Methods / Scope
+
 - Methods
   - Why do we need methods
   - Structure
@@ -100,6 +107,7 @@ Material:
 - [Solutions for reusing methods](exercises/reusing_methods_solution.md)
 
 ### Strings
+
 - Using `Scanner` to read strings
 - Comparing `String`
 - Operations on single characters
@@ -110,6 +118,7 @@ Material:
 - [Solutions](exercises/strings_solution.md)
 
 ### ArrayLists
+
 - Why using `ArrayList`
 - Accessing / Updating of `ArrayList`
 - `ArrayList` and loops
@@ -118,6 +127,7 @@ Material:
 Material:
 - [Slides](https://drive.google.com/open?id=1gf6QiQvlA1pWD6MYK2de8SMxeQDVXxv72w51gUrUdTQ)
 - [Exercises](exercises/arrays.md)
+- [Solutions](exercises/arrays_solution.md)
 
 ## Middle-course review
 

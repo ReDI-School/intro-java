@@ -68,6 +68,16 @@ Zimtzitroneneis
 Zartbitterschokolade
 ```
 
+To implement the exercise, introduce a method with the following signature and implement it and use it inside `main`:
+
+```java 
+public static ArrayList<String> removeShortWords(ArrayList<String> words, int minLength) {
+	// Return a new ArrayList that the words of 'words' that have a length equal or more than `minLength`
+}
+```
+
+*IMPORTANT*: make sure to return a new ArrayList instead of modifying the one passed as parameter.
+
 ## Truncate
 
 - Let the user choose how many words they want to input
@@ -100,6 +110,10 @@ public static int findValue(ArrayList<String> values, String x) {
 }
 ```
 
+NOTE: this method actually exists and it's called `indexOf()`. A simpler method that
+checks if an object is present in an `ArrayList` without returning its position,
+but just returning a `boolean` also already exists and it's called `contains()`.
+
 ## Remove duplicates
 
 Implement the following method and use it inside a `main` to show that it behaves as described:
@@ -111,9 +125,9 @@ public static ArrayList<String> removeDuplicates(ArrayList<String> values) {
 }
 ```
 
-*HINT*: reuse `findValue` implemented previously.
+*HINT*: reuse `findValue` implemented previously or use `indexOf()` or, better, `contains()`.
 
-## Common values
+## Common values (intersection)
 
 Implement the following method and use it inside a `main` to show that behaves as described:
 
@@ -122,12 +136,30 @@ public static ArrayList<String> commonValues(
 		ArrayList<String> values1,
 		ArrayList<String> values2) {
 
-	// Return a new ArrayList containing the elements
-	// that are present in both 'values1' and 'values2'
+	// Return a new ArrayList containing the elements that
+	// are present both in 'values1' and 'values2', without duplicates
 }
 ```
 
-*HINT*: reuse `findValue` implemented previously.
+*HINT*: reuse methods defined so far.
+
+## Union
+
+Let's implement the `union` of two `ArrayList`s. The exercise is also about reusing existing methods.
+Reuse as much as you can of what we've written so far, and what is also available from Java
+[ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
+The shorter the solution the better.
+
+```java
+public static ArrayList<String> union(
+		ArrayList<String> values1,
+		ArrayList<String> values2) {
+
+	// Return the union of 'values1' and 'values2'
+	// that is basically every element contained in
+	// any of the two, without duplicates
+}
+```
 
 ## Word count
 
@@ -158,44 +190,26 @@ Try to split the problem in smaller ones and reuse existing methods instead.
 
 ```java
 public static int count(ArrayList<String> values, String x) {
-        // Return how many times the string 'x' is present in 'values'
+    // Return how many times the string 'x' is present in 'values'
 }
 ```
 
-## Union
-
-Let's implement the `union` of two `ArrayList`s. The exercise is also about reusing existing methods.
-Reuse as much as you can of what we've written so far, and what is also available from Java
-[ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html). The shorter the solution the better.
-
-```java
-public static ArrayList<String> union(
-		ArrayList<String> values1,
-		ArrayList<String> values2) {
-
-	// Return the union of 'values1' and 'values2'
-	// that is basically every element contained in
-	// any of the two
-}
-```
-
-# Hangman
+## Hangman
 
 Let's implement a simple hangman game:
 
-## 1. getLetterIndexes
+### 1. getLetterIndexes
 
 Write a method `public static ArrayList<Integer> getLetterIndexes(String word, char letter)` which returns an ArrayList with all indexes where the `letter` appears in the word.
 
 E.g.:
 `For word "hello" and letter 'l' the method shall return an arraylist which contains [2, 3]`
 
-## 2. changeLettersInArrayList
+### 2. uncoverLetters
 
 Write a method `public static void changeLettersInArrayList(ArrayList<Character> currentWordList, ArrayList<Integer> indexPositions, Character newLetter)` which changes the current letter in the ArrayList `currentWordList` at the position `indexPositions` to the `newLetter`
 
-## Implement Hangman
-Implement the game hangman.
+## Implement the hangman
 
 1. Give read a `word` from a user
 2. Create an `ArrayList<Character> of length word.length with the Character '_'`
