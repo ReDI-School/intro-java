@@ -196,27 +196,36 @@ public static int count(ArrayList<String> values, String x) {
 
 ## Hangman
 
-Let's implement a simple hangman game:
+Let's implement a simple hangman game.
 
 ### 1. getLetterIndexes
 
-Write a method `public static ArrayList<Integer> getLetterIndexes(String word, char letter)` which returns an ArrayList with all indexes where the `letter` appears in the word.
+Write a method `public static ArrayList<Integer> getLetterIndexes(String word, char letter)` which returns
+an `ArrayList` that contains the indexes where the `letter` appears in the `word`.
 
-E.g.:
-`For word "hello" and letter 'l' the method shall return an arraylist which contains [2, 3]`
+Example: for word `hello` and letter `l`, the method shall return an `ArrayList` which contains `[2,3]`.
 
 ### 2. uncoverLetters
 
-Write a method `public static void changeLettersInArrayList(ArrayList<Character> currentWordList, ArrayList<Integer> indexPositions, Character newLetter)` which changes the current letter in the ArrayList `currentWordList` at the position `indexPositions` to the `newLetter`
+Write a method `public static void uncoverLetters(ArrayList<Character> guess, ArrayList<Integer> indexes, char letter)`
+which updates the `guess`, uncovering `letter` at position `indexes`.
+
+Example: for guess `[_, _, l, l, _]`, indexes `[1]`, letter `e`, it updates guess to contain `[_, e, l, l, _]`.
 
 ## Implement the hangman
 
-1. Give read a `word` from a user
-2. Create an `ArrayList<Character> of length word.length with the Character '_'`
-3. As long as the ArrayList created in 2. still contains dashes ('_') ask the user for an character
-4. If the `word` contains the given character replace the dashes in the `ArrayList` by this character
-5. Print the new `ArrayList`
-6. If the `ArrayList` does not contain any dashes, write "You won the game" to the screen!
+Implement the hangman game:
 
-*Hint*
-Use the methods from 1. and 2. for implementing the game
+1. Read `word` from the user.
+2. Create an `ArrayList<Character>` long as the length of the `word`, containing only underscores '_'.
+   This represents the letters currently guessed by the user. When a user guesses a letter
+   contained in `word`, the `guess` is updated, showing letters successfully guessed.
+3. As long as the `guess` created in 2. contains at least one underscore:
+  - ask the user for a character.
+  - update the current guess showing the guessed letters in `word`.
+  - print the new `guess`.
+4. When the `guess` does not contain any underscore, write "You won the game" to the screen!
+
+*HINT*
+Use the methods from 1. and 2. for implementing the game, or any other method you find in
+[ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
