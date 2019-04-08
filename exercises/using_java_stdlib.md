@@ -40,7 +40,7 @@ This is a simple game: generate a random integer from 1 to 1000, but don't tell 
 Ask the user to guess it:
 
 - The user types a number.
-- If it's the correct one, print "Yeah, vou've found it!" and terminate the game.
+- If it's the correct one, print "Yeah, you've found it!" and terminate the game.
 - If it's less than the correct one, print "Wrong, it's too small" and ask again.
 - If it's greater than the correct one, print "Wrong, it's too big" and ask again.
 
@@ -51,8 +51,8 @@ Play the game yourself: you against your own software, let's see who's smarter!
 *EXTRA*: Hard version of the game: change the game to guess a random integer without the 1-1000 limitation,
          using `nextInt()`. This returns random numbers from -2,147,483,648 to 2,147,483,647, that
          is a range that contains approximately 4 billion possible values (2^32 to be precise).
-         Play the game but don't be scared, you'll still be be able to guess it, it just requires
-         more tentatives, but not many more than the 1000 case.
+         Play the game but don't be scared, you'll still be able to guess it, it just requires
+         more tentatives, but not many more. Be smart, you can for sure make it in less than 32 tentatives!
 
 ### Pick a random value
 
