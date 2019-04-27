@@ -37,12 +37,12 @@ N and X are values you should ask users.
 
 This is a simple game: generate a random integer from 1 to 1000, but don't tell anyone :-)
 
-Ask the user to guess it:
+Ask the user to guess what number was generated:
 
 - The user types a number.
-- If it's the correct one, print "Yeah, you've found it!" and terminate the game.
-- If it's less than the correct one, print "Wrong, it's too small" and ask again.
-- If it's greater than the correct one, print "Wrong, it's too big" and ask again.
+- If it's the generated, print "Yeah, you've found it!" and terminate the game.
+- If it's less than the generated, print "Wrong, it's too small" and ask again.
+- If it's greater than the generated, print "Wrong, it's too big" and ask again.
 
 Play the game yourself: you against your own software, let's see who's smarter!
 
@@ -54,9 +54,9 @@ Play the game yourself: you against your own software, let's see who's smarter!
          Play the game but don't be scared, you'll still be able to guess it, it just requires
          more tentatives, but not many more. Be smart, you can for sure make it in less than 32 tentatives!
 
-### Pick a random value
+### Pick a random number
 
-Write a method that returns a random integer between two possible values.
+Write a method that returns a random integer between two possible numbers.
 
 The signature is:
 
@@ -123,13 +123,13 @@ Use the method to ask the user for a date and print which day of the week.
 
 Which day of the week was your birthday?
 
-### Distance in days between two dates
+### Time passed between two dates
 
-Study the documentation and find if there's a way to obtain how many days separate two dates. 
+Study the documentation and find if there's a way to obtain how many days, months and years separate two dates. 
 
-How old are you, in days, today?
+How old are you, exactly, today?
 
-### Random date
+### Random day of year
 
 Given a year, pick a random day of that year.
 
