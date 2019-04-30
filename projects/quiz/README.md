@@ -27,8 +27,10 @@ At the end, the user receives the total points.
 - Questions are presented in random order.
 - Questions are randomly picked from a larger pool.
 - Users may decide to skip questions, losing 1 point.
-  - New question is given, so they still have to
-    answers to 10 questions.
+  - A new question is given, so they still have to
+    answers to 10 questions in total.
+  - If there are no more unanswered questions because
+    users skipped too many of them, older one are presented again. 
 - Users get a message based on the result
   - Excellent, if total score is above 45.
   - Good, if above 35 up to 45.
