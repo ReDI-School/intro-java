@@ -1,5 +1,0 @@
-- Attend at least 75 % of the classes to receive certificate
-- Be on time or bring cookies :-)
-- If you can’t make it let us know on Slack 
-- Do the homeworks
-- Be active, try things out, ask questions 

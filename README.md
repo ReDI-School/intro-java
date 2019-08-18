@@ -8,25 +8,35 @@ The following topics explain basic principle of programming.
 
 - Introduction
 - Why learn to program
+- What does a developer do
 - What is programming
 - How to learn programming
-- What does a developer / programmer do
 
 Material:
 - [Slides](https://drive.google.com/open?id=1-w1Y9VTyl8SsIjDyaoh97XTpwgC6tZp0zJPoYgFwvwg)
-- [ ] shorten these slides? 
 
 ### What Is Java?
 
-- Java is not just an isle
-- Translating ⇔ Compiling
-- The IDE (an overview)
+- Introduction to Java
+- Simple programs
+- Compiling programs
 - Our first program
-- Running the program
+- The IDE (an overview)
+- Running our first program
 - Analyzing the code
 
 Material:
 - [Slides](https://drive.google.com/open?id=16TPxzJAKEHSATpizypYe_S9P0aoCoZOxO4WixMNacaI)
+
+### First Steps
+
+- First steps
+- Where to start
+- Comments
+- Printing text
+
+Material:
+- [Slides](https://drive.google.com/open?id=1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg)
 
 ### Data Types
 
@@ -40,9 +50,8 @@ Material:
 - Declaration and initialization
 - Print with different data types
 - Primitive types
-  
+
 Material:
-- [Slides](https://drive.google.com/open?id=1AbdSwf4E3HizYdYBbXtVsVVsBt6WJI6hLr-3sZaGatg)
 - [Slides](https://drive.google.com/open?id=113jN-mJ4Ev80sNsjk8NspoAvUegXHBH9EvHAaV8DwXY)
 
 ### Operators
@@ -72,7 +81,7 @@ Material:
 - `else`
 - `else if`
 - `switch/case`
-- `switch/case` vs `if` 
+- `switch/case` vs `if`
 
 Material:
 - [Slides](https://drive.google.com/open?id=1lrUGGIwYULLqz-VFGDIhW06NajFyYJdFdp0_gfXCI64)
@@ -132,7 +141,7 @@ Material:
 ## Middle-course review
 
 This is a list of questions that covers the topics taught so far.
-  
+
 - [Questions](exercises/review.md)
 - [Answers](exercises/review_answers.md)
 
