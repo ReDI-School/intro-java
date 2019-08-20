@@ -9,11 +9,13 @@ The following topics explain basic principle of programming.
 - Introduction
 - Why learn to program
 - What does a developer do
-- What is programming
 - How to learn programming
+- What is programming
+- Real world program example
 
 Material:
 - [Slides](https://drive.google.com/open?id=1-w1Y9VTyl8SsIjDyaoh97XTpwgC6tZp0zJPoYgFwvwg)
+- [Material for the real world program](https://drive.google.com/open?id=13yi2B3_SJOdTFeYymV9bIuyK09cTZMAxCSRRxwDxEDM)
 
 ### What Is Java?
 
@@ -21,9 +23,6 @@ Material:
 - Simple programs
 - Compiling programs
 - Our first program
-- The IDE (an overview)
-- Running our first program
-- Analyzing the code
 
 Material:
 - [Slides](https://drive.google.com/open?id=16TPxzJAKEHSATpizypYe_S9P0aoCoZOxO4WixMNacaI)
