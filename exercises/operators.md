@@ -14,7 +14,7 @@ public static void main(String[] args) {
    int chocolatePieces = 8;
    int raspberryPieces = 8;
    int totalPieces =
-   System.out.println(totalPieces);
+   System.out.println("Total pieces: " + totalPieces);
 
    // There are 3 people (Mary, Bob and Jo).
    // Mary wants 4 pieces of chocolate cake and 3 pieces of raspberry cake
@@ -63,11 +63,15 @@ public static void main(String[] args) {
        System.out.println("There is enough cake");
    }
 
-   // if Bob ends up having a stomach ache just thinking about all the pieces and leaves,
-   // can we divide the pieces up evenly amongst the other 3 people?
+    // if Bob ends up having a stomach ache just thinking about all the pieces and leaves,
+    // can we divide the pieces up amongst the other 3 people?
 
-   double numberOfPiecesPerPerson =
+    int numberOfPiecesPerPerson =
 
-   System.out.println(numberOfPiecesPerPerson);
+    System.out.println("Pieces per person: " + numberOfPiecesPerPerson);
+
+    int piecesLeft =
+
+    System.out.println("Pieces left: " + piecesLeft);
 }
 ```
