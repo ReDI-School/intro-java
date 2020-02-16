@@ -1,3 +1,9 @@
+---
+title: Blackjack
+parent: Projects
+nav_order: 1
+---
+
 # Blackjack
 
 We want to implement this game:

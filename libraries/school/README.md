@@ -1,3 +1,9 @@
+---
+title: School
+parent: Libraries
+nav_order: 1
+---
+
 # The "School" class library
 
 This library models a simple school of:

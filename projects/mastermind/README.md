@@ -1,3 +1,9 @@
+---
+title: Mastermind
+parent: Projects
+nav_order: 2
+---
+
 # Mastermind
 
 We want to implement this game:
@@ -41,7 +47,7 @@ Guess  RBYP -> answer is BBBB -> win!
 
 First all the B answers are printed, then the W answers.
 
-Users try to guess the secret until they find it. 
+Users try to guess the secret until they find it.
 
 ### Possible improvements
 

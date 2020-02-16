@@ -1,3 +1,9 @@
+---
+title: Quiz
+parent: Projects
+nav_order: 3
+---
+
 # Quiz
 
 We want to implement a simple quiz.
@@ -129,7 +135,7 @@ A possible solution could be the following algorithm:
 - We ask users the question:
   - If they answer (correctly or not), we update the points and discard the question.
   - If they decide to skip, we **put back** the question at the **end** of the list.
-  
+
 In this way, skipping too much, users are presented with questions already seen and skipped.
 
 Once users answer N question, the quiz terminate and the result is printed.

@@ -1,0 +1,4 @@
+# These files are produced by Jekyll when generating the site pages
+_site
+.sass-cache
+.jekyll-metadata
