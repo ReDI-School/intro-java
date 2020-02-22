@@ -18,6 +18,8 @@ description: This is the homepage of the "Intro to Java" course at ReDI School
 aux_links:
   "Code editor at repl.it":
     - "https://repl.it/"
+  "Glossary" :
+    - "/glossary"  
 
 # Build settings
 markdown: kramdown
