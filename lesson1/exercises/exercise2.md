@@ -31,6 +31,12 @@ Let's try to change our program to print other things.
 ## Questions
 Try to do the code changes together within your group (in case of questions/problems => ask one of your teachers!)
 
+### NOTES (just FYI, will remove for class)
+Question 1 to 3: how to print things (same line, new lines)
+Question 4: break things, see a compile error
+Question 5: students should see the need to write their code (for now) in main
+Question 6: leading to introducing comments 
+
 ### Question 1
 How would you change the program to print out a _Hello_ message to all your group members?
 
