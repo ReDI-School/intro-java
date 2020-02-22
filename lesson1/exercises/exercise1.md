@@ -1,6 +1,6 @@
 ---
 title: "Exercise 1: Running a Java Program" 
-parent: Ingredients of a Java Program
+parent: First Steps with Java
 nav_order: 2
 ---
 # Exercise 1: Running a Java Program
