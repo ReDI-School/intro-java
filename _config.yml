@@ -19,7 +19,7 @@ aux_links:
   "Code editor at repl.it":
     - "https://repl.it/"
   "Glossary" :
-    - "/glossary"  
+    - "glossary"  
 
 # Build settings
 markdown: kramdown
