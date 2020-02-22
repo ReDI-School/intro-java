@@ -1,5 +1,5 @@
 ---
-title: Ingredients of a Java Program
+title: First Steps with Java
 nav_order: 2
 permalink: /lesson1/
 has_children: true

@@ -1,6 +1,6 @@
 ---
 title: repl.it - a web-based Java editor
-parent: Ingredients of a Java Program
+parent: First Steps with Java
 nav_order: 1
 permalink: replit
 ---

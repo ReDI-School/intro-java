@@ -1,6 +1,6 @@
 ---
 title: "Exercise 2: Your first code changes in a Java Program" 
-parent: Ingredients of a Java Program
+parent: First Steps with Java
 nav_order: 3
 ---
 # Exercise 2: Your first code changes in a Java Program
