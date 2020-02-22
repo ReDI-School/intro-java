@@ -1,9 +1,9 @@
 ---
-title: "Exercise 2: Doing your first code changes in Java Program" 
+title: "Exercise 2: Your first code changes in a Java Program" 
 parent: Ingredients of a Java Program
 nav_order: 3
 ---
-# Exercise 2: Doing your first code changes in Java Program
+# Exercise 2: Your first code changes in a Java Program
 Please do this exercise in a group with other students.
 
 Go through the questions and discuss the answers within your group.
@@ -86,6 +86,17 @@ System.out.println("Hello World!");
 and place it somewhere else in the Java file and try to run it?
 
 What can you conclude from this?
+
+### Question 6
+What can you observe if you just some random text inside
+```java
+public static void main(String[] args) {
+    ...
+}
+```
+?
+
+Can you think about a reason why you would like to be able to write some "random" text inside of your Java program?
 
 ## Observations
 ... will be filled later
