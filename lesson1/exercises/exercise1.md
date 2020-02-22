@@ -16,7 +16,7 @@ If not, please visit [this page](/replit) to find out how and come back here aft
 
 ## Objective
 Goal of this exercise is to get an understanding of 
-* what things do you actually need do write and run a Java program (the ingredients)
+* what things do you actually need do to write and run a Java program (the ingredients)
 * what actually needs to happen so that a Java program is run?
 
 ## Questions
@@ -45,7 +45,7 @@ What do you think the program will do?
 
 If you have an idea, explain why!
 
-Now run the program - does it do what you have expected?
+Now run the program - does it do the thing you have expected?
 
 ### Question 2
 Take another look at your opened *Java* repl.
