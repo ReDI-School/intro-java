@@ -1,9 +1,10 @@
 ---
 title: repl.it - a web-based Java editor
-parent: First Steps with Java
+parent: 01 - First Steps with Java
+grand_parent: Lessons
 nav_order: 1
-permalink: replit
 ---
+
 # Write Java code with repl.it
 [repl.it](https://repl.it/) is a free, web-based editor where you can write and run programs in multiple languages (and of course, Java is one of those).
 
@@ -23,4 +24,4 @@ Press the *create repl* button.
 
 You should see now the following page:
 
-![repl.it select language page](replit3.png)
+![repl.it editing page](replit3.png)

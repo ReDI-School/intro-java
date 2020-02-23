@@ -1,10 +1,9 @@
 ---
-title: "Teacher Notes Exercise 1" 
+title: "Teacher Notes Exercise 1"
 nav_exclude: true
-permalink: /lesson1/notes
 ---
 
-## Notes Exercise 1 
+## Notes Exercise 1
 Question 1 => well, just look at the initial hello world, make a guess what it does and run it
 
 Question 2 => hopefully, students understand that we have
@@ -26,7 +25,7 @@ Possibilities to go deeper here if wanted (or at some later point we might want 
 Question 1 to 3: how to print things (same line, new lines)
 Question 4: break things, see a compile error
 Question 5: students should see the need to write their code (for now) in main
-Question 6: leading to introducing comments 
+Question 6: leading to introducing comments
 
 ### Notes Exercise 3
 students should see that

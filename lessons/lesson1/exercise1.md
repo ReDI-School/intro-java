@@ -1,8 +1,10 @@
 ---
-title: "Exercise 1: Running a Java Program" 
-parent: First Steps with Java
+title: "Exercise 1: Running a Java Program"
+parent: 01 - First Steps with Java
+grand_parent: Lessons
 nav_order: 2
 ---
+
 # Exercise 1: Running a Java Program
 Please do this exercise in a group with other students.
 
@@ -15,7 +17,7 @@ You should have opened the [repl.it](https://repl.it/) website and created a new
 If not, please visit [this page](/replit) to find out how and come back here after that.
 
 ## Objective
-Goal of this exercise is to get an understanding of 
+Goal of this exercise is to get an understanding of
 * what things do you actually need do to write and run a Java program (the ingredients)
 * what actually needs to happen so that a Java program is run?
 

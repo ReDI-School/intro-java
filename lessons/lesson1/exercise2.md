@@ -1,8 +1,10 @@
 ---
-title: "Exercise 2: Your first code changes in a Java Program" 
-parent: First Steps with Java
+title: "Exercise 2: Your first code changes in a Java Program"
+parent: 01 - First Steps with Java
+grand_parent: Lessons
 nav_order: 3
 ---
+
 # Exercise 2: Your first code changes in a Java Program
 Please do this exercise in a group with other students.
 
@@ -20,7 +22,7 @@ class Main {
 }
 ```
 
-We have seen that it prints 
+We have seen that it prints
 ```bash
 Hello world!
 ```

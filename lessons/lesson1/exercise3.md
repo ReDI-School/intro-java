@@ -1,8 +1,10 @@
 ---
-title: "Exercise 3: Starting point of a Java Program" 
-parent: First Steps with Java
+title: "Exercise 3: Starting point of a Java Program"
+parent: 01 - First Steps with Java
+grand_parent: Lessons
 nav_order: 3
 ---
+
 # Exercise 3: Starting point of a Java Program
 Please do this exercise in a group with other students.
 
@@ -69,9 +71,9 @@ class Main {
     System.out.println("Hello world2!");
   }
 }
-``` 
-  * Run your program. 
-  * Now change the word _Main_ (in the original) to something else again and run it. 
+```
+  * Run your program.
+  * Now change the word _Main_ (in the original) to something else again and run it.
   * Now change the word _main_ in the copy to something else again and run it.
 
 ## Observations

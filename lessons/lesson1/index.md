@@ -1,7 +1,7 @@
 ---
-title: First Steps with Java
-nav_order: 2
-permalink: /lesson1/
+title: 01 - First Steps with Java
+nav_order: 1
+parent: Lessons
 has_children: true
 ---
 

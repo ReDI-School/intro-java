@@ -15,16 +15,17 @@
 # in the templates via {{ site.myvariable }}.
 title: Intro to Java
 description: This is the homepage of the "Intro to Java" course at ReDI School
+footer_content: "Copyright &copy; 2020 <a href=\"https://www.redi-school.org\">ReDI School</a>."
 aux_links:
   "Code editor at repl.it":
     - "https://repl.it/"
-  "Glossary" :
-    - "glossary"  
+  "Glossary":
+    - "/glossary"
 
 # Build settings
 markdown: kramdown
 remote_theme: pmarsceill/just-the-docs
-exclude: 
+exclude:
    - exercises
    - libraries
    - meta
