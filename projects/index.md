@@ -1,6 +1,6 @@
 ---
 title: Projects
-nav_order: 4
+nav_order: 50
 permalink: /projects/
 has_children: true
 ---

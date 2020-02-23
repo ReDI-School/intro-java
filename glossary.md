@@ -1,6 +1,6 @@
 ---
 title: Glossary
-nav_order: 100
+nav_order: 60
 permalink: /glossary
 ---
 

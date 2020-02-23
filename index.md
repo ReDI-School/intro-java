@@ -1,7 +1,6 @@
 ---
 title: Home
-nav_order: 1
-permalink: /
+nav_order: 0
 ---
 
 ![ReDI School](redi_banner.png)
