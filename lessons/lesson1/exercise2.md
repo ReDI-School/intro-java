@@ -1,6 +1,6 @@
 ---
 title: "Exercise 2: Your first code changes in a Java Program"
-parent: 01 - First Steps with Java
+parent: 1 - First Steps with Java
 grand_parent: Lessons
 nav_order: 3
 ---

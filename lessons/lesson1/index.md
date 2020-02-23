@@ -1,5 +1,5 @@
 ---
-title: 01 - First Steps with Java
+title: 1 - First Steps with Java
 nav_order: 1
 parent: Lessons
 has_children: true
