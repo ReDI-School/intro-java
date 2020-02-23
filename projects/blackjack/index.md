@@ -6,8 +6,7 @@ nav_order: 1
 
 # Blackjack
 
-We want to implement this game:
-https://en.wikipedia.org/wiki/Blackjack
+We want to implement [Blackjack](https://en.wikipedia.org/wiki/Blackjack).
 
 ## What the game should do
 

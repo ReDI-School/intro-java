@@ -1,7 +1,6 @@
 ---
 title: Libraries
 nav_order: 2
-permalink: /libraries/
 has_children: true
 ---
 

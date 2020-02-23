@@ -6,8 +6,7 @@ nav_order: 2
 
 # Mastermind
 
-We want to implement this game:
-https://en.wikipedia.org/wiki/Mastermind_(board_game)
+We want to implement [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)).
 
 ## What the game should do
 

@@ -26,6 +26,6 @@ aux_links:
 markdown: kramdown
 remote_theme: pmarsceill/just-the-docs
 exclude:
-   - libraries
-   - meta
-   - projects
+  - libraries
+  - meta
+  - projects/tic-tac-toe
