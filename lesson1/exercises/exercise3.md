@@ -24,11 +24,6 @@ To be clear: starting point means where our program starts its execution
 ## Questions
 Try to do the exercises together within your group (in case of questions/problems => ask one of your teachers!)
 
-### NOTES (just FYI, will remove for class)
-students should see that
-* the main method is the entry point (and follows specific syntax)
-* and main method should be in class with same name as file
-
 ### Question 1
 Open a *Java* repl in [repl.it](https://repl.it/).
 
