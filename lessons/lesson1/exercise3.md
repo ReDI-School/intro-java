@@ -2,7 +2,7 @@
 title: "Exercise 3: Starting point of a Java Program"
 parent: 01 - First Steps with Java
 grand_parent: Lessons
-nav_order: 3
+nav_order: 4
 ---
 
 # Exercise 3: Starting point of a Java Program

@@ -2,3 +2,6 @@
 _site
 .sass-cache
 .jekyll-metadata
+
+# Additional temporary files
+.kate-swp
