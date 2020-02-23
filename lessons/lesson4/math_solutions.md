@@ -1,4 +1,11 @@
-# Solution to exercises: basic math
+---
+title: "Solutions: Math"
+nav_order: 2
+parent: 4 - Decision Statements
+grand_parent: Lessons
+---
+
+# Solutions: Math
 
 ## Decimal to binary
 

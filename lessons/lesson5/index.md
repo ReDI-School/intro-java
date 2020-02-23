@@ -2,6 +2,7 @@
 title: 5 - Loops
 nav_order: 5
 parent: Lessons
+has_children: true
 ---
 
 # Loops
@@ -13,5 +14,3 @@ parent: Lessons
 
 Material:
 - [Slides](https://drive.google.com/open?id=1rXD7s4BHbhagSCYkUmzy8VBnzEBWFUSoOUEWA01ZLlU)
-- [Exercises](exercises/if_loops.md)
-- [Solutions](exercises/if_loops_solution.md)

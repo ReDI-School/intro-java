@@ -1,4 +1,11 @@
-# Solution to exercises: using the Java standard library
+---
+title: "Solutions: Java Library"
+nav_order: 2
+parent: 9 - Using Classes
+grand_parent: Lessons
+---
+
+# Solutions: the Java Standard Library
 
 ## Using random number generators
 
@@ -186,7 +193,7 @@ import java.time.Period;
 class TimePassed {
 
     public static void main(String[] args) {
-        
+
         LocalDate myBirthday = LocalDate.of(1985, 4, 25);
         LocalDate today = LocalDate.now();
         Period myAge = myBirthday.until(today);

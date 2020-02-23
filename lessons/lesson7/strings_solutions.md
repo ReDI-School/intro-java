@@ -1,4 +1,11 @@
-# Solution to exercises: strings
+---
+title: "Solutions: Strings"
+nav_order: 2
+parent: 7 - Strings
+grand_parent: Lessons
+---
+
+# Solutions: Strings
 
 ### charAt(int index)
 

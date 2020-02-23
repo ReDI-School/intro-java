@@ -1,4 +1,11 @@
-# Exercises: using the school library
+---
+title: "Exercises: School Library"
+nav_order: 3
+parent: 9 - Using Classes
+grand_parent: Lessons
+---
+
+# Exercises: the School Library
 
 The school library contains 4 classes that model persons, among which there are students and teachers,
 and homework that teachers can assign to students and students can do.

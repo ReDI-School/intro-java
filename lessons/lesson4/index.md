@@ -2,6 +2,7 @@
 title: 4 - Decision Statements
 nav_order: 4
 parent: Lessons
+has_children: true
 ---
 
 # Decision Statements
@@ -20,5 +21,3 @@ parent: Lessons
 
 Material:
 - [Slides](https://drive.google.com/open?id=1lrUGGIwYULLqz-VFGDIhW06NajFyYJdFdp0_gfXCI64)
-- [Exercises](exercises/math.md)
-- [Solutions](exercises/math_solution.md)

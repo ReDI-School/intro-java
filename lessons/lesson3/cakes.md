@@ -1,9 +1,13 @@
-# Exercises: operators
+---
+title: "Exercise: Cakes"
+nav_order: 1
+parent: 3 - Operators
+grand_parent: Lessons
+---
 
-## Cakes
+# Exercise: Cakes
 
 Complete the code for the following problem.
-You can check the solution [here](operators_solution.md).
 
 ```java
 public static void main(String[] args) {

@@ -2,6 +2,7 @@
 title: 11 - Class Scope + this
 nav_order: 11
 parent: Lessons
+has_children: true
 ---
 
 # Class Scope and this
@@ -13,4 +14,3 @@ parent: Lessons
 
 Material:
 - [Slides](https://drive.google.com/open?id=1lhI3b7NsllHZxdo_jsa3D8SFG-M4GrIMqDabztrP3Zc)
-- [Exercise](exercises/implementing_car.md)

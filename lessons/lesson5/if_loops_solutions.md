@@ -1,4 +1,11 @@
-# Solution to exercises: if & loops
+---
+title: "Solutions: if + loops"
+nav_order: 2
+parent: 5 - Loops
+grand_parent: Lessons
+---
+
+# Solutions: if and loops
 
 ## Stars
 

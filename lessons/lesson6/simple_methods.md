@@ -1,4 +1,11 @@
-# Exercises: simple methods
+---
+title: "Exercises: Simple Methods"
+nav_order: 1
+parent: 6 - Methods + Scope
+grand_parent: Lessons
+---
+
+# Exercises: Simple Methods
 
 Please define, for each exercise:
 - parameters types and names, if any
@@ -35,7 +42,7 @@ E.g.:
 Write a method `public static int findClosestDivisibleNumber(int number, int divisor)` which finds the number
 which is divisible by another number and which is closest to another given number.
 
-E.g.: 
+E.g.:
 
 `Number given is 13. Given divisor is 5. Result shall be 10.`
 
@@ -79,13 +86,13 @@ Search on Google, if you need the formula.
 Use the `double` type, not `int`, for both parameter and return value.
 
 You'll need the constant π, the Greek Pi, that is approximately 3.14.
-It's better to use the Java constant `Math.PI` instead of typing directly `3.14` in the code. 
+It's better to use the Java constant `Math.PI` instead of typing directly `3.14` in the code.
 
 ## hypotenuse (Pythagoras' theorem)
 
 Write a method that calculates the hypotenuse of a right triangle, given the length of its sides.
 The hypotenuse is the side opposite the right angle.
-For more information, see https://en.wikipedia.org/wiki/Pythagorean_theorem. 
+For more information, see https://en.wikipedia.org/wiki/Pythagorean_theorem.
 Search on Google, if you need the formula.
 
 Use the `double` type, not `int`, for both parameters and return value.

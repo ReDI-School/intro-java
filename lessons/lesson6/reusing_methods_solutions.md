@@ -1,4 +1,11 @@
-# Solution to exercises: reusing methods
+---
+title: "Solutions: Reusing Methods"
+nav_order: 4
+parent: 6 - Methods + Scope
+grand_parent: Lessons
+---
+
+# Solutions: Reusing Methods
 
 ## Prime numbers
 
@@ -39,7 +46,7 @@ class PrimeNumbers {
 }
 ```
 
-The following are possible `main` methods that can be added to the class above. 
+The following are possible `main` methods that can be added to the class above.
 
 ### Finding a prime number manually
 

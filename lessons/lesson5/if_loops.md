@@ -1,4 +1,11 @@
-# Exercises: if & loops
+---
+title: "Exercises: if + loops"
+nav_order: 1
+parent: 5 - Loops
+grand_parent: Lessons
+---
+
+# Exercises: if and loops
 
 ## Stars
 
@@ -16,7 +23,7 @@ Change your program so that it accepts two numbers and prints a rectangle of sta
 ```text
 input: 4
 input: 3
-output: 
+output:
 * * * *
 * * * *
 * * * *
@@ -28,7 +35,7 @@ Write a program that, given a number as input, prints a triangle with that many 
 
 ```text
 input: 4
-output: 
+output:
 *
 * *
 * * *
@@ -39,7 +46,7 @@ and after this, invert the triangle:
 
 ```text
 input: 4
-output: 
+output:
 * * * *
 * * *
 * *
@@ -53,7 +60,7 @@ Write a program that, given two numbers as input, prints the border of a rectang
 ```text
 input: 4
 input: 5
-output: 
+output:
 * * * *
 *     *
 *     *

@@ -2,6 +2,7 @@
 title: 10 - Implementing Classes
 nav_order: 10
 parent: Lessons
+has_children: true
 ---
 
 # Implementing Classes

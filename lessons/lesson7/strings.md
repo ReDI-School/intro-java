@@ -1,13 +1,20 @@
-# Exercises: strings
+---
+title: "Exercises: Strings"
+nav_order: 1
+parent: 7 - Strings
+grand_parent: Lessons
+---
+
+# Exercises: Strings
 
 ## Looking at the Java reference documentation
 
 A reference is a technical documentation that explain all the capabilities available in a class or in a library.
-This exists also for every Java class. 
+This exists also for every Java class.
 
 - Google for `java string reference` to find the reference documentation of the `String` class
   or visit [](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html).
-- Try to find a method that does what you need, if it exists. 
+- Try to find a method that does what you need, if it exists.
 - Do not use the `Search` box on the website but the search of the browser.
 - Read the explanation and how it is used.
 - Use this information to solve the following exercises.
@@ -47,7 +54,7 @@ Output: Vanillepudding, Wirsing
 Write a program that reads two strings from the user and outputs if one word is the suffix (last part) of the other.
 
 ```text
-Input: 
+Input:
 Vanillepudding
 pudding
 Output: pudding is a suffix of Vanillepudding
@@ -58,7 +65,7 @@ Output: pudding is a suffix of Vanillepudding
 Write a program that reads two strings from the user and outputs if one is a part of the other.
 
 ```text
-Input: 
+Input:
 Vanillepuddingeis
 pudding
 Output: pudding is a part of Vanillepuddingeis
@@ -83,7 +90,7 @@ The code is:
 Write a program that reads two strings from the user and outputs if one word is the prefix (first part) of the other.
 
 ```text
-Input: 
+Input:
 Vanillepudding
 Vanille
 Output: Vanille is a prefix of Vanillepudding
@@ -94,7 +101,7 @@ Output: Vanille is a prefix of Vanillepudding
 Write a program that reads a string and a number from the input and splits the given string at the index of the number.
 
 ```text
-Input: 
+Input:
 Vanillepuddingeis
 7
 Output:
@@ -136,12 +143,12 @@ Output: Not equal
 Write a program that counts how many 'e's and how many 'u's are in the following text:
 
 ```text
-Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, 
+Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte,
 fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.
 ```
 
 To check you solution:
- 
+
 ```text
 There are 23 'e's and 7 'u's.
 ```
@@ -155,14 +162,14 @@ Write a method that reverses a string.
 Examples:
 
 - `java` -> `avaj`
-- `Hello world` --> `dlrow olleH` 
-- `ReDI is a great school!` -> `!loohcs taerg a si IDeR` 
+- `Hello world` --> `dlrow olleH`
+- `ReDI is a great school!` -> `!loohcs taerg a si IDeR`
 
 *HINT*: create an empty string, fill it and return it.
 
 ## Palindrome
 
-Write a method which checks if a word is a palindrome. 
+Write a method which checks if a word is a palindrome.
 
 A palindrome is a word which you can read from both sides (from left to right or from right to left)
 and you will get the same word.

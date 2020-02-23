@@ -1,4 +1,11 @@
-# Exercises: reusing methods
+---
+title: "Exercises: Reusing Methods"
+nav_order: 3
+parent: 6 - Methods + Scope
+grand_parent: Lessons
+---
+
+# Exercises: Reusing Methods
 
 ## Prime numbers
 
@@ -98,7 +105,7 @@ if a string has at least `lowerBound` digits.
 
 ### Check password validity
 
-Write a method `public static boolean isValidPassword(String password)` which checks if a password is a valid. 
+Write a method `public static boolean isValidPassword(String password)` which checks if a password is a valid.
 
 A password is valid if:
  - it is minimum 10 characters long

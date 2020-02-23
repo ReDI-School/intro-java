@@ -1,4 +1,11 @@
-# Exercises: using the Java standard library
+---
+title: "Exercises: Java Library"
+nav_order: 1
+parent: 9 - Using Classes
+grand_parent: Lessons
+---
+
+# Exercises: the Java Standard Library
 
 Java is provided with a standard library, that contains many classes that
 perform the most diverse tasks. `String`, `Scanner` are few of the many classes
@@ -125,7 +132,7 @@ Which day of the week was your birthday?
 
 ### Time passed between two dates
 
-Study the documentation and find if there's a way to obtain how many days, months and years separate two dates. 
+Study the documentation and find if there's a way to obtain how many days, months and years separate two dates.
 
 How old are you, exactly, today?
 
@@ -137,7 +144,7 @@ Signature:
 
 ```java
 public static LocalDate randomDay(int year) {
-    // Generate and return a new LocalDate    
+    // Generate and return a new LocalDate
 }
 ```
 

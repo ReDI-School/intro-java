@@ -1,4 +1,11 @@
-# Solution to exercises: simple methods
+---
+title: "Exercises: Simple Methods"
+nav_order: 2
+parent: 6 - Methods + Scope
+grand_parent: Lessons
+---
+
+# Solutions: Simple Methods
 
 ## addNumbers
 

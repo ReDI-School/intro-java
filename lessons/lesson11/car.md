@@ -1,8 +1,15 @@
-# Exercises: implementing a Car
+---
+title: "Exercise: Car"
+nav_order: 1
+parent: 11 - Class Scope + this
+grand_parent: Lessons
+---
+
+# Exercise: Car
 
 ## Car Simulation
 
-Write `Car` class. 
+Write `Car` class.
 A car is defined by:
 
 How much petrol the car can hold:
@@ -22,7 +29,7 @@ It returns a negative number if the tank overflows.
 The fuel goes into the tank, but the tank can not become more full than maxFuel.
 - `int refuel(int liters)`
 
-Driving uses fuel from the tank. How much fuel is used is defined by fuelPerKilometer. 
+Driving uses fuel from the tank. How much fuel is used is defined by fuelPerKilometer.
 The tank must never become more than empty `< 0`
 - `void drive(int kilometers)`
 
@@ -85,52 +92,3 @@ public class Main {
     }
 }
 ```
-
-# Exercise: Yahtzee
-
-In this exercise we want to implement the classes for a simple parlor game (in this cas Yatzee. see https://en.wikipedia.org/wiki/Yahtzee). We will not implement the whole game, but the first classes for storing the game state.
-
-## First Steps
-
-Following classes shall be created:
-
-### Needed classes
-#### Player
-Properties:
-- Name
-- PointSheet
-
-Methods:
-- public int getPoints()
-- public void print()
-- public PointSheet getPointSheet()
-
-#### PointSheet
-Properties:
-- ArrayList<PointSheetEntry> pointSheetEntries
-
-Method: 
-- public void addEntry(PointSheetEntry entry)
-- public int calculatePoints()
-- public void print()
-
-#### PointSheetEntry
-
-Properties:
-- String name
-- int points
-
-Method:
-- public void print()
-- public int getPoints()
-
-#### Game
-Properties:
-- ArrayList<Player> players
-
-Methods:
-- public void createPlayer(String name)
-- public void printPlayers()
-
-
-

@@ -1,4 +1,11 @@
-# Exercises: basic math
+---
+title: "Exercises: Math"
+nav_order: 1
+parent: 4 - Decision Statements
+grand_parent: Lessons
+---
+
+# Exercises: Math
 
 ## Decimal to binary
 
@@ -11,7 +18,7 @@ output: 101010
 
 Decimal to binary conversion:
 - Calculate `decimal_number / 2` and save the remainder for later
-    - The remainder is calculated with `%` (modulo) 
+    - The remainder is calculated with `%` (modulo)
 - The result is your new decimal_number
 - Redo until `decimal_number == 0`
 - The reverse of all remainders is the binary number
@@ -27,14 +34,14 @@ decimal_number = 42
  5 % 2 = 1
  2 % 2 = 0
  1 % 2 = 1
- 0 
- 
+ 0
+
 binary_number = 101010
 ```
 
 ## Calculator
 
-Write a program that emulates a calculator. 
+Write a program that emulates a calculator.
 
 It should support:
 - ```+``` (addition)
@@ -68,9 +75,9 @@ if ("hello".equals(a)) {
 }
 ```
 
-More features: 
+More features:
 1. Add looping to the calculator. Instead of exiting after the calculation it should ask the user if they want
-   to continue or quit. If the user enters `quit` the program stops. 
+   to continue or quit. If the user enters `quit` the program stops.
 2. Handle division by zero. As you might have noticed an input of `2/0` crashes the program. Handle that case.
 3. *DIFFICULT / EXTRA* Give the user the possibility to use the last result as one of the values in the next calculation.
 
@@ -87,7 +94,7 @@ last
 Output: 12
 ```
 
-Hint: 
+Hint:
 
 ```java
 // How to convert a string to an integer
@@ -99,7 +106,7 @@ int b = Integer.parseInt(a);
 
 Write a method that, given an input n, calculates the first n numbers of the fibonacci sequence.
 
-The fibonacci sequence is defines as: 
+The fibonacci sequence is defines as:
 
 ```text
 fib(1) = 1

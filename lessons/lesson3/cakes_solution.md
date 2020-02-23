@@ -1,6 +1,13 @@
-# Solutions to exercises: operators
+---
+title: "Solution: Cakes"
+nav_order: 2
+parent: 3 - Operators
+grand_parent: Lessons
+---
 
-## Cakes
+# Solution: Cakes
+
+Here's the solution.
 
 ```java
 public static void main(String[] args) {

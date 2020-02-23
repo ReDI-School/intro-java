@@ -1,14 +1,20 @@
+---
+title: Answers
+nav_order: 2
+parent: Mid-semester Review
+---
+
 # Answers
 
 1. Long
 
-width minimum maximum 
+width minimum maximum
 
-byte: 8 bit -128 +127 
+byte: 8 bit -128 +127
 
-short: 16 bit -32.768 +32.767 
+short: 16 bit -32.768 +32.767
 
-int: 32 bit -2.147.483.648 +2.147.483.647 
+int: 32 bit -2.147.483.648 +2.147.483.647
 
 long: 64 bit -9.223.372.036.854.775.808 +9.223.372.036.854.775.807
 
@@ -59,18 +65,18 @@ z++; adds one to the value of z.
 z = 14 + 1 = 15.
 
 22.
-5 <= x && x <= 10 
+5 <= x && x <= 10
 4 < x && !(x > 10)
 !(x < 5 || 10 < x)
 
 Explanation:
 <, <=, >, and >= must go between 2 numbers (operands). You cannot reuse a number between 2 expressions like this: 5 <= x <= 10
- 
+
 ≤ is not an operator in Java, it has two symbols <=.
- 
-To understand the other choices, bear in mind that && should read as and and || as or. It also helps to associate && with set intersection ∩, || with set union ∪, and ! with set complement.
- 
- 
+
+To understand the other choices, bear in mind that `&&` should read as and and `||` as or. It also helps to associate `&&` with set intersection ∩, `||` with set union ∪, and `!` with set complement.
+
+
 If we want to know if a variable is in a specific range, for example (5,10] (meaning that it does not include 5 but it does include 10), we have to do the following:
 if( (x>5) && (x<=10) )
 {
@@ -80,48 +86,48 @@ The if can be defined in many different ways:
 if( !(x<=5) && (x<=10) )
 if( (x>5) && !(x>10) )
 and so on.
- 
+
 ! reverses the boolean value i.e changes from true to false.
- 
-23. 
- 
+
+23.
+
 public class Question23 {
- 
+
    //The method shall return -1 it the first number is the smaller one,
    // 0 if both number are equal and 1 if the second number is the smaller one.
    public static int compare(double number1, double number2){
        if(number1 < number2){
            return -1;
        }
- 
+
        if(number2 < number1){
            return 1;
        }
- 
+
        return 0; //we must have at least 1 return statement outside of an if
    }
- 
+
    public static void main(String args[]){
        System.out.println(compare(1,1)); //should print 0
        System.out.println(compare(1,2)); //should print -1
        System.out.println(compare(2,1)); //should print 1
    }
 }
- 
- 
+
+
 24.
- 
+
 public class Question24 {
    public static boolean isAdult(int age){
        boolean adult = false;
- 
+
        if(age >=18){
            adult = true;
        }
- 
+
        return adult;
    }
- 
+
    public static void canEnter(boolean isAdult){
        if(isAdult == true){
            System.out.println("Please enter");
@@ -130,32 +136,32 @@ public class Question24 {
            System.out.println("You have to stay outside");
        }
    }
- 
+
    public static void main(String args[]){
        boolean permission = isAdult(17);
        canEnter(permission);
    }
 }
- 
- 
-25. 
- 
+
+
+25.
+
 public class Question25 {
- 
+
    public static void main(String[] args)
    {
        // write your code here
        boolean ageAllowed = isAdult(17, "Germany");
        canEnter(ageAllowed);
    }
- 
+
    public static boolean isAdult(int age, String country) {
        if (age > getMinAdultAge(country)) {
            return true;
        }
        return false;
    }
- 
+
    public static int getMinAdultAge(String country)
    {
        if (country.equals("America"))
@@ -170,7 +176,7 @@ public class Question25 {
            return 18;
        }
    }
- 
+
    public static void canEnter(boolean isAdultAge)
    {
        if (isAdultAge == true)
@@ -183,21 +189,21 @@ public class Question25 {
        }
    }
 }
- 
+
 26.
- 
+
 public class Question26 {
    public static double calculateCircleArea(double radius){
        //we can use the Java Math library for the value of Pi
        return Math.PI * radius * radius;
    }
- 
+
    public static double calculateCylinderVolume(double radius, double height){
        return calculateCircleArea(radius) * height;
    }
- 
+
    public static void main(String[] args){
        System.out.println( calculateCylinderVolume(5, 3.1) );
    }
 }
- 
+
