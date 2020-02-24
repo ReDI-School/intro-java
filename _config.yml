@@ -24,7 +24,7 @@ aux_links:
 
 # Build settings
 markdown: kramdown
-remote_theme: pmarsceill/just-the-docs
+remote_theme: ReDI-School/jekyll-theme-redischool@redi-customizations
 exclude:
   - libraries
   - meta
