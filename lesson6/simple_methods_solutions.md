@@ -1,5 +1,5 @@
 ---
-title: "Exercises: Simple Methods"
+title: "Solutions: Simple Methods"
 nav_order: 2
 parent: 6 - Methods + Scope
 ---

@@ -8,4 +8,4 @@ The website is visible at:
 
   **https://redi-school.github.io/intro-java**
 
-TODO: complete with reference to the main sectons and how to build the documentation locally
+TODO: complete with reference to the main sections and how to build the documentation locally
