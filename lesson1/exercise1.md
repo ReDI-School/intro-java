@@ -10,6 +10,9 @@ Please do this exercise in a group with other students.
 Go through the questions and discuss the answers within your group.
 Write them down/remember them to share later with the class.
 
+1. TOC
+{:toc}
+
 ## Precondition
 You should have opened the [repl.it](https://repl.it/) website and created a new *Java* repl (do not yet change things).
 
