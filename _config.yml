@@ -20,7 +20,7 @@ aux_links:
   "Code editor at repl.it":
     - "https://repl.it/"
   "Glossary":
-    - "/glossary"
+    - "/intro-java/glossary"
 
 # Build settings
 markdown: kramdown
