@@ -1,6 +1,7 @@
 ---
 title: 2 - Data Types
 nav_order: 2
+has_children: true
 ---
 
 # Data Types

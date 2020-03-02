@@ -1,6 +1,7 @@
 ---
 title: "Exercise 4: Numbers & Compatibility"
-nav_exclude: true
+nav_order: 4
+parent: 2 - Data Types
 ---
 
 # Exercise 4: Numbers & Compatibility

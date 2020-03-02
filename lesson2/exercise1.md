@@ -1,6 +1,7 @@
 ---
 title: "Exercise 1: Strings & Numbers"
-nav_exclude: true
+nav_order: 1
+parent: 2 - Data Types
 ---
 
 # Exercise 1: Strings & Numbers

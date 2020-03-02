@@ -1,6 +1,7 @@
 ---
 title: "Exercise 3: More on Assignments"
-nav_exclude: true
+nav_order: 3
+parent: 2 - Data Types
 ---
 
 # Exercise 3: More on Assignments

@@ -1,9 +1,10 @@
 ---
-title: "Exercise 2: Boolean datatype"
-nav_exclude: true
+title: "Exercise 2: Boolean Type"
+nav_order: 2
+parent: 2 - Data Types
 ---
 
-# Exercise 2: Boolean datatype
+# Exercise 2: Boolean Type
 Please do this exercise in a group with other students.
 
 Go through the questions and discuss the answers within your group.
