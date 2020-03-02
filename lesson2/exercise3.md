@@ -63,9 +63,9 @@ class Main {
 
 what does the program print?
 
-What can you write instead of _i += 5_ that will get the same result?
+What can you write instead of `i += 5` that will get the same result?
 
-Can you guess how you can do something similar for all mathematical operations (substraction, multiplication, division)
+Can you guess how you can do something similar for all mathematical operations (subtraction, multiplication, division)
 
 ### Question 3
 Given the following code:
@@ -84,6 +84,6 @@ class Main {
 
 what does the program print?
 
-What can you write instead of _i++_ that will get the same result?
+What can you write instead of `i++` that will get the same result?
 
-Can you do something similar for all mathematical operations (substraction, multiplication, division)
+Can you do something similar for all mathematical operations (subtraction, multiplication, division)

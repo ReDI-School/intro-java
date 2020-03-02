@@ -29,7 +29,7 @@ what are the possible values a boolean can have?
 ### Question 2
 Let's meet the first operator we can use with one boolean:
 
-this is the **!** operator
+this is the **`!`** operator (exclamation mark)
 
 ```java
 class Main {
@@ -40,38 +40,38 @@ class Main {
 }
 ``` 
 
-Try to find out what the **!** operator does by assigning different values to _b_
+Try to find out what the **!** operator does by assigning different values to `b`.
 
 ### Question 2
 Let's meet another operator we can use with two booleans:
 
-this is the **|** operator
+this is the **`||`** operator (two vertical bars)
 
 ```java
 class Main {
   public static void main(String[] args) {
       boolean a = ?;
       boolean b = ?;
-      System.out.println(a | b);
+      System.out.println(a || b);
   }
 }
 ``` 
 
-Try to find out what the **|** operator does by assigning different values to _a_ and _b_
+Try to find out what the **`||`** operator does by assigning different values to `a` and `b`.
 
 ### Question 3
 Let's meet another operator we can use with two booleans:
 
-this is the **&** operator
+this is the **&&** operator (two ampersands)
 
 ```java
 class Main {
   public static void main(String[] args) {
       boolean a = ?;
       boolean b = ?;
-      System.out.println(a & b);
+      System.out.println(a && b);
   }
 }
 ``` 
 
-Try to find out what the **&** operator does by assigning different values to _a_ and _b_
+Try to find out what the **`&&`** operator does by assigning different values to `a` and `b`.

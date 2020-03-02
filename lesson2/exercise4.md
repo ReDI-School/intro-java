@@ -14,7 +14,7 @@ Write them down/remember them to share later with the class.
 {:toc}
 
 ## Objective
-In Java, we have several number types that allow to express different kind of numbers (numbers of different sizes & precisions).
+In Java, we have several number types that allow to express different kind of numbers (numbers of different sizes and precisions).
 In this exercise, we'll see how these types are compatible with each other.
 
 ## Questions
@@ -37,7 +37,7 @@ class Main {
 }
 ``` 
 
-we have two possible definitions of the variable _i2_.
+we have two possible definitions of the variable `i2`.
 
 Try to run the program twice, each time with one definition used.
 
@@ -59,7 +59,7 @@ class Main {
       System.out.println(l2);
   }
 }
-``` 
+```
 
 What do you think the program will print?
 
@@ -79,7 +79,7 @@ class Main {
       System.out.println(l2);
   }
 }
-``` 
+```
 
 and compare what with result of the first one.
 
@@ -97,10 +97,10 @@ class Main {
       System.out.println(l4);
 
       int i4 = l4;
-      System.out.println(i4)
+      System.out.println(i4);
   }
 }
-``` 
+```
 
 What happens if you run the program?
 
@@ -118,10 +118,11 @@ class Main {
       System.out.println(l4);
 
       int i4 = (int)l4;
-      System.out.println(i4)
+      System.out.println(i4);
   }
 }
-``` 
+```
+
 What happens if you run the program?
 
 Can you guess what the small change compared to the previous program does?

@@ -17,7 +17,7 @@ Write them down/remember them to share later with the class.
 Goal of this exercise is to get a basic understanding of
 * how to work with Strings in Java to represent arbitrary text
 * how to work with numbers in Java
-* what is a variavle
+* what is a variable
 
 ## Questions
 Try to find the answers within your group (in case of questions/problems => ask one of your teachers!)
@@ -33,8 +33,9 @@ class Main {
   }
 }
 ```
+
 what do you think the code does?
-What does the first line in the _main_ method mean?
+What does the first line in the `main` method mean?
 
 ### Question 2
 Given the following code:
@@ -48,9 +49,11 @@ class Main {
   }
 }
 ``` 
+
 will it do the same as in question 2?
-can you assign a new String to _test_ after the print statement?
-if you print _test_ than again, what would be the output?
+
+Can you assign a new String to `test` after the print statement?
+if you print `test` than again, what would be the output?
 
 ### Question 3
 Java cannot only deal with text but also work with numbers.
@@ -87,11 +90,13 @@ class Main {
 
 ### Question 5
 If you have numbers, you should be able to also use them in mathematical operations.
+
 Can you guess how to write a program that does
 * addition
-* substraction
+* subtraction
 * multiplication
 * division
+
 of numbers?
 
 How would you assign the result of these operations to a variable and print it?
@@ -130,6 +135,7 @@ class Main {
   }
 }
 ```
+
 what will it print?
 
 what can you conclude from this?
