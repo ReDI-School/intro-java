@@ -31,6 +31,7 @@ This statement does two things:
 2. It assigns the value `2200` to `salary.
 
 In Java, each variable (and not only) **must** have a type.
+
 Statement like `a = 10` are not accepted. `int a = 10;` is the correct form to declare `a`.
 
 Variables are called so because we can change their value. In our example,
@@ -53,10 +54,10 @@ You're free to name a variable as you prefer. Please try to give it a name that 
 
 Rules:
 
-- Variable names should start with a letter, an underscore, or a currency character
+- Variable names should start with a letter, an underscore, or the `$` character.
 - Variable names cannot have spaces. 
 - longer names should have the format `dateOfBirth`: each word has a capital letter except the first. 
-- No special characters
+- No special characters.
 - No Java reserved words: `class`, `public`, `static`, `if`, `while`, `for`, `return`, ...
 
 ## Data types
@@ -83,7 +84,7 @@ You can use the following types to represent integer values:
 - `short` for non-fractional numbers from -65000 to +65000. (approx)
 - `byte` for non-fractional numbers from -128 to 127.
 
-*HINT*: always use `int` for integer numbers, unless there's a valid reason not to.
+HINT: **always use `int` for integer numbers**, unless there's a valid reason not to.
 
 ### Decimal Numbers
 
@@ -92,12 +93,12 @@ You can use the following types to represent decimal values:
 - `float` for fractional numbers (smaller precision).
 - `double` for fractional numbers (higher, _double_ precision).
 
-*HINT*: always use `double` for fractional numbers, and always use dot `.`
+HINT: **always use `double` for fractional numbers**, and always use dot `.`
 to separate the decimal part from the fractional part:
 
 Example: `3.1415`, not `3,1415`.
 
-*HINT*: use always use `int` for numbers, unless you know the concept
+HINT: **use always use `int` for numbers**, unless you know the concept
 you're trying to represent with a variable is fractional, then use `double`.
 
 Examples:
@@ -125,7 +126,7 @@ Examples:
 - `boolean speaksEnglish = true;`
 - `boolean speaksGerman = true;` or `false`, but not `ein bisschen`.
 
-### String
+### Text
 
 For text, use `String`.
 
@@ -144,7 +145,7 @@ The type `char` is used to represent single characters:
 
 - `char initial = 'M';`
 
-*NOTE*: `String` is written uppercase and text is enclosed in double quotes `"`.
+NOTE: `String` is written uppercase and text is enclosed in double quotes `"`.
 `char` is written lowercase, and characters are enclosed in single quotes `'`.
 
 ## Printing experiments
@@ -166,7 +167,7 @@ class Main {
 }
 ```
 
-You can print more than strings. You can print any value of any data type
+You can print more than strings. You can print any value of any data type.
 
 What will the following code print?
 
