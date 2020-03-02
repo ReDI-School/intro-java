@@ -42,7 +42,7 @@ class Main {
 
 Try to find out what the **!** operator does by assigning different values to `b`.
 
-### Question 2
+### Question 3
 Let's meet another operator we can use with two booleans:
 
 this is the **`||`** operator (two vertical bars)
@@ -59,7 +59,7 @@ class Main {
 
 Try to find out what the **`||`** operator does by assigning different values to `a` and `b`.
 
-### Question 3
+### Question 4
 Let's meet another operator we can use with two booleans:
 
 this is the **&&** operator (two ampersands)
