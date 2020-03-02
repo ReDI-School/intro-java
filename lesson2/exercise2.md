@@ -33,10 +33,10 @@ this is the **`!`** operator (exclamation mark)
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      boolean b = ?;
-      System.out.println(!b);
-  }
+    public static void main(String[] args) {
+        boolean b = ?;
+        System.out.println(!b);
+    }
 }
 ``` 
 
@@ -49,11 +49,11 @@ this is the **`||`** operator (two vertical bars)
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      boolean a = ?;
-      boolean b = ?;
-      System.out.println(a || b);
-  }
+    public static void main(String[] args) {
+        boolean a = ?;
+        boolean b = ?;
+        System.out.println(a || b);
+    }
 }
 ``` 
 
@@ -66,11 +66,11 @@ this is the **&&** operator (two ampersands)
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      boolean a = ?;
-      boolean b = ?;
-      System.out.println(a && b);
-  }
+    public static void main(String[] args) {
+        boolean a = ?;
+        boolean b = ?;
+        System.out.println(a && b);
+    }
 }
 ``` 
 

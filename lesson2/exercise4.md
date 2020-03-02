@@ -25,15 +25,15 @@ Given the following program:
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      int i = 2000000000;
-      System.out.println(i);
-
-      //int i2 = 4000000000;
-      //int i2 = i * 2;
-
-      System.out.println(i2);
-  }
+    public static void main(String[] args) {
+        int i = 2000000000;
+        System.out.println(i);
+        
+        // int i2 = 4000000000;
+        // int i2 = i * 2;
+        
+        System.out.println(i2);
+    }
 }
 ``` 
 
@@ -48,16 +48,16 @@ Given the following program:
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      int i = 2000000000;
-      System.out.println(i);
-
-      long l1 = 4000000000;
-      long l2 = i * 2;
-
-      System.out.println(l1);
-      System.out.println(l2);
-  }
+    public static void main(String[] args) {
+        int i = 2000000000;
+        System.out.println(i);
+        
+        long l1 = 4000000000;
+        long l2 = i * 2;
+        
+        System.out.println(l1);
+        System.out.println(l2);
+    }
 }
 ```
 
@@ -69,15 +69,15 @@ Now run the following program
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      int i = 2000000000;
-      System.out.println(i);
-
-      long l1 = i;
-      long l2 = l1 * 2;
-
-      System.out.println(l2);
-  }
+    public static void main(String[] args) {
+        int i = 2000000000;
+        System.out.println(i);
+        
+        long l1 = i;
+        long l2 = l1 * 2;
+        
+        System.out.println(l2);
+    }
 }
 ```
 
@@ -90,15 +90,15 @@ Given the following program
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      int j = 1;
-      long l4 = j;
-      System.out.println(j);
-      System.out.println(l4);
-
-      int i4 = l4;
-      System.out.println(i4);
-  }
+    public static void main(String[] args) {
+        int j = 1;
+        long l4 = j;
+        System.out.println(j);
+        System.out.println(l4);
+        
+        int i4 = l4;
+        System.out.println(i4);
+    }
 }
 ```
 
@@ -111,15 +111,15 @@ Given the same program from Question 3 but with a small change
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      int j = 1;
-      long l4 = j;
-      System.out.println(j);
-      System.out.println(l4);
-
-      int i4 = (int)l4;
-      System.out.println(i4);
-  }
+    public static void main(String[] args) {
+        int j = 1;
+        long l4 = j;
+        System.out.println(j);
+        System.out.println(l4);
+        
+        int i4 = (int)l4;
+        System.out.println(i4);
+    }
 }
 ```
 

@@ -27,10 +27,10 @@ Given the following code:
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      String test = "Hello World!";
-      System.out.println(test);
-  }
+    public static void main(String[] args) {
+        String test = "Hello World!";
+        System.out.println(test);
+    }
 }
 ```
 
@@ -42,11 +42,11 @@ Given the following code:
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      String test;
-      test = "Hello World!";
-      System.out.println(test);
-  }
+    public static void main(String[] args) {
+        String test;
+        test = "Hello World!";
+        System.out.println(test);
+    }
 }
 ``` 
 
@@ -61,12 +61,12 @@ Java cannot only deal with text but also work with numbers.
 The following code snippet shows you the most common types for numbers in Java:
 ```java
 class Main {
-  public static void main(String[] args) {
-      int i = ?
-      long l = ?
-      float f = ?
-      double d = ?
-  }
+    public static void main(String[] args) {
+        int i = ?
+        long l = ?
+        float f = ?
+        double d = ?
+    }
 }
 ``` 
 do you have an idea, with what you can/need to replace each question mark?
@@ -77,14 +77,14 @@ Which of these statements are invalid and why?
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      int i = "3";
-      String f = 4;
-      int j = 5;
-      f = j;
-      String g = j;
-      j = "4";
-  }
+    public static void main(String[] args) {
+        int i = "3";
+        String f = 4;
+        int j = 5;
+        f = j;
+        String g = j;
+        j = "4";
+    }
 }
 ``` 
 
@@ -106,10 +106,10 @@ Given the following snippet
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      String a = "A";
-      String b = "B";
-  }
+    public static void main(String[] args) {
+        String a = "A";
+        String b = "B";
+    }
 }
 ``` 
 
@@ -125,14 +125,14 @@ Given the following program
 
 ```java
 class Main {
-  public static void main(String[] args) {
-    int i = 1;
-    int j = 2;
-    String k = "a";
-    System.out.println(i + j + k);
-    System.out.println(i + k + j);
-    System.out.println(k + i + j);
-  }
+    public static void main(String[] args) {
+        int i = 1;
+        int j = 2;
+        String k = "a";
+        System.out.println(i + j + k);
+        System.out.println(i + k + j);
+        System.out.println(k + i + j);
+    }
 }
 ```
 

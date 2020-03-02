@@ -26,17 +26,17 @@ Given the following code:
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      int i = 4;
-      int j = 2;
-
-      i = j + 1;
-      i = i * 2;
-      j = (j * j) + i;
-
-      System.out.println(i);
-      System.out.println(j);
-  }
+    public static void main(String[] args) {
+        int i = 4;
+        int j = 2;
+        
+        i = j + 1;
+        i = i * 2;
+        j = (j * j) + i;
+        
+        System.out.println(i);
+        System.out.println(j);
+    }
 }
 ``` 
 
@@ -51,13 +51,13 @@ Given the following code:
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      int i = 4;
-
-      i += 5;
-
-      System.out.println(i);
-  }
+    public static void main(String[] args) {
+        int i = 4;
+        
+        i += 5;
+        
+        System.out.println(i);
+    }
 }
 ``` 
 
@@ -72,13 +72,13 @@ Given the following code:
 
 ```java
 class Main {
-  public static void main(String[] args) {
-      int i = 4;
-
-      i++;
-
-      System.out.println(i);
-  }
+    public static void main(String[] args) {
+        int i = 4;
+        
+        i++;
+        
+        System.out.println(i);
+    }
 }
 ``` 
 
