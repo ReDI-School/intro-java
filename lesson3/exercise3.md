@@ -1,10 +1,10 @@
 ---
-title: "Exercise 3: More on Assignments"
+title: "Exercise 3: Operators and Assignments"
 nav_order: 3
-parent: 2 - Data Types
+parent: 3 - Operators
 ---
 
-# Exercise 3: More on Assignments
+# Exercise 3: Operators and Assignments
 Please do this exercise in a group with other students.
 
 Go through the questions and discuss the answers within your group.

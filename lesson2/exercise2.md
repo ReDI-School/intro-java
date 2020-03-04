@@ -1,10 +1,10 @@
 ---
-title: "Exercise 2: Boolean Type"
+title: "Exercise 2: Numbers & Compatibility"
 nav_order: 2
 parent: 2 - Data Types
 ---
 
-# Exercise 2: Boolean Type
+# Exercise 2: Numbers & Compatibility
 Please do this exercise in a group with other students.
 
 Go through the questions and discuss the answers within your group.
@@ -14,64 +14,119 @@ Write them down/remember them to share later with the class.
 {:toc}
 
 ## Objective
-Goal of this exercise is to get a basic understanding of
-* how to work with booleans in Java
+In Java, we have several number types that allow to express different kind of numbers (numbers of different sizes and precisions).
+In this exercise, we'll see how these types are compatible with each other.
 
 ## Questions
 Try to find the answers within your group (in case of questions/problems => ask one of your teachers!)
 
 ### Question 1
-Now try again the comparisons you did in the last question of exercise 1 and assign them to a boolean variable.
+Given the following program:
 
-Print the variable and look at the result: 
-what are the possible values a boolean can have?
+```java
+class Main {
+    public static void main(String[] args) {
+        int i = 2000000000;
+        System.out.println(i);
+        
+        // int i2 = 4000000000;
+        // int i2 = i * 2;
+        
+        System.out.println(i2);
+    }
+}
+``` 
+
+we have two possible definitions of the variable `i2`.
+
+Try to run the program twice, each time with one definition used.
+
+Can you explain what happens?
 
 ### Question 2
-Let's meet the first operator we can use with one boolean:
-
-this is the **`!`** operator (exclamation mark)
+Given the following program:
 
 ```java
 class Main {
     public static void main(String[] args) {
-        boolean b = ?;
-        System.out.println(!b);
+        int i = 2000000000;
+        System.out.println(i);
+        
+        long l1 = 4000000000;
+        long l2 = i * 2;
+        
+        System.out.println(l1);
+        System.out.println(l2);
     }
 }
-``` 
+```
 
-Try to find out what the **!** operator does by assigning different values to `b`.
+What do you think the program will print?
+
+Run the program and validate your assumptions.
+
+Now run the following program
+
+```java
+class Main {
+    public static void main(String[] args) {
+        int i = 2000000000;
+        System.out.println(i);
+        
+        long l1 = i;
+        long l2 = l1 * 2;
+        
+        System.out.println(l2);
+    }
+}
+```
+
+and compare what with result of the first one.
+
+What can you conclude (hint: think about how assignments work)?
 
 ### Question 3
-Let's meet another operator we can use with two booleans:
-
-this is the **`||`** operator (two vertical bars)
+Given the following program
 
 ```java
 class Main {
     public static void main(String[] args) {
-        boolean a = ?;
-        boolean b = ?;
-        System.out.println(a || b);
+        int j = 1;
+        long l4 = j;
+        System.out.println(j);
+        System.out.println(l4);
+        
+        int i4 = l4;
+        System.out.println(i4);
     }
 }
-``` 
+```
 
-Try to find out what the **`||`** operator does by assigning different values to `a` and `b`.
+What happens if you run the program?
+
+Can you explain the outcome?
 
 ### Question 4
-Let's meet another operator we can use with two booleans:
-
-this is the **&&** operator (two ampersands)
+Given the same program from Question 3 but with a small change
 
 ```java
 class Main {
     public static void main(String[] args) {
-        boolean a = ?;
-        boolean b = ?;
-        System.out.println(a && b);
+        int j = 1;
+        long l4 = j;
+        System.out.println(j);
+        System.out.println(l4);
+        
+        int i4 = (int)l4;
+        System.out.println(i4);
     }
 }
-``` 
+```
 
-Try to find out what the **`&&`** operator does by assigning different values to `a` and `b`.
+What happens if you run the program?
+
+Can you guess what the small change compared to the previous program does?
+
+
+
+

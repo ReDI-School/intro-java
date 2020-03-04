@@ -1,6 +1,6 @@
 ---
 title: "Solution: Cakes"
-nav_order: 2
+nav_order: 5
 parent: 3 - Operators
 ---
 
