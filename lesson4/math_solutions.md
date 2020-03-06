@@ -1,6 +1,6 @@
 ---
 title: "Solutions: Math"
-nav_order: 2
+nav_order: 3
 parent: 4 - Decision Statements
 ---
 

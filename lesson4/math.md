@@ -1,6 +1,6 @@
 ---
 title: "Exercises: Math"
-nav_order: 1
+nav_order: 2
 parent: 4 - Decision Statements
 ---
 
