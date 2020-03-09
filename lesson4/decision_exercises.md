@@ -61,14 +61,25 @@ Hint: use the `Scanner` to get user input.
 Write a small program, which asks the user for their family name and their gender.
 
 Print the options to the screen.
+
+```text
 1 -> male
 2 -> female
+```
 
 Depending on the user input, print to the screen:
 
-**"Hello Lady FAMILY NAME"** or **"Hello Mister FAMILY NAME"**
+```text
+Hello Lady FAMILY NAME
+```
 
-**FAMILY NAME** should be replaced by the given name of the user.
+or:
+
+```text
+Hello Mister FAMILY NAME
+```
+
+*FAMILY NAME* should be replaced by the given name of the user.
 
 The output should look similar to this:
 
