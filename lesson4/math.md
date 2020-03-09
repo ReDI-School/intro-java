@@ -1,7 +1,7 @@
 ---
 title: "Exercises: Math"
 nav_order: 4
-parent: 4 - Decision Statements
+parent: 4 - Input + Decision
 ---
 
 # Exercises: Math

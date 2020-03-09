@@ -1,7 +1,7 @@
 ---
 title: "Solutions: Math"
 nav_order: 5
-parent: 4 - Decision Statements
+parent: 4 - Input + Decision
 ---
 
 # Solutions: Math

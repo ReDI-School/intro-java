@@ -1,10 +1,10 @@
 ---
-title: "Decision Statements - Exercises"
+title: "Decision Statements: Exercises"
 nav_order: 3
-parent: 4 - Decision Statements
+parent: 4 - Input + Decision
 ---
 
-# Decision Statements - Exercises
+# Decision Statements: Exercises
 
 The following exercises shall be used to practice the knowledge about decision statements to improve the understanding of this concept.
 
@@ -15,33 +15,33 @@ Write the things you found out down to share them later with the class.
 ## Exercise 1
 
 ```java
-public class DecisionStatmentExercise1 {
+public class Exercise {
 
     public static void main(String[] args) {
 
         System.out.println("This is printed before the if statement");
          
-        if(true) {
+        if (true) {
             System.out.println("The condition is true.");
         }
 
         System.out.println("This is printed after the if statement");
-          
     }
 }
 ```
+
 What do you need to change so that the sentence **"The condition is true."** is not printed.
 
 ## Exercise 2
-```java
 
-public class HeighestPerson {
+```java
+public class TallestPerson {
 
     public static void main(String[] args) {
         int currentHeightInCm = 185;
         int newHeightInCm = 187;        
 
-        if(newHeightInCm > currentHeightInCm) {
+        if (newHeightInCm > currentHeightInCm) {
             currentHeightInCm = newHeightInCm;
         }
 
@@ -50,19 +50,21 @@ public class HeighestPerson {
 }
 ```
 
-Look at the program above, which is a part of the program we used to introduce programming in the first lesson to find the height of the tallest person in our group.
-Change the codeblock above so that the user will be asked for the height of the next person.
+Look at the program above, which is a part of the program we used to introduce programming in the first lesson
+to find the height of the tallest person in our group. Change the codeblock above so that the user
+will be asked for the height of the next person.
 
-Hint -> Scanner
+Hint: use the `Scanner` to get user input.
 
 ## Exercise 3
-Write a small program, which asks the user for his/her family name and his/her gender.
+
+Write a small program, which asks the user for their family name and their gender.
 
 Print the options to the screen.
 1 -> male
 2 -> female
 
-Depending on the input print to the screen:
+Depending on the user input, print to the screen:
 
 **"Hello Lady FAMILY NAME"** or **"Hello Mister FAMILY NAME"**
 
@@ -70,19 +72,20 @@ Depending on the input print to the screen:
 
 The output should look similar to this:
 
-```java
+```text
 Dear lovely user: Please tell me your family name
 Müller
 Are you male or female?
 1 -> male
-2 ->female
+2 -> female
 2
 Hello Lady Müller
 ```
 
-Bonus: If you want you can add an option if the user does not want to tell his gender!
+Bonus: If you want you can add an option if the user does not want to tell their gender!
 
 ## Exercise 4
+
 Write a small calculator!
 
 - Ask the user for 2 numbers
@@ -91,7 +94,7 @@ Write a small calculator!
 
 The output could look similar to this:
 
-```java
+```text
 4.2
 6.7
 Please specify an operation: 
@@ -101,10 +104,6 @@ Please specify an operation:
 4 -> /
 3
 Result of 4.2 * 6.7 is 28.14
-
 ```
 
 It is enough if you just print the result without the infotext. The infotext is an additional challenge!
-
-
-
