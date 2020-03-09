@@ -6,7 +6,7 @@ parent: 4 - Input + Decision
 
 # Exercises: Calculator
 
-Write a program that emulates a calculator. It's a more complete exercise to what was presented [previously](decision_exercises.md).
+Write a program that emulates a calculator. It's a more complete exercise to what was presented [previously](exercises_decision.md).
 
 It should support:
 - ```+``` (addition)
