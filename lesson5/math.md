@@ -1,7 +1,7 @@
 ---
 title: "Exercises: Math"
-nav_order: 4
-parent: 4 - Input + Decision
+nav_order: 3
+parent: 5 - Loops
 ---
 
 # Exercises: Math
@@ -38,70 +38,7 @@ decimal_number = 42
 binary_number = 101010
 ```
 
-## Calculator
-
-Write a program that emulates a calculator.
-
-It should support:
-- ```+``` (addition)
-- ```-``` (subtraction)
-- ```*``` (multiplication)
-- ```/``` (division)
-
-It accepts the operands and the operation on multiple lines.
-
-```text
-Input:
-3
-*
-2
-Output: 3 * 2 = 6
-```
-
-Hint:
-
-```java
-// String comparison works like this:
-Scanner scanner = new Scanner(System.in);
-String a = scanner.next();
-
-if (a.equals("hello")) {
-    System.out.println("Are equal");
-}
-
-if ("hello".equals(a)) {
-    System.out.println("Are equal");
-}
-```
-
-More features:
-1. Add looping to the calculator. Instead of exiting after the calculation it should ask the user if they want
-   to continue or quit. If the user enters `quit` the program stops.
-2. Handle division by zero. As you might have noticed an input of `2/0` crashes the program. Handle that case.
-3. *DIFFICULT / EXTRA* Give the user the possibility to use the last result as one of the values in the next calculation.
-
-```text
-Input:
-3
-*
-2
-Output: 3 * 2 = 6
-Input:
-last
-*
-2
-Output: 12
-```
-
-Hint:
-
-```java
-// How to convert a string to an integer
-String a = "42";
-int b = Integer.parseInt(a);
-```
-
-### Fibonacci *DIFFICULT / EXTRA*
+## Fibonacci *DIFFICULT / EXTRA*
 
 Write a method that, given an input n, calculates the first n numbers of the fibonacci sequence.
 
@@ -131,4 +68,4 @@ The 3rd number is 2 and 4th number is 3. Therefore the 5th number is 2+3=5
 ```
 
 You can solve this iterative (with a for loop) or recursive (without loops).
-A nice tutorial about recursion: https://www.geeksforgeeks.org/recursion
+A nice tutorial about recursion is available [here](https://www.geeksforgeeks.org/recursion).
