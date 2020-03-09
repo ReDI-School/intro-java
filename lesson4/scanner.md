@@ -28,19 +28,19 @@ public class ScannerExperiments {
 }
 ```
 
-Please first read through this piece of code: What do you expect will happen if the user types "Mario" on
+Please first read through this piece of code: What do you expect to happen if the user types "Mario" on
 the keyboard after they are asked for their name? Note the output you expect to be printed to the console.
 
 ## Exercise 2
 
-In the piece of code from "Exercise 1" you will find some lines where you will not completely understand what they do.
+In the piece of code from "Exercise 1" you will find some lines that you don't completely understand what they do.
 
 Note these lines. Can you imagine what these lines do? Maybe you already understand parts of it!
 Note your ideas!
 
 ## Exercise 3
 
-What do you think will be returned from the scanner if you use
+What do you think is returned from the `Scanner` named `input` if you use it this way?
 
 ```java
 input.nextInt();

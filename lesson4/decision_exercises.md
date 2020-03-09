@@ -1,10 +1,10 @@
 ---
-title: "Decision Statements: Exercises"
+title: "Exercises: Decision Statements"
 nav_order: 3
 parent: 4 - Input + Decision
 ---
 
-# Decision Statements: Exercises
+# Exercises: Decision Statements
 
 The following exercises shall be used to practice the knowledge about decision statements to improve the understanding of this concept.
 
@@ -52,7 +52,7 @@ public class TallestPerson {
 
 Look at the program above, which is a part of the program we used to introduce programming in the first lesson
 to find the height of the tallest person in our group. Change the codeblock above so that the user
-will be asked for the height of the next person.
+is asked for the height of the next person.
 
 Hint: use the `Scanner` to get user input.
 

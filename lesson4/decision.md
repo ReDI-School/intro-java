@@ -18,7 +18,7 @@ For this example we had to do different things:
 2. Get the height of the next person and compare this height with the height of the person, who is the tallest right now.
 3. If the new value is bigger than the old value, the old value has to be replaced by the height of the new person.
 
-In Java this sequence will look like this:
+In Java this sequence looks like this:
 
 ```java
 public class TallestPerson {
@@ -38,9 +38,7 @@ public class TallestPerson {
 
 Let's break this code fragment apart:
 
-### The three parts of an if-statement
-
-#### The if-keyword
+### The if-keyword
 
 If a block of code shall only be executed if a condition is `true` we have to use the `if`-statement.
 
@@ -52,7 +50,7 @@ if (<CONDITION>) {
 
 `if` is a keyword of the java language we just have to learn.
 
-#### The Condition
+### The Condition
 
 The condition of an `if`-statement has to be inside round parentheses. The <CONDITION> part has to be a boolean expression,
 which we already told you about in chapter "3 - Operators" -> "Exercise 2: Operators on Boolean Types".
@@ -98,7 +96,7 @@ if (expression) {
 }
 ```
 
-#### The Codeblock
+### The Codeblock
 
 The codeblock is only executed if the condition evaluates to true. The codeblock is encapsulated by the both curly
 parentheses `{` and `}`. As the codeblock of the main-method, the codeblock of an `if` statement can include the same statements.
@@ -108,8 +106,8 @@ codeblock are executed.
 Attention
 {: .label .label-red }
 
-If you add a semicolon directly after the `if`-condition, nothing will be executed even if the condition is true.
-But all code directly after the semicolon will always be executed.
+If you add a semicolon directly after the `if`-condition, nothing is executed even if the condition is true.
+But all code directly after the semicolon is always be executed.
 
 E.g.:
 
@@ -122,7 +120,7 @@ public class Attention {
 
         if(condition); // This is mistake, but compiler won't tell you
 
-        System.out.println("It does not matter if the condition evaluates to true or false: This text will be printed always!");
+        System.out.println("It does not matter if the condition evaluates to true or false: This text is always printed!");
     }
 }
 ```
@@ -151,8 +149,8 @@ public class StreamingPlatform {
 }
 ```
 
-Similar to the `if` statement, the `else`-block will be executed if the condition evaluates to false.
-All statements in the block will be executed.
+Similar to the `if` statement, the `else`-block is be executed if the condition evaluates to false.
+All statements in the block are executed.
 
 ## else if
 

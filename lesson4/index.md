@@ -4,11 +4,13 @@ nav_order: 4
 has_children: true
 ---
 
-# Input and Control Flow
+# Input and Decision Statements
 
 The main purpose of a program is reading some input, processing this input and returning the results of the processed steps.
 
-Until now we mainly focused on the output (printing some text to the screen). E.g.:
+Until now we mainly focused on the output (printing some text to the screen).
+
+Example:
 
 ```java
     System.out.println("Hello world!");
@@ -27,14 +29,14 @@ How to read input from the user is presented in chapter [Scanner](scanner.md).
 Depending on the users' input the program can behave differently. This is a major point in programming.
 This input dependent behaviour is called control flow.
 
-In the following sections we will mainly present the options which we can use to implement
+In the [following sections](decision.md) we will mainly present the options which we can use to implement
 control flow / behaviour of our program.
 
 This session focuses on decision statements! Decision statements are tightly connected to boolean expressions
 (see 3 - Operators -> Exercise 2: Operators on boolean types). This means that we can tell our program
 that some code shall or shall not be executed if a boolean expression is true.
 
-E.g.: if the shopping cart is empty, print "There are no items in your shopping cart!"
+Example: if the shopping cart is empty, print "There are no items in your shopping cart!"
 
 ```java
 boolean shoppingCartIsEmpty = true;
