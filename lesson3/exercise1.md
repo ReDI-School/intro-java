@@ -17,7 +17,7 @@ Write them down/remember them to share later with the class.
 Goal of this exercise is to get to know
 * how to mathematical operations with numbers in Java
 * how to concatenate Strings
-* how to comapre numbers
+* how to compare numbers
 
 ## Questions
 Try to find the answers within your group (in case of questions/problems => ask one of your teachers!)

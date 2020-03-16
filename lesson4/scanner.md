@@ -33,13 +33,6 @@ the keyboard after they are asked for their name? Note the output you expect to 
 
 ## Exercise 2
 
-In the piece of code from "Exercise 1" you will find some lines that you don't completely understand what they do.
-
-Note these lines. Can you imagine what these lines do? Maybe you already understand parts of it!
-Note your ideas!
-
-## Exercise 3
-
 What do you think is returned from the `Scanner` named `input` if you use it this way?
 
 ```java
@@ -52,14 +45,48 @@ instead of:
 input.nextLine(); 
 ```
 
-## Exercise 4
+Ask the user their name, surname, age and weight (in kilos, with a precision of 100g). Print the result.
 
-Can you program a line of code to get an integer of the user and store it in a variable?
+```java
+import java.util.Scanner;
 
-## Exercise 5
+public class ScannerExperiments {
 
-Can you imagine how to get a double value from a user?
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);    
 
-## Exercise 6
+        // Ask name, surname, age and weight. Print the result.
+    }
+}
+```
 
-Change the program from Exercise 1. To ask the user for their age. Print their age afterwards to the console!
+## Exercise 3
+
+A customer enters in a shop to buys some good. Let's say milk boxes.
+We simulate a simple cash register. The user is the cashier and uses
+our cash register to calculate the total price and the rest for the customer.
+
+Our cash register asks the cashier:
+
+- How many boxes the customer has bought.
+- The price for each box.
+- The amount of cash the customer gives to the cashier.
+
+The cash register prints the total and the rest.
+
+```java
+import java.util.Scanner;
+
+public class CashRegister {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);    
+
+        // Ask number of boxes
+        // Ask price per box
+        // Ask the amount the customer gives
+        // Calculate total and rest.
+        // Print total and rest.
+    }
+}
+```
