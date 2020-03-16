@@ -10,12 +10,12 @@ Another concept in the area of control flow are loops. Loops are used if your pr
 
 In Java there are several kinds of different loops:
 
-1. for
-2. while
-3. for each
-4. do while
+1. `for`
+2. `while`
+3. `do` ... `while`
+4. `for` each
 
-In this lesson, we will focus on the **for** and the **while** loop. Most of these loop types are interchangeable.
+In this lesson, we will focus on the `for` and the `while` loop. Most of these loop types are interchangeable.
 This means it does not really matter if you use a for or a while loop to solve your problem.
 If you want you it is even possible to convert a for loop into a while loop and the other way around.
 But in some cases and specially for better readability it is more applicable to use a for over a while loop and the other way around.
@@ -34,9 +34,9 @@ while (<CONDITION>) {
 
 Let's rip this block of code apart:
 
-1. Like the **if** statement the **while** keyword is a part of the Java language you just have to learn by heart
+1. Like the `if` statement the `while` keyword is a part of the Java language you just have to learn by heart
 2. Like you learned from the if statement the CONDITION is a boolean expression, which evaluates to true or false.
-3. The block between **{** and **}** CODE TO EXECUTE will be executed as long as the <CONDITION> evaluates to true.
+3. The block between `{` and `}` CODE TO EXECUTE will be executed as long as the CONDITION evaluates to true.
 
 An example for the use of a while loop could be a simple number guessing game:
 The game works like this:
@@ -80,18 +80,17 @@ public class NumberGuessingGame {
 The structure of a for loop is a little more complicated:
 
 ```java
-for (<INITIALIZATION>; <CONDITION>; <INCREMENTATION>) {
+for (<INITIALIZATION>; <CONDITION>; <INCREMENT>) {
     <CODE TO EXECUTE>
 }
-
 ```
 
-Where a **while** loop is mostly used to run statements until the condition changes to false **for** loops are often used
-to run the codeblock CODE TO EXECUTE between the **{** **}** for a given amount of times.
+Where a `while` loop is mostly used to run statements until the condition changes to false `for` loops are often used
+to run the codeblock CODE TO EXECUTE between the `{` and `}` for a given amount of times.
 For this kind of loop it needs to be specified where to start which is done in the INITIALIZATION part.
 When to stop is defined in the CONDITION part. This condition is equal to the while loop a boolean expression.
 Often this condition is a comparison between two numbers (for example the **counting variable** defined in the INITIALIZATION
-part and a limit). The value of the **counting variable** is increased in the INCREMENTATION part.
+part and a limit). The value of the **counting variable** is increased in the INCREMENT part.
 
 A very simple example for a for loop would be increasing an integer by 1 in every loop
 and printing the value of the **counting variable**:
@@ -173,9 +172,9 @@ public class TallestPerson {
 }
 ```
 
-This program will run once and compare the both numbers stored in **currentHeightInCm** and **newHeightInCm** and
-saves the largest of both numbers in the variable **currentHeightInCm**. When the program is finished the variable
-**currentHeightInCm** will contain the largest of these both numbers. So far so good.
+This program will run once and compare the both numbers stored in `currentHeightInCm` and `newHeightInCm` and
+saves the largest of both numbers in the variable `currentHeightInCm`. When the program is finished the variable
+`currentHeightInCm` will contain the largest of these both numbers. So far so good.
 This is a good base for out program but now we need to execute this statements for every person in our class.
 
 What we need to do:
@@ -217,11 +216,8 @@ public class TallestPersonEvaluator {
 }
 ```
 
-Mostly for loops are used in combination with collections like an ArrayList.
-What an ArrayList is and how two iterate over it using a for loop will be discussed in a later chapter.
-
-- `do/while`
-- shortened `for` (foreach)
+Mostly for loops are used in combination with collections like an `ArrayList`.
+What an `ArrayList` is and how two iterate over it using a `for` loop will be discussed in a later chapter.
 
 Material:
 - [Slides](https://drive.google.com/open?id=1rXD7s4BHbhagSCYkUmzy8VBnzEBWFUSoOUEWA01ZLlU)
