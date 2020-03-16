@@ -52,7 +52,7 @@ if (<CONDITION>) {
 
 ### The Condition
 
-The condition of an `if`-statement has to be inside round parentheses. The <CONDITION> part has to be a boolean expression,
+The condition of an `if`-statement has to be inside round parentheses. The CONDITION part has to be a boolean expression,
 which we already told you about in chapter "3 - Operators" -> "Exercise 2: Operators on Boolean Types".
 
 A boolean condition can have different forms:
