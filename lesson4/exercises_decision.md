@@ -32,6 +32,8 @@ public class Exercise {
 
 What do you need to change so that the sentence **"The condition is true."** is not printed.
 
+Be creative, and put any kind of expression that evaluates to false that come in your mind.
+
 ## Exercise 2
 
 ```java
@@ -93,6 +95,20 @@ Are you male or female?
 Hello Lady Müller
 ```
 
+Starting point:
+
+```java
+public class Greetings {
+
+    public static void main(String[] args) {
+   
+        // Ask for gender
+        // Ask for name
+        // Greet the user appropriately
+    }
+}
+```
+
 Bonus: If you want you can add an option if the user does not want to tell their gender!
 
 ## Exercise 4
@@ -118,3 +134,19 @@ Result of 4.2 * 6.7 is 28.14
 ```
 
 It is enough if you just print the result without the infotext. The infotext is an additional challenge!
+
+Starting point:
+
+```java
+public class SimpleCalculator {
+
+    public static void main(String[] args) {
+   
+        // Ask the user for the first number
+        // Ask the user for the second number
+        // Print the operations supported by the calculator
+        // Ask the user which operation they want to perform
+        // Print the result
+    }
+}
+```
