@@ -150,3 +150,41 @@ public class SimpleCalculator {
     }
 }
 ```
+
+## Exercise 5
+
+Write a small program that
+
+- asks the user to enter a year (e.g. 2012)
+- asks the user to enter a month (i.e. a number from 1 to 12)
+- and then prints the number of days in the month in the given year
+
+For example, for year 2012 and month 3 it should print 31
+(the tricky part is the february)
+
+Starting point:
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+   
+        // Ask the user for a year
+        // Ask the user for a month
+        // Print the number of days of the month in the given year
+    }
+}
+```
+
+## Exercise 6
+
+Write a small program that
+
+- asks user for two numbers
+- and prints of these two the number that is nearest to 21 without being greater 21
+- if both numbers are greater 21, print 0
+
+Examples:  
+Given 13 and 17, print 17  
+Given 15 and 22, print 15  
+Given 23 and 24, print 0  
