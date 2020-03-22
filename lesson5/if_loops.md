@@ -6,7 +6,78 @@ parent: 5 - Loops
 
 # Exercises: if and loops
 
-## Stars
+## Exercise 1: Multiplication Table
+
+1. Read a one number with Scanner
+2. Print the multiplication table of the number from 1 till 10, e.g:
+
+```text
+Input: 2
+Output:
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20
+```
+
+## Exercise 2: Dividable numbers
+
+1. Read two numbers with Scanner
+2. Print each number from 1 to the first entered number that is dividable by the second number, e.g.:
+```text
+First: 16
+Second: 5
+Output:
+5 is dividable by 5
+10 is dividable by 5
+15 is dividable by 5
+```
+
+## Exercise 3: Bank Account
+
+1. Your program should start with a variable holding current money on user's bank account (start with e.g. 100)
+2. User should now enter an amount
+3. and he should enter if he wants to deposit to his account or if he wants to withdraw (e.g. 1 for deposit, 2 for withdrawal)
+4. Variable holding money on account should be updated accordingly and current money should be printed.
+5. Program should run and let user interact until the money on his account is zero or less.
+
+Example:
+```text
+Current money on account: 100
+Enter amount:
+30
+Enter 1 for deposit, 2 for withdrawal
+2
+Current money on account: 70
+Enter amount:
+60
+Enter 1 for deposit, 2 for withdrawal
+2
+Current money on account: 10
+Enter amount:
+20
+Enter 1 for deposit, 2 for withdrawal
+1
+Current money on account: 30
+Enter amount:
+30
+Enter 1 for deposit, 2 for withdrawal
+2
+You have no money left, program stopped ...
+```
+
+## Exercise 4: FizzBuzz
+
+Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number
+and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+## Exercise 5: Stars
 
 ### Lines and rectangles
 
@@ -66,33 +137,3 @@ output:
 *     *
 * * * *
 ```
-
-## Multiply
-
-1. Read a number with Scanner, `multiplicand`.
-2. Create a method `printMuliply` which prints multiplication based on 2 input arguments, eg. `printMultiply(2,8)`
-   would print  `2 x 8 = 16` on the console.
-3. Call the above method from a loop and print the times table of the multiplicand, multiples of it from 1 to 10.
-
-```text
-Input: 2
-Output:
-2 x 1 = 2
-2 x 2 = 4
-2 x 3 = 6
-2 x 4 = 8
-2 x 5 = 10
-2 x 6 = 12
-2 x 7 = 14
-2 x 8 = 16
-2 x 9 = 18
-2 x 10 = 20
-```
-
-4. *EXTRA*: create a new method `getMultiplyString` which returns the above line, like `2 x 8 = 16` without printing it,
-  and change the main to use this method and have the same output as above.
-
-## FizzBuzz
-
-Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number
-and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
