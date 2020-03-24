@@ -1,6 +1,7 @@
 ---
 title: "Solutions: Decision Statements"
-nav_exclude: true
+nav_order: 4
+parent: 4 - Input + Decision
 ---
 Note: there are multiple ways how to solve the exercises, these solutions are just one way.
 

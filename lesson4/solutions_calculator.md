@@ -1,6 +1,6 @@
 ---
 title: "Solutions: Calculator"
-nav_order: 5
+nav_order: 6
 parent: 4 - Input + Decision
 ---
 
