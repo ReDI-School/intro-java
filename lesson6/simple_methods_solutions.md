@@ -138,6 +138,14 @@ public static double areaOfCircle(double radius) {
 }
 ```
 
+## circleCircumference
+
+```java
+public static double circleCircumference(double r) {
+  return 2 * r * Math.PI;
+}
+```
+
 ## hypotenuse (Pythagoras' theorem)
 
 ```java

@@ -87,6 +87,10 @@ Use the `double` type, not `int`, for both parameter and return value.
 You'll need the constant π, the Greek Pi, that is approximately 3.14.
 It's better to use the Java constant `Math.PI` instead of typing directly `3.14` in the code.
 
+## circleCircumference
+
+Having done the `areaOfCircle` method it should be fairly simple to write a method that calculates the circumference of a circle, given its radius.
+
 ## hypotenuse (Pythagoras' theorem)
 
 Write a method that calculates the hypotenuse of a right triangle, given the length of its sides.

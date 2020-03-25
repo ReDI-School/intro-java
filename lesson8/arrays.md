@@ -36,6 +36,21 @@ Input: [1,4,7,3,6]
 Output: 7
 ```
 
+## Write a method that finds the average value in a list
+
+```java
+public static int average(ArrayList<Integer> scoreBoard) {
+   //....
+}
+```
+
+Example:
+
+```text
+Input: [1,4,7,3,6]
+Output: 4.2
+```
+
 ## Write a method that returns a new array that contains the elements of the input array in the reverse order
 
 ```java
