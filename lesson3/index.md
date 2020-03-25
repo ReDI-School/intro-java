@@ -6,13 +6,9 @@ has_children: true
 
 # Operators
 
-- Operators
-- Assignment
-- Arithmetic
-- Compound assignment
-- Increment / Decrement
-- Relational
-- Logic
+1. TOC
+{:toc}
+
 
 Material:
 - [Slides](https://drive.google.com/open?id=1KCbPB5X8UH2ar7Sd-qez4SrfPUaPL-TBzco8-5rXsto)
@@ -184,3 +180,42 @@ class Main {
 }
 ```
 
+## Logical Operators (Boolean)
+Logical operator allow you to combine two boolean expressions (either just a boolean value like _true_ or _false_ but also comparison like the ones from the previous section).
+
+Logical operators will again return a new boolean value.
+
+The following code snippet shows you all possible logical operators (try to run it to see the output):
+
+```java
+class Main {
+    public static void main(String[] args) {
+
+        // AND operator && returns true if both given booleans are true
+        System.out.println("Using AND");
+        System.out.println(true && true);
+        System.out.println(false && true);
+        System.out.println(true && false);
+        System.out.println(false && false);
+
+        // OR operator || returns true if at least one of the given booleans are true
+        System.out.println("Using OR");
+        System.out.println(true || true);
+        System.out.println(false || true);
+        System.out.println(true || false);
+        System.out.println(false || false);
+
+        // XOR operator ^ returns true if at only exactly one of the given booleans are true
+        System.out.println("Using XOR");
+        System.out.println(true ^ true);
+        System.out.println(false ^ true);
+        System.out.println(true ^ false);
+        System.out.println(false ^ false);
+
+        // NOT operator ! takes only one boolean and returns the opposite value
+        System.out.println("Using NOT");
+        System.out.println(!true);
+        System.out.println(!false);
+    }
+}
+```
