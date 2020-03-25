@@ -154,6 +154,24 @@ There are 23 'e's and 7 'u's.
 
 *NOTE*: uppercase and lowercase characters are different characters.
 
+As a bonus modify the program to print how many times each letter appears in the text.
+
+For example given:
+```text
+mississippi
+```
+
+The output would be:
+
+```text
+m occurring 1 times
+i occurring 4 times
+s occurring 4 times
+p occurring 2 times
+```
+
+*Think*: How to show the occurance of each letter only once?
+
 ## Reverse
 
 Write a method that reverses a string.
@@ -177,3 +195,33 @@ Examples are: `Ebbe`, `Anna`, `Kajak` or `Gag`.
 
 *NOTE*: the uppercase and lowercase characters should be considered the same character,
         otherwise the method doesn't work with words starting uppercase.
+
+## Secret messages
+
+We need a program to decode secret messages. Our messages are kept secret by a simple [substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher). A substitution cipher is when we change certain letters with other letters. The know recorded use of a substitution cipher was as early as the Roman empire.
+
+For example if out substitution cipher replaces each letter of the alphabet with the letter that follows that letter in the alphabet a message like:
+
+```
+HELLOWORLD
+```
+
+Would be encoded in our secret code as:
+
+```
+IFMMPXPSME
+```
+
+Because `I` follows `H`, `F` follows `E` and so on. In a special case `Z` is followed by `A`.
+
+Our program with deal with messages written in capital letters of English alphabet (A through Z) and words without spaces and punctuation marks. So if the user provided `SFEJKBWB` as input the output should be `REDIJAVA`.
+
+*HINT*:
+ * Remember for loops
+ * Remember methods on String like length and charAt
+ * Remember that we can concatenate Strings with Strings and how Strings win when we try to concatenate Strings with non-Strings
+
+As a bonus:
+ * Research ASCII table
+ * Try to figure out why `'I'- 1` gives us `'H'`
+

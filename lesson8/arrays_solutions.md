@@ -34,6 +34,20 @@ public static int getHighScore(ArrayList<Integer> scoreBoard) {
 }
 ```
 
+## Write a method that finds the average value in a list
+
+*NOTE*: using `getHighScore` from above
+
+```java
+  public static double averageScore(ArrayList<Integer> scores) {
+    double numberOfElements = scores.size();
+
+    double average = sumScores(scores) / numberOfElements;
+
+    return average;
+  }
+```
+
 ## Write a method that returns a new array that contains the elements of the input array in the reverse order
 
 ```java
