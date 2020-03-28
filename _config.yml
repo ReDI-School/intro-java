@@ -21,6 +21,8 @@ aux_links:
     - "https://repl.it/"
   "Glossary":
     - "/intro-java/glossary"
+  "Using IntelliJ":
+    - "/intro-java/intellij"
 
 # Build settings
 markdown: kramdown
