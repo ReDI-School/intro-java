@@ -1,6 +1,7 @@
 ---
 title: "Solutions: if + loops"
-nav_exclude: true
+nav_order: 2
+parent: 5 - Loops
 ---
 
 # Solutions: if and loops
