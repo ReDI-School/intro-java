@@ -21,7 +21,7 @@ not with the meaning _known by the developer when the program is written_.
 We hope the following exercises clarify this.
 
 *Note:* these exercises don't cover _for each_, that is a different statement
-we will see and use after we introduce collections, like [ArrayLists]({% link /lesson8/index.md %}).
+we will see and use after we introduce collections, in lesson 8.
 
 *Note:* each exercise can be solved by using both `for` and `while`, but only one should be preferred.
  
