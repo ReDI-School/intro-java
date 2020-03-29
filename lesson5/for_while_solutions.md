@@ -20,8 +20,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);    
-        
+        Scanner input = new Scanner(System.in);
         int sum = 0;
    
         // VERY GOOD: `i` stays inside the loop and is fully managed by the `for` statement
@@ -45,11 +44,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);    
-        
+        Scanner input = new Scanner(System.in);
         int sum = 0;
-        
-        // BAD: `i` is defined outside the loop and we must use it in 3 different places 
+        // BAD: `i` is defined outside the loop and we must use it in 3 different places
         int i = 1; // 1st
 
         // BAD: we should use `for` in this case
@@ -79,8 +76,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);    
-        
+        Scanner input = new Scanner(System.in);
         int sum = 0;
 
         System.out.print("How many numbers? ");
@@ -107,15 +103,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);    
-        
+        Scanner input = new Scanner(System.in);
         int sum = 0;
+        // BAD: `i` is defined outside the loop and we must use it in 3 different places
+        int i = 1; // 1st
         
         System.out.print("How many numbers? ");
         int n = input.nextInt();
-
-        // BAD: `i` is defined outside the loop and we must use it in 3 different places 
-        int i = 1; // 1st
 
         // BAD: we should use `for` in this case
         while (i <= n) { // 2nd
@@ -145,8 +139,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);    
-        
+        Scanner input = new Scanner(System.in);
         int sum = 0;
 
         System.out.print("Please enter a number: ");
@@ -173,8 +166,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);    
-        
+        Scanner input = new Scanner(System.in);
         int sum = 0;
 
         System.out.print("Please enter a number: ");
@@ -202,8 +194,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);    
-        
+        Scanner input = new Scanner(System.in);
         int sum = 0;
         int x;
 
