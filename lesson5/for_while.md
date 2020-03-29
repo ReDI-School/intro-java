@@ -1,10 +1,10 @@
 ---
-title: "Exercises: for vs while"
+title: "Exercises: for vs. while"
 nav_order: 5
 parent: 5 - Loops
 ---
 
-# Exercises: `for` vs. `while`
+# Exercises: for vs. while
 
 When to use `for`? When to use `while`? These exercises help to clarify this topic.
 Although a task can be accomplished by using any of the two statements, often there's a statement
@@ -21,7 +21,7 @@ not with the meaning _known by the developer when the program is written_.
 We hope the following exercises clarify this.
 
 *Note:* these exercises don't cover _for each_, that is a different statement
-we will see and use after we introduce collections, like [ArrayLists](/lesson8/index.md).
+we will see and use after we introduce collections, like [ArrayLists](/lesson8).
 
 *Note:* each exercise can be solved by using both `for` and `while`, but only one should be preferred.
  

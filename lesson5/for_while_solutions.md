@@ -1,10 +1,10 @@
 ---
-title: "Exercises: for vs while"
+title: "Solutions: for vs. while"
 nav_order: 6
 parent: 5 - Loops
 ---
 
-# Solutions: `for` vs. `while`
+# Solutions: for vs. while
 
 ## Exercise 1: calculate the sum of 10 numbers
 
