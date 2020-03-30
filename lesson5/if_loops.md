@@ -29,7 +29,9 @@ Output:
 ## Exercise 2: Dividable numbers
 
 1. Read two numbers with Scanner
-2. Print each number from 1 to the first entered number that is dividable by the second number, e.g.:
+2. Print each number from 1 to the first entered number that is dividable without remainder by the second number (e.g. 6 is dividable by 3 without remainder as 6 / 3 is 2 with remainder 0, but 6 is not dividable by 4 without remainder as 6 / 4 is 1 with remainder 2)
+
+Example:
 ```text
 First: 16
 Second: 5
