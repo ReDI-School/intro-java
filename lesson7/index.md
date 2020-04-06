@@ -8,7 +8,7 @@ has_children: true
 
 As you already learned Strings are different than primitive datatpypes (byte,short, int, long, float, double, char, boolean).
 
-A string is a reference type or an object of the class **String**-
+A string is a reference type or an object of the class **String**.
 
 This means you can call methods on a string.
 
