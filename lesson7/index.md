@@ -33,8 +33,8 @@ public boolean contains(String substring)
 /** returns the character at the given position of the string */
 public char charAt(int index)
 
-/** returns a substring of the string which starts at the startIndex and has a length which is specified by length */
-public String substring(int startIndex, int length)
+/** returns a substring of the string which starts at the startIndex and ends at the endIndex */
+public String substring(int startIndex, int endIndex)
 
 /** return an integer which is < 0 if the string is smaller than otherString, 0 if the strings are equal and > 0 if the 
 string is bigger than otherString */
