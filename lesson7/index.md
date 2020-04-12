@@ -4,8 +4,6 @@ nav_order: 7
 has_children: true
 ---
 
-# A closer look at types in Java
-
 # Strings
 
 As you already learned Strings are different than primitive datatpypes (byte,short, int, long, float, double, char, boolean).
