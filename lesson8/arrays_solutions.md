@@ -219,6 +219,48 @@ public static ArrayList<String> union(ArrayList<String> values1, ArrayList<Strin
 }
 ```
 
+## Difference
+
+```java
+public static ArrayList<String> difference(ArrayList<String> values1, ArrayList<String> values2) {
+    ArrayList<String> values = new ArrayList<>();
+    for(String v : values1) {
+        if(!values2.contains(v)) {
+            values.add(v);
+        }
+    }
+    return values;
+}
+```
+
+## Unique Values
+
+```java
+public static ArrayList<String> uniqueValues(ArrayList<String> values1, ArrayList<String> values2) {
+    ArrayList<String> values = new ArrayList<>();
+    for(String v : values1) {
+        if(!values2.contains(v)) {
+            values.add(v);
+        }
+    }
+    for(String z : values2) {
+        if(!values1.contains(z)) {
+            values.add(z);
+        }
+    }
+    return values;
+}
+```
+
+Or by reusing the difference method from previous exercise:
+```java
+public static ArrayList<String> uniqueValues(ArrayList<String> values1, ArrayList<String> values2) {
+    ArrayList<String> values = difference(values1, values2);
+    values.addAll(difference(values2, values1));
+    return values;
+}
+```
+
 ## Word count
 
 ```java
@@ -268,5 +310,200 @@ class WordCount {
         }
         return noDuplicates;
     }
+}
+```
+
+## Swap
+
+```java
+import java.util.Scanner;
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Insert numbers for list, stop by entering -1");
+    ArrayList<Integer> numbers = getListFromUser(scanner);
+    System.out.println(numbers);
+    System.out.println("Enter two indices");
+    int index1 = scanner.nextInt();
+    int index2 = scanner.nextInt();
+    swap(numbers, index1, index2);
+    System.out.println(numbers);
+  }
+
+  public static ArrayList<Integer> getListFromUser(Scanner scanner) {
+    int nextNumber = 0;
+    ArrayList<Integer> list = new ArrayList<Integer>();
+    while(nextNumber != -1) {
+      nextNumber = scanner.nextInt();
+      if(nextNumber != - 1) {
+        list.add(nextNumber);
+      }
+    }
+
+    return list;
+  }
+
+  public static void swap(ArrayList<Integer> list, int index1, int index2) {
+    if(index1 < 0 || index1 >= list.size() || index2 >= list.size() || index2 < 0) {
+      // one of the indices is not a valid position in the list
+      System.out.println("Invalid indices"); 
+    } else if(index1 != index2){
+      Integer value = list.get(index1);
+      list.set(index1, list.get(index2));
+      list.set(index2, value);
+    }
+  }
+}
+```
+
+## Zip
+
+```java
+import java.util.Scanner;
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Enter first list of Strings, type quit to stop");
+    ArrayList<String> list1 = getListFromUser(scanner);
+    System.out.println("Enter second list of Strings, type quit to stop");
+    ArrayList<String> list2 = getListFromUser(scanner);
+    System.out.println("Your lists:");
+    System.out.println(list1);
+    System.out.println(list2);
+
+    // now check if the lists have the same size
+    if(list1.size() == list2.size()) {
+      ArrayList<String> result = createNewList(list1, list2, list1.size());
+      System.out.println(result);
+    } else {
+      ArrayList<String> shorterList;
+      ArrayList<String> longerList;
+      // find out which list is shorter and which one is longerList
+      if(list1.size() > list2.size()) {
+        longerList = list1;
+        shorterList = list2;
+      } else {
+        longerList = list2;
+        shorterList = list1;
+      }
+      // now create new list up to size of shorter list
+      ArrayList<String> result = createNewList(list1, list2, shorterList.size());
+      // now add remaining elements from longer list
+      for(int i = shorterList.size(); i < longerList.size(); i++) {
+        result.add(longerList.get(i));
+      }
+      System.out.println(result);
+    }
+  }
+
+  public static ArrayList<String> getListFromUser(Scanner scanner) {
+    String nextString = "";
+    ArrayList<String> list = new ArrayList<String>();
+    while(!nextString.equals("quit")) {
+      nextString = scanner.next();
+      if(!nextString.equals("quit")) {
+        list.add(nextString);
+      }
+    }
+
+    return list;
+  }
+
+  public static ArrayList<String> createNewList(ArrayList<String> l1, ArrayList<String> l2, int untilIdx) {
+    ArrayList<String> result = new ArrayList<String>();
+    for(int i = 0; i < untilIdx; i++) {
+      result.add(l1.get(i));
+      result.add(l2.get(i));
+    }
+    return result;
+  }
+}
+```
+
+## Guess character
+
+```java
+import java.util.Scanner;
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    ArrayList<String> charactersToGuess = new ArrayList<String>();
+    charactersToGuess.add("a");
+    charactersToGuess.add("n");
+    charactersToGuess.add("o");
+    charactersToGuess.add("w");
+
+    int guesses = doTheGuessing(charactersToGuess);
+    System.out.println("You guessed all characters in " + guesses + " tries");
+  }
+
+  public static int doTheGuessing(ArrayList<String> charactersToGuess) {
+    int guesses = 0;
+    Scanner scanner = new Scanner(System.in);
+
+    // let the user guess until all characters have been found
+    while(charactersToGuess.size() > 0) {
+      System.out.println("Guess a character!");
+      String nextGuess = scanner.next();
+      guesses++;
+      // remember: remove returns true if it found and removed the string in the list!
+      if(charactersToGuess.remove(nextGuess)) {
+        System.out.println("You guessed correctly!");
+      } else {
+        System.out.println("That was wrong!");
+      }
+    }
+
+    return guesses;
+  }
+}
+```
+
+## Sorting
+
+```java
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    ArrayList<Integer> l = new ArrayList<>();
+    l.add(4);
+    l.add(7);
+    l.add(5);
+    l.add(2);
+    l.add(3);
+    l.add(1);
+    l.add(6);
+    System.out.println(sort(l));
+  }
+  
+  // this is a BubbleSort
+  public static ArrayList<Integer> sort(ArrayList<Integer> values) {
+    ArrayList<Integer> sorted = new ArrayList<Integer>(values);
+    boolean swapped = false;
+    int n = values.size();
+    do {
+      swapped = false;
+      n = n -1;
+      for(int i = 0; i < n; i++) {
+        if(sorted.get(i) > sorted.get(i + 1)) {
+          swap(sorted, i, i + 1);
+          swapped = true;
+        }
+      }
+    } while(swapped);
+    return sorted;
+  }
+
+  public static void swap(ArrayList<Integer> l, int idx1, int idx2) {
+    Integer v1 = l.get(idx1);
+    l.set(idx1, l.get(idx2));
+    l.set(idx2, v1);
+  }
 }
 ```

@@ -182,6 +182,30 @@ public static ArrayList<String> union(
 }
 ```
 
+## Difference
+
+Take two lists as input and return a new list with all values of the first list that are not in the second list
+
+Example:
+```bash
+Input:
+[1, 2, 3, 4] and [1, 4, 5, 9]
+Output:
+[2, 3]
+```
+
+## Unique Values
+
+Take two lists as input and return a new list with all values that are only in one of both lists
+
+Example:
+```bash
+Input:
+[1, 2, 3, 4] and [1, 4, 5, 9]
+Output:
+[2, 3, 5, 9]
+```
+
 ## Word count
 
 A common exercise is counting how many times a word occur in a set. For every unique word
@@ -214,3 +238,136 @@ public static int count(ArrayList<String> values, String x) {
     // Return how many times the string 'x' is present in 'values'
 }
 ```
+
+## Swap
+
+Write a program that allows a user to enter numbers.
+Save the numbers in an ArrayList.
+
+If the user enters a -1, stop and print the list.
+
+Ask the user now for two indices (positions) in the ArrayList.
+Swap the elements at these positions and print the resulting list.
+
+Example:
+```bash
+Enter some numbers:
+8
+3
+6
+5
+4
+-1
+
+Your list:
+[8,3,6,5,4]
+
+Enter two indices:
+1
+3
+
+Your new list:
+[8,5,6,3,4]
+```
+
+## Zip
+
+Create a program that has two arraylists of Strings (you can decide if you define these in your code directly or if the user should enter the strings).
+
+Now create a new arraylist from these two in the following way:
+- take as first value for the new list the first value from the first list
+- take as next value for the new list the first value from the second list
+- take as next value for the new list the second value from the first list
+...
+
+until all values from both lists are in the new list.
+(start with two lists of the same size => if you have a solution, extend it by handling lists of different sizes => as soon as one source list has no value anymore, just add all remaining values from the other list)
+
+Example:
+Given two lists of same size,
+list 1 being ["a", "b", "c"]
+list 2 being ["x", "y", "z"]
+
+resulting list:
+["a","x","b","y","c","z"]
+
+
+Example:
+Given two lists of different size
+list 1 being ["a", "b", "c", "x"]
+list 2 being ["y", "z"]
+["a","y","b","z","c","x"]
+
+## Guess character
+
+Write a program that creates an ArrayList of characters (choose as many and which you like).
+
+Now let the user enter characters to guess which characters are in the arraylist.
+
+Let him continue guessing until he has entered all characters in the list (bonus point: print at the end how many guesses he took).
+
+Example:
+Let the arraylist in my code contains the characters a,d,n
+```bash
+Guess a character
+a
+
+Correct
+
+Guess a character
+z
+
+Wrong
+
+Guess a character
+d
+
+Correct
+
+Guess a character
+n
+
+Correct
+
+You guessed all characters in 4 tries
+```
+
+
+## Sorting (difficulty: higher)
+
+Implement a sorting function!
+
+Your method should take a list of numbers and return the same numbers sorted (from smallest to greatest).
+
+```java
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    
+  }
+  
+  public static ArrayList<Integer> sort(ArrayList<Integer> values) {
+    // implement me
+  }
+}
+```
+
+Example:
+```bash
+Input:
+[4, 7, 3, 2, 6, 1, 5]
+Output:
+[1, 2, 3, 4, 5, 6, 7]
+```
+
+You can implement your own idea of a sorting algorithm.
+
+Or try to implement an existing sort algorithm:
+
+these ones are some simple sort algorithms
+https://en.wikipedia.org/wiki/Bubble_sort#Pseudocode_implementation
+
+https://en.wikipedia.org/wiki/Gnome_sort
+
+https://en.wikipedia.org/wiki/Insertion_sort
