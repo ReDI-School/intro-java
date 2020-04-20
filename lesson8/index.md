@@ -157,7 +157,18 @@ for (int i = 0; i < highSchores.size(); i++) {
 }
 ```
 
-### Changing a value of in the ArrayList
+However, as it is such a common thing to iterate over all elements of an ArrayList, there exists a special loop syntax for that:
+```java
+for (Integer score : highscores) {
+    System.out.println(score);
+}
+``` 
+This is also called a **for each** loop as we do one iteration for each element of the ArrayList.  
+Here the element of the iteration is then assigned to to the variable _score_ (note that as it is a variable you can name it like you want).  
+Note: this loop syntax can only be used if you only need the array elements but not their indices.
+
+
+### Changing a value of the ArrayList
 
 A value of an element in an ArrayList can be changed by executing the set method on the ArrayList instance. This method expects the index as the first and the value as the second parameter. For changing the value of the ArrayList you have to keep in mind that you access the first element via index 0 and the last element via the index n -1 when n is the number of elements in the ArrayList.
 
@@ -165,6 +176,92 @@ A value of an element in an ArrayList can be changed by executing the set method
 // Setting the value at the first position of the ArrayList to 150.
 highSchores.set(0, 150);
 ``` 
+
+### Adding a value to ArrayList at a specific position
+
+We have seen that we can use _add_ to add an element to an ArrayList.  
+However, the new element is always added to the end of the list.
+
+There exists a second version of _add_ that allows you to add a new element to a specific position.
+
+```java
+public static void main(String[] args) {
+    ArrayList<Integer> highSchores = new ArrayList<Integer>();
+
+    highSchores.add(100);
+    highSchores.add(250);
+    highSchores.add(50);
+    
+    /* 
+    * now our arraylist is: [100, 250, 50]
+    */
+
+    // we add a new element add the second position, i.e. at index 1
+    highSchores.add(1, 42);
+
+    /* 
+    * now our arraylist is: [100, 42, 250, 50]
+    */
+}
+```
+
+As you can see, the first parameter is the index, the second the new element.
+
+### Removing a value from an ArrayList
+
+You can remove an eleent from an ArrayList by using the _remove_ method. You give it an _int: to specify at which position to delete:
+
+```java
+public static void main(String[] args) {
+    ArrayList<Integer> highSchores = new ArrayList<Integer>();
+
+    highSchores.add(100);
+    highSchores.add(250);
+    highSchores.add(50);
+    
+    /* 
+    * now our arraylist is: [100, 250, 50]
+    */
+
+    // we remove the element at the second position, i.e. at index 1
+    highSchores.remove(1);
+
+    /* 
+    * now our arraylist is: [100, 50]
+    */
+}
+```
+
+### Finding an element in an ArrayList
+
+What you often need to do is to find out if a given value exists in an ArrayList (or where it exists).
+
+You can use the _contains_ method which returns a _boolean_ to tell you if a value exists in a given list.  
+You can use the _indexOf_ method which returns the index of the **first** occurrence of the value in the list or _-1_ if the value is not in the list
+
+```java
+public static void main(String[] args) {
+    ArrayList<Integer> highSchores = new ArrayList<Integer>();
+
+    highSchores.add(100);
+    highSchores.add(250);
+    highSchores.add(50);
+    
+    /* 
+    * now our arraylist is: [100, 250, 50]
+    */
+
+    // prints true
+    System.out.println(highSchores.contains(50));
+    // prints false
+    System.out.println(highSchores.contains(51));
+
+    // prints 2 (the index of 50 in the list)
+    System.out.println(highSchores.indexOf(50));
+    // prints -1 (as value is not in list)
+    System.out.println(highSchores.indexOf(51));
+}
+```
 
 Material:
 - [Slides](https://drive.google.com/open?id=1gf6QiQvlA1pWD6MYK2de8SMxeQDVXxv72w51gUrUdTQ)
