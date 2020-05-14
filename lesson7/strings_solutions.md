@@ -1,8 +1,7 @@
 ---
 title: "Solutions: Strings"
-#nav_order: 4
-#parent: 7 - Strings
-nav_excludes: true
+nav_order: 4
+parent: 7 - Strings
 ---
 
 # Solutions: Strings
