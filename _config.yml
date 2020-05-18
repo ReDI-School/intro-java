@@ -31,4 +31,5 @@ exclude:
   - libraries
   - meta
   - projects/tic-tac-toe
+  - projects/quiz
   - review
