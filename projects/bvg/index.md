@@ -88,3 +88,5 @@ Let's look at the data you can get from a _UbahnLineStop_:
 * _getSecondsTillNext()_ returns an int being the seconds it takes to travel from this stop to the next one. Note: next means here the value from the stop with a higher stopSequence number, i.e. if you are at stop 2, it tells you the travel time to stop 3! If this is the last stop (highest stopSequence number of line) this method returns a -1
 
 Before implementing the task, play around with this class to deeply understand how you access the data and what the data means. 
+
+(Original datasource: https://www.vbb.de/unsere-themen/vbbdigital/api-entwicklerinfos/datensaetze)

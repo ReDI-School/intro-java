@@ -1,0 +1,1298 @@
+[
+  {
+    "routeName": "U1",
+    "arrival": "24:32:00",
+    "departure_time": "24:32:00",
+    "stopSequence": 0,
+    "stopId": "70201013302",
+    "stopName": "U Uhlandstr."
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:33:00",
+    "departure_time": "24:33:00",
+    "stopSequence": 1,
+    "stopId": "70201013202",
+    "stopName": "U Kurf\u00fcrstendamm"
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:34:30",
+    "departure_time": "24:34:30",
+    "stopSequence": 2,
+    "stopId": "70201013106",
+    "stopName": "U Wittenbergplatz"
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:36:30",
+    "departure_time": "24:36:30",
+    "stopSequence": 3,
+    "stopId": "70201013002",
+    "stopName": "U Nollendorfplatz"
+  },
+  {
+    "routeName": "U3",
+    "arrival": "9:49:00",
+    "departure_time": "9:49:00",
+    "stopSequence": 2,
+    "stopId": "70201013002",
+    "stopName": "U Nollendorfplatz"
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:38:00",
+    "departure_time": "24:38:00",
+    "stopSequence": 4,
+    "stopId": "70201012902",
+    "stopName": "U Kurf\u00fcrstenstr."
+  },
+  {
+    "routeName": "U3",
+    "arrival": "9:50:30",
+    "departure_time": "9:50:30",
+    "stopSequence": 3,
+    "stopId": "70201012902",
+    "stopName": "U Kurf\u00fcrstenstr."
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:40:00",
+    "departure_time": "24:40:00",
+    "stopSequence": 5,
+    "stopId": "70201012802",
+    "stopName": "U Gleisdreieck"
+  },
+  {
+    "routeName": "U3",
+    "arrival": "9:52:30",
+    "departure_time": "9:52:30",
+    "stopSequence": 4,
+    "stopId": "70201012802",
+    "stopName": "U Gleisdreieck"
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:41:30",
+    "departure_time": "24:41:30",
+    "stopSequence": 6,
+    "stopId": "70201012702",
+    "stopName": "U M\u00f6ckernbr\u00fccke"
+  },
+  {
+    "routeName": "U3",
+    "arrival": "9:54:00",
+    "departure_time": "9:54:00",
+    "stopSequence": 5,
+    "stopId": "70201012702",
+    "stopName": "U M\u00f6ckernbr\u00fccke"
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:43:00",
+    "departure_time": "24:43:00",
+    "stopSequence": 7,
+    "stopId": "70201012602",
+    "stopName": "U Hallesches Tor"
+  },
+  {
+    "routeName": "U3",
+    "arrival": "9:55:30",
+    "departure_time": "9:55:30",
+    "stopSequence": 6,
+    "stopId": "70201012602",
+    "stopName": "U Hallesches Tor"
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:45:00",
+    "departure_time": "24:45:00",
+    "stopSequence": 8,
+    "stopId": "70201012502",
+    "stopName": "U Prinzenstr."
+  },
+  {
+    "routeName": "U3",
+    "arrival": "9:57:30",
+    "departure_time": "9:57:30",
+    "stopSequence": 7,
+    "stopId": "70201012502",
+    "stopName": "U Prinzenstr."
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:47:00",
+    "departure_time": "24:49:00",
+    "stopSequence": 9,
+    "stopId": "70201012402",
+    "stopName": "U Kottbusser Tor"
+  },
+  {
+    "routeName": "U3",
+    "arrival": "9:59:30",
+    "departure_time": "9:59:30",
+    "stopSequence": 8,
+    "stopId": "70201012402",
+    "stopName": "U Kottbusser Tor"
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:50:30",
+    "departure_time": "24:50:30",
+    "stopSequence": 10,
+    "stopId": "70201012302",
+    "stopName": "U G\u00f6rlitzer Bahnhof"
+  },
+  {
+    "routeName": "U3",
+    "arrival": "10:01:00",
+    "departure_time": "10:01:00",
+    "stopSequence": 9,
+    "stopId": "70201012302",
+    "stopName": "U G\u00f6rlitzer Bahnhof"
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:52:30",
+    "departure_time": "24:52:30",
+    "stopSequence": 11,
+    "stopId": "70201012202",
+    "stopName": "U Schlesisches Tor"
+  },
+  {
+    "routeName": "U3",
+    "arrival": "10:03:00",
+    "departure_time": "10:03:00",
+    "stopSequence": 10,
+    "stopId": "70201012202",
+    "stopName": "U Schlesisches Tor"
+  },
+  {
+    "routeName": "U1",
+    "arrival": "24:54:30",
+    "departure_time": "24:54:30",
+    "stopSequence": 12,
+    "stopId": "70201012101",
+    "stopName": "S+U Warschauer Str."
+  },
+  {
+    "routeName": "U2",
+    "arrival": "12:43:30",
+    "departure_time": "12:43:30",
+    "stopSequence": 0,
+    "stopId": "70201024802",
+    "stopName": "U Ruhleben"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "12:45:30",
+    "departure_time": "12:45:30",
+    "stopSequence": 1,
+    "stopId": "70201024702",
+    "stopName": "U Olympia-Stadion"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "12:47:00",
+    "departure_time": "12:47:00",
+    "stopSequence": 2,
+    "stopId": "70201024602",
+    "stopName": "U Neu-Westend"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "12:49:00",
+    "departure_time": "12:49:00",
+    "stopSequence": 3,
+    "stopId": "70201024502",
+    "stopName": "U Theodor-Heuss-Platz"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "12:50:30",
+    "departure_time": "12:50:30",
+    "stopSequence": 4,
+    "stopId": "70201024402",
+    "stopName": "U Kaiserdamm"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "12:52:00",
+    "departure_time": "12:52:00",
+    "stopSequence": 5,
+    "stopId": "70201024302",
+    "stopName": "U Sophie-Charlotte-Platz"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "12:53:30",
+    "departure_time": "12:53:30",
+    "stopSequence": 6,
+    "stopId": "70201024202",
+    "stopName": "U Bismarckstr."
+  },
+  {
+    "routeName": "U2",
+    "arrival": "12:54:30",
+    "departure_time": "12:54:30",
+    "stopSequence": 7,
+    "stopId": "70201024102",
+    "stopName": "U Deutsche Oper"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "12:56:30",
+    "departure_time": "12:56:30",
+    "stopSequence": 8,
+    "stopId": "70201024002",
+    "stopName": "U Ernst-Reuter-Platz"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "12:58:30",
+    "departure_time": "12:58:30",
+    "stopSequence": 9,
+    "stopId": "70201023902",
+    "stopName": "S+U Zoologischer Garten Bhf"
+  },
+  {
+    "routeName": "U3",
+    "arrival": "9:45:00",
+    "departure_time": "9:45:00",
+    "stopSequence": 0,
+    "stopId": "70201023902",
+    "stopName": "S+U Zoologischer Garten Bhf"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:00:30",
+    "departure_time": "13:01:00",
+    "stopSequence": 10,
+    "stopId": "70201023802",
+    "stopName": "U Wittenbergplatz"
+  },
+  {
+    "routeName": "U3",
+    "arrival": "9:47:00",
+    "departure_time": "9:47:00",
+    "stopSequence": 1,
+    "stopId": "70201023802",
+    "stopName": "U Wittenbergplatz"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:02:30",
+    "departure_time": "13:02:30",
+    "stopSequence": 11,
+    "stopId": "70201023702",
+    "stopName": "U Nollendorfplatz"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:04:00",
+    "departure_time": "13:04:00",
+    "stopSequence": 12,
+    "stopId": "70201023602",
+    "stopName": "U B\u00fclowstr."
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:06:00",
+    "departure_time": "13:06:00",
+    "stopSequence": 13,
+    "stopId": "70201023502",
+    "stopName": "U Gleisdreieck"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:07:30",
+    "departure_time": "13:07:30",
+    "stopSequence": 14,
+    "stopId": "70201023402",
+    "stopName": "U Mendelssohn-Bartholdy-Park"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:09:00",
+    "departure_time": "13:09:00",
+    "stopSequence": 15,
+    "stopId": "70201023302",
+    "stopName": "S+U Potsdamer Platz (Bln) [U2]"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:10:30",
+    "departure_time": "13:10:30",
+    "stopSequence": 16,
+    "stopId": "70201023202",
+    "stopName": "U Mohrenstr."
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:11:30",
+    "departure_time": "13:11:30",
+    "stopSequence": 17,
+    "stopId": "70201023102",
+    "stopName": "U Stadtmitte"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:13:00",
+    "departure_time": "13:13:00",
+    "stopSequence": 18,
+    "stopId": "70201023002",
+    "stopName": "U Hausvogteiplatz"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:14:30",
+    "departure_time": "13:14:30",
+    "stopSequence": 19,
+    "stopId": "70201022902",
+    "stopName": "U Spittelmarkt"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:15:30",
+    "departure_time": "13:15:30",
+    "stopSequence": 20,
+    "stopId": "70201022802",
+    "stopName": "U M\u00e4rkisches Museum"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:17:00",
+    "departure_time": "13:17:00",
+    "stopSequence": 21,
+    "stopId": "70201022702",
+    "stopName": "U Klosterstr."
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:19:00",
+    "departure_time": "13:19:00",
+    "stopSequence": 22,
+    "stopId": "70201022602",
+    "stopName": "S+U Alexanderplatz [U2]"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:21:00",
+    "departure_time": "13:21:00",
+    "stopSequence": 23,
+    "stopId": "70201022502",
+    "stopName": "U Rosa-Luxemburg-Platz"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:22:30",
+    "departure_time": "13:22:30",
+    "stopSequence": 24,
+    "stopId": "70201022402",
+    "stopName": "U Senefelderplatz"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:24:30",
+    "departure_time": "13:24:30",
+    "stopSequence": 25,
+    "stopId": "70201022302",
+    "stopName": "U Eberswalder Str."
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:26:30",
+    "departure_time": "13:26:30",
+    "stopSequence": 26,
+    "stopId": "70201022202",
+    "stopName": "S+U Sch\u00f6nhauser Allee"
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:29:00",
+    "departure_time": "13:29:00",
+    "stopSequence": 27,
+    "stopId": "70201022102",
+    "stopName": "U Vinetastr."
+  },
+  {
+    "routeName": "U2",
+    "arrival": "13:30:30",
+    "departure_time": "13:30:30",
+    "stopSequence": 28,
+    "stopId": "70201022002",
+    "stopName": "S+U Pankow"
+  },
+  {
+    "routeName": "U3",
+    "arrival": "10:05:00",
+    "departure_time": "10:05:00",
+    "stopSequence": 11,
+    "stopId": "70201012103",
+    "stopName": "S+U Warschauer Str."
+  },
+  {
+    "routeName": "U4",
+    "arrival": "4:46:00",
+    "departure_time": "4:46:00",
+    "stopSequence": 0,
+    "stopId": "70201042502",
+    "stopName": "S+U Innsbrucker Platz"
+  },
+  {
+    "routeName": "U4",
+    "arrival": "4:47:00",
+    "departure_time": "4:47:00",
+    "stopSequence": 1,
+    "stopId": "70201042402",
+    "stopName": "U Rathaus Sch\u00f6neberg"
+  },
+  {
+    "routeName": "U4",
+    "arrival": "4:48:30",
+    "departure_time": "4:48:30",
+    "stopSequence": 2,
+    "stopId": "70201042302",
+    "stopName": "U Bayerischer Platz"
+  },
+  {
+    "routeName": "U4",
+    "arrival": "4:50:00",
+    "departure_time": "4:50:00",
+    "stopSequence": 3,
+    "stopId": "70201042202",
+    "stopName": "U Viktoria-Luise-Platz"
+  },
+  {
+    "routeName": "U4",
+    "arrival": "4:52:00",
+    "departure_time": "4:52:00",
+    "stopSequence": 4,
+    "stopId": "70201042104",
+    "stopName": "U Nollendorfplatz"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "5:40:30",
+    "departure_time": "5:40:30",
+    "stopSequence": 0,
+    "stopId": "70201054001",
+    "stopName": "S+U Alexanderplatz"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "5:42:30",
+    "departure_time": "5:42:30",
+    "stopSequence": 1,
+    "stopId": "70201053902",
+    "stopName": "U Schillingstr."
+  },
+  {
+    "routeName": "U5",
+    "arrival": "5:44:00",
+    "departure_time": "5:44:00",
+    "stopSequence": 2,
+    "stopId": "70201053802",
+    "stopName": "U Strausberger Platz"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "5:45:30",
+    "departure_time": "5:45:30",
+    "stopSequence": 3,
+    "stopId": "70201053702",
+    "stopName": "U Weberwiese"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "5:46:30",
+    "departure_time": "5:46:30",
+    "stopSequence": 4,
+    "stopId": "70201053602",
+    "stopName": "U Frankfurter Tor"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "5:48:00",
+    "departure_time": "5:48:00",
+    "stopSequence": 5,
+    "stopId": "70201053502",
+    "stopName": "U Samariterstr."
+  },
+  {
+    "routeName": "U5",
+    "arrival": "5:49:30",
+    "departure_time": "5:50:00",
+    "stopSequence": 6,
+    "stopId": "70201053402",
+    "stopName": "S+U Frankfurter Allee"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "5:51:30",
+    "departure_time": "5:51:30",
+    "stopSequence": 7,
+    "stopId": "70201053302",
+    "stopName": "U Magdalenenstr."
+  },
+  {
+    "routeName": "U5",
+    "arrival": "5:53:00",
+    "departure_time": "5:53:30",
+    "stopSequence": 8,
+    "stopId": "70201053202",
+    "stopName": "S+U Lichtenberg"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "5:55:30",
+    "departure_time": "5:55:30",
+    "stopSequence": 9,
+    "stopId": "70201053102",
+    "stopName": "U Friedrichsfelde"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "5:57:30",
+    "departure_time": "5:57:30",
+    "stopSequence": 10,
+    "stopId": "70201053002",
+    "stopName": "U Tierpark"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "6:00:00",
+    "departure_time": "6:00:00",
+    "stopSequence": 11,
+    "stopId": "70201052902",
+    "stopName": "U Biesdorf-S\u00fcd"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "6:02:00",
+    "departure_time": "6:02:00",
+    "stopSequence": 12,
+    "stopId": "70201052802",
+    "stopName": "U Elsterwerdaer Platz"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "6:04:00",
+    "departure_time": "6:04:00",
+    "stopSequence": 13,
+    "stopId": "70201052702",
+    "stopName": "S+U Wuhletal"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "6:06:30",
+    "departure_time": "6:06:30",
+    "stopSequence": 14,
+    "stopId": "70201052602",
+    "stopName": "U Kaulsdorf-Nord"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "6:08:00",
+    "departure_time": "6:08:00",
+    "stopSequence": 15,
+    "stopId": "70201052502",
+    "stopName": "U Kienberg (G\u00e4rten der Welt)"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "6:09:30",
+    "departure_time": "6:09:30",
+    "stopSequence": 16,
+    "stopId": "70201052402",
+    "stopName": "U Cottbusser Platz"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "6:11:00",
+    "departure_time": "6:11:00",
+    "stopSequence": 17,
+    "stopId": "70201052302",
+    "stopName": "U Hellersdorf"
+  },
+  {
+    "routeName": "U5",
+    "arrival": "6:12:30",
+    "departure_time": "6:12:30",
+    "stopSequence": 18,
+    "stopId": "70201052202",
+    "stopName": "U Louis-Lewin-Str."
+  },
+  {
+    "routeName": "U5",
+    "arrival": "6:14:30",
+    "departure_time": "6:14:30",
+    "stopSequence": 19,
+    "stopId": "70201052101",
+    "stopName": "U H\u00f6now"
+  },
+  {
+    "routeName": "U6",
+    "arrival": "4:10:00",
+    "departure_time": "4:10:00",
+    "stopSequence": 0,
+    "stopId": "70201062602",
+    "stopName": "U Kurt-Schumacher-Platz"
+  },
+  {
+    "routeName": "U6",
+    "arrival": "4:11:30",
+    "departure_time": "4:11:30",
+    "stopSequence": 1,
+    "stopId": "70201062502",
+    "stopName": "U Scharnweberstr."
+  },
+  {
+    "routeName": "U6",
+    "arrival": "4:13:00",
+    "departure_time": "4:13:00",
+    "stopSequence": 2,
+    "stopId": "70201062402",
+    "stopName": "U Otisstr."
+  },
+  {
+    "routeName": "U6",
+    "arrival": "4:14:00",
+    "departure_time": "4:14:00",
+    "stopSequence": 3,
+    "stopId": "70201062302",
+    "stopName": "U Holzhauser Str."
+  },
+  {
+    "routeName": "U6",
+    "arrival": "4:15:30",
+    "departure_time": "4:15:30",
+    "stopSequence": 4,
+    "stopId": "70201062202",
+    "stopName": "U Borsigwerke"
+  },
+  {
+    "routeName": "U6",
+    "arrival": "4:17:00",
+    "departure_time": "4:17:00",
+    "stopSequence": 5,
+    "stopId": "70201062102",
+    "stopName": "U Alt-Tegel"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "3:52:30",
+    "departure_time": "3:52:30",
+    "stopSequence": 0,
+    "stopId": "70201075502",
+    "stopName": "U Britz-S\u00fcd"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "3:53:30",
+    "departure_time": "3:53:30",
+    "stopSequence": 1,
+    "stopId": "70201075402",
+    "stopName": "U Parchimer Allee"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "3:55:00",
+    "departure_time": "3:55:00",
+    "stopSequence": 2,
+    "stopId": "70201075302",
+    "stopName": "U Blaschkoallee"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "3:57:00",
+    "departure_time": "3:57:00",
+    "stopSequence": 3,
+    "stopId": "70201075202",
+    "stopName": "U Grenzallee"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "3:58:30",
+    "departure_time": "3:58:30",
+    "stopSequence": 4,
+    "stopId": "70201075102",
+    "stopName": "S+U Neuk\u00f6lln"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:00:00",
+    "departure_time": "4:00:00",
+    "stopSequence": 5,
+    "stopId": "70201075002",
+    "stopName": "U Karl-Marx-Str."
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:01:00",
+    "departure_time": "4:01:00",
+    "stopSequence": 6,
+    "stopId": "70201074902",
+    "stopName": "U Rathaus Neuk\u00f6lln"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:02:30",
+    "departure_time": "4:02:30",
+    "stopSequence": 7,
+    "stopId": "70201074802",
+    "stopName": "U Hermannplatz"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:04:30",
+    "departure_time": "4:04:30",
+    "stopSequence": 8,
+    "stopId": "70201074702",
+    "stopName": "U S\u00fcdstern"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:06:00",
+    "departure_time": "4:06:00",
+    "stopSequence": 9,
+    "stopId": "70201074602",
+    "stopName": "U Gneisenaustr."
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:08:00",
+    "departure_time": "4:08:00",
+    "stopSequence": 10,
+    "stopId": "70201074504",
+    "stopName": "U Mehringdamm"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:09:30",
+    "departure_time": "4:09:30",
+    "stopSequence": 11,
+    "stopId": "70201074402",
+    "stopName": "U M\u00f6ckernbr\u00fccke"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:11:00",
+    "departure_time": "4:11:00",
+    "stopSequence": 12,
+    "stopId": "70201074302",
+    "stopName": "S+U Yorckstr."
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:12:30",
+    "departure_time": "4:12:30",
+    "stopSequence": 13,
+    "stopId": "70201074202",
+    "stopName": "U Kleistpark"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:14:00",
+    "departure_time": "4:14:00",
+    "stopSequence": 14,
+    "stopId": "70201074102",
+    "stopName": "U Eisenacher Str."
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:15:00",
+    "departure_time": "4:15:00",
+    "stopSequence": 15,
+    "stopId": "70201074002",
+    "stopName": "U Bayerischer Platz"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:16:30",
+    "departure_time": "4:18:30",
+    "stopSequence": 16,
+    "stopId": "70201073902",
+    "stopName": "U Berliner Str."
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:19:30",
+    "departure_time": "4:19:30",
+    "stopSequence": 17,
+    "stopId": "70201073802",
+    "stopName": "U Blissestr."
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:21:00",
+    "departure_time": "4:21:00",
+    "stopSequence": 18,
+    "stopId": "70201073702",
+    "stopName": "U Fehrbelliner Platz"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:22:30",
+    "departure_time": "4:22:30",
+    "stopSequence": 19,
+    "stopId": "70201073602",
+    "stopName": "U Konstanzer Str."
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:23:30",
+    "departure_time": "4:23:30",
+    "stopSequence": 20,
+    "stopId": "70201073502",
+    "stopName": "U Adenauerplatz"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:25:00",
+    "departure_time": "4:25:00",
+    "stopSequence": 21,
+    "stopId": "70201073402",
+    "stopName": "U Wilmersdorfer Str."
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:26:30",
+    "departure_time": "4:26:30",
+    "stopSequence": 22,
+    "stopId": "70201073302",
+    "stopName": "U Bismarckstr."
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:27:30",
+    "departure_time": "4:27:30",
+    "stopSequence": 23,
+    "stopId": "70201073202",
+    "stopName": "U Richard-Wagner-Platz"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:29:30",
+    "departure_time": "4:29:30",
+    "stopSequence": 24,
+    "stopId": "70201073102",
+    "stopName": "U Mierendorffplatz"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:30:30",
+    "departure_time": "4:30:30",
+    "stopSequence": 25,
+    "stopId": "70201073002",
+    "stopName": "S+U Jungfernheide Bhf"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:32:00",
+    "departure_time": "4:32:00",
+    "stopSequence": 26,
+    "stopId": "70201072902",
+    "stopName": "U Jakob-Kaiser-Platz"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:33:30",
+    "departure_time": "4:33:30",
+    "stopSequence": 27,
+    "stopId": "70201072802",
+    "stopName": "U Halemweg"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:35:00",
+    "departure_time": "4:35:00",
+    "stopSequence": 28,
+    "stopId": "70201072702",
+    "stopName": "U Siemensdamm"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:36:00",
+    "departure_time": "4:36:00",
+    "stopSequence": 29,
+    "stopId": "70201072602",
+    "stopName": "U Rohrdamm"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:38:00",
+    "departure_time": "4:38:00",
+    "stopSequence": 30,
+    "stopId": "70201072502",
+    "stopName": "U Paulsternstr."
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:39:30",
+    "departure_time": "4:39:30",
+    "stopSequence": 31,
+    "stopId": "70201072402",
+    "stopName": "U Haselhorst"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:41:00",
+    "departure_time": "4:41:00",
+    "stopSequence": 32,
+    "stopId": "70201072302",
+    "stopName": "U Zitadelle"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:42:30",
+    "departure_time": "4:42:30",
+    "stopSequence": 33,
+    "stopId": "70201072202",
+    "stopName": "U Altstadt Spandau"
+  },
+  {
+    "routeName": "U7",
+    "arrival": "4:43:30",
+    "departure_time": "4:43:30",
+    "stopSequence": 34,
+    "stopId": "70201072102",
+    "stopName": "S+U Rathaus Spandau"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:02:30",
+    "departure_time": "4:02:30",
+    "stopSequence": 0,
+    "stopId": "70201084502",
+    "stopName": "S+U Hermannstr."
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:04:00",
+    "departure_time": "4:04:00",
+    "stopSequence": 1,
+    "stopId": "70201084402",
+    "stopName": "U Leinestr."
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:05:30",
+    "departure_time": "4:05:30",
+    "stopSequence": 2,
+    "stopId": "70201084302",
+    "stopName": "U Boddinstr."
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:07:00",
+    "departure_time": "4:07:00",
+    "stopSequence": 3,
+    "stopId": "70201084202",
+    "stopName": "U Hermannplatz"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:09:00",
+    "departure_time": "4:09:00",
+    "stopSequence": 4,
+    "stopId": "70201084102",
+    "stopName": "U Sch\u00f6nleinstr."
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:11:00",
+    "departure_time": "4:11:00",
+    "stopSequence": 5,
+    "stopId": "70201084002",
+    "stopName": "U Kottbusser Tor"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:13:00",
+    "departure_time": "4:13:00",
+    "stopSequence": 6,
+    "stopId": "70201083902",
+    "stopName": "U Moritzplatz"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:14:30",
+    "departure_time": "4:14:30",
+    "stopSequence": 7,
+    "stopId": "70201083802",
+    "stopName": "U Heinrich-Heine-Str."
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:15:30",
+    "departure_time": "4:15:30",
+    "stopSequence": 8,
+    "stopId": "70201083702",
+    "stopName": "S+U Jannowitzbr\u00fccke"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:17:30",
+    "departure_time": "4:17:30",
+    "stopSequence": 9,
+    "stopId": "70201083602",
+    "stopName": "S+U Alexanderplatz"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:19:00",
+    "departure_time": "4:19:00",
+    "stopSequence": 10,
+    "stopId": "70201083502",
+    "stopName": "U Weinmeisterstr."
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:20:30",
+    "departure_time": "4:20:30",
+    "stopSequence": 11,
+    "stopId": "70201083402",
+    "stopName": "U Rosenthaler Platz"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:22:00",
+    "departure_time": "4:22:00",
+    "stopSequence": 12,
+    "stopId": "70201083302",
+    "stopName": "U Bernauer Str."
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:23:30",
+    "departure_time": "4:23:30",
+    "stopSequence": 13,
+    "stopId": "70201083202",
+    "stopName": "U Voltastr."
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:25:00",
+    "departure_time": "4:25:00",
+    "stopSequence": 14,
+    "stopId": "70201083102",
+    "stopName": "S+U Gesundbrunnen Bhf"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:26:30",
+    "departure_time": "4:26:30",
+    "stopSequence": 15,
+    "stopId": "70201083002",
+    "stopName": "U Pankstr."
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:28:00",
+    "departure_time": "4:28:00",
+    "stopSequence": 16,
+    "stopId": "70201082902",
+    "stopName": "U Osloer Str."
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:30:00",
+    "departure_time": "4:30:00",
+    "stopSequence": 17,
+    "stopId": "70201082802",
+    "stopName": "U Franz-Neumann-Platz"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:31:00",
+    "departure_time": "4:31:00",
+    "stopSequence": 18,
+    "stopId": "70201082702",
+    "stopName": "U Residenzstr."
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:32:30",
+    "departure_time": "4:32:30",
+    "stopSequence": 19,
+    "stopId": "70201082602",
+    "stopName": "U Paracelsus-Bad"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:34:00",
+    "departure_time": "4:34:00",
+    "stopSequence": 20,
+    "stopId": "70201082502",
+    "stopName": "U Lindauer Allee"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:35:00",
+    "departure_time": "4:35:00",
+    "stopSequence": 21,
+    "stopId": "70201082402",
+    "stopName": "S+U Karl-Bonhoeffer-Nervenklinik"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:37:00",
+    "departure_time": "4:37:00",
+    "stopSequence": 22,
+    "stopId": "70201082302",
+    "stopName": "U Rathaus Reinickendorf"
+  },
+  {
+    "routeName": "U8",
+    "arrival": "4:38:30",
+    "departure_time": "4:38:30",
+    "stopSequence": 23,
+    "stopId": "70201082102",
+    "stopName": "S+U Wittenau"
+  },
+  {
+    "routeName": "U9",
+    "arrival": "24:46:30",
+    "departure_time": "24:46:30",
+    "stopSequence": 0,
+    "stopId": "70201093802",
+    "stopName": "S+U Rathaus Steglitz"
+  },
+  {
+    "routeName": "U9",
+    "arrival": "24:47:30",
+    "departure_time": "24:47:30",
+    "stopSequence": 1,
+    "stopId": "70201093704",
+    "stopName": "U Schlo\u00dfstr."
+  },
+  {
+    "routeName": "U9",
+    "arrival": "24:49:00",
+    "departure_time": "24:49:00",
+    "stopSequence": 2,
+    "stopId": "70201093602",
+    "stopName": "U Walther-Schreiber-Platz"
+  },
+  {
+    "routeName": "U9",
+    "arrival": "24:50:00",
+    "departure_time": "24:50:00",
+    "stopSequence": 3,
+    "stopId": "70201093502",
+    "stopName": "U Friedrich-Wilhelm-Platz"
+  },
+  {
+    "routeName": "U9",
+    "arrival": "24:51:30",
+    "departure_time": "24:51:30",
+    "stopSequence": 4,
+    "stopId": "70201093402",
+    "stopName": "S+U Bundesplatz"
+  },
+  {
+    "routeName": "U9",
+    "arrival": "24:53:00",
+    "departure_time": "24:53:00",
+    "stopSequence": 5,
+    "stopId": "70201093302",
+    "stopName": "U Berliner Str."
+  },
+  {
+    "routeName": "U9",
+    "arrival": "24:54:30",
+    "departure_time": "24:54:30",
+    "stopSequence": 6,
+    "stopId": "70201093202",
+    "stopName": "U G\u00fcntzelstr."
+  },
+  {
+    "routeName": "U9",
+    "arrival": "24:55:30",
+    "departure_time": "24:55:30",
+    "stopSequence": 7,
+    "stopId": "70201093102",
+    "stopName": "U Spichernstr."
+  },
+  {
+    "routeName": "U9",
+    "arrival": "24:56:30",
+    "departure_time": "24:56:30",
+    "stopSequence": 8,
+    "stopId": "70201093002",
+    "stopName": "U Kurf\u00fcrstendamm"
+  },
+  {
+    "routeName": "U9",
+    "arrival": "24:58:00",
+    "departure_time": "25:00:00",
+    "stopSequence": 9,
+    "stopId": "70201092902",
+    "stopName": "S+U Zoologischer Garten Bhf"
+  },
+  {
+    "routeName": "U9",
+    "arrival": "25:02:00",
+    "departure_time": "25:02:00",
+    "stopSequence": 10,
+    "stopId": "70201092802",
+    "stopName": "U Hansaplatz"
+  },
+  {
+    "routeName": "U9",
+    "arrival": "25:03:30",
+    "departure_time": "25:03:30",
+    "stopSequence": 11,
+    "stopId": "70201092702",
+    "stopName": "U Turmstr."
+  },
+  {
+    "routeName": "U9",
+    "arrival": "25:05:00",
+    "departure_time": "25:05:00",
+    "stopSequence": 12,
+    "stopId": "70201092602",
+    "stopName": "U Birkenstr."
+  },
+  {
+    "routeName": "U9",
+    "arrival": "25:06:00",
+    "departure_time": "25:06:00",
+    "stopSequence": 13,
+    "stopId": "70201092502",
+    "stopName": "S+U Westhafen"
+  },
+  {
+    "routeName": "U9",
+    "arrival": "25:07:30",
+    "departure_time": "25:07:30",
+    "stopSequence": 14,
+    "stopId": "70201092402",
+    "stopName": "U Amrumer Str."
+  },
+  {
+    "routeName": "U9",
+    "arrival": "25:09:00",
+    "departure_time": "25:09:00",
+    "stopSequence": 15,
+    "stopId": "70201092302",
+    "stopName": "U Leopoldplatz"
+  },
+  {
+    "routeName": "U9",
+    "arrival": "25:10:30",
+    "departure_time": "25:10:30",
+    "stopSequence": 16,
+    "stopId": "70201092202",
+    "stopName": "U Nauener Platz"
+  },
+  {
+    "routeName": "U9",
+    "arrival": "25:11:30",
+    "departure_time": "25:11:30",
+    "stopSequence": 17,
+    "stopId": "70201092102",
+    "stopName": "U Osloer Str."
+  }
+]
