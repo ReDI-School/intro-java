@@ -16,7 +16,7 @@ public class UbahnLineStop {
         stopName = rsd.getStopName().trim();
         stopSequence = rsd.getStopSequence();
         String[] arrTimes = rsd.getArrival().split(":");
-        arrivalTimeInSecs = Integer.parseInt(arrTimes[0]) * 360 + Integer.parseInt(arrTimes[1]) * 60 + Integer.parseInt(arrTimes[2]);
+        arrivalTimeInSecs = Integer.parseInt(arrTimes[0]) * 3600 + Integer.parseInt(arrTimes[1]) * 60 + Integer.parseInt(arrTimes[2]);
     }
 
     void update(UbahnLineStop _prev, UbahnLineStop _next) {
