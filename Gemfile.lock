@@ -246,6 +246,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll (~> 3.8.7)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)
