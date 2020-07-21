@@ -27,7 +27,14 @@ aux_links:
 # Build settings
 markdown: kramdown
 remote_theme: ReDI-School/jekyll-theme-redischool@redi-customizations
+
+# Exclude build and bundle files
+# In addition, you can hide some topics
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
   - libraries
   - meta
   - projects/tic-tac-toe
