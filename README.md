@@ -34,6 +34,8 @@ at the `github.io` URL above. The URL can't be changed.
 
 To build and test the website, you must have a Ruby development environment with Bundler.
 
+### Installing Ruby, Bundler, Jekyll
+
 On Ubuntu LTS 20.04:
 
 ```bash
@@ -41,18 +43,23 @@ sudo apt install bundler ruby-dev zlib1g-dev
 ```
 
 The last two packages are needed to compile some native Ruby dependencies (Ubuntu specific).
+On MacOS and Windows, please follow the installation instructions of Ruby and Bundler
+as suggested in the Jekyll [install guide](https://jekyllrb.com/docs/installation).
 
-Once Ruby and Bundler are installed, use the following command to download the gems, including Jekyll (only once):
+Once Ruby and Bundler are installed, use the following command to download the gems,
+including the proper version of Jekyll (only once):
 
-```
+```bash
 bundle install --path vendor/bundle
 ```
 
 This creates the `.bundle` and `vendor` directories, that should *not* be committed to the git repository.
 
+### Building and testing the website
+
 To build, test and serve the website locally, please run:
 
-```
+```bash
 bundle exec jekyll serve
 ```
 
