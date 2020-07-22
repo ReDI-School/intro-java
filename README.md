@@ -8,7 +8,13 @@ The website is visible at:
 
   **https://redi-school.github.io/intro-java**
 
+This website was generated from the [jekyll-course-template](https://github.com/ReDI-School/jekyll-course-template).
+You can create your own course website creating a repository out of the same template.
+
 ## Authoring the website
+
+Every markdown `.md` file is scanned and transformed into a page automatically.
+This includes files in subdirectories. The course homepage is stored in `index.md`.
 
 The website is built using [Jekyll](https://jekyllrb.com) and hosted automatically by GitHub Pages.
 You cannot use a different generator, as Jekyll is the only one supported by GitHub Pages.
