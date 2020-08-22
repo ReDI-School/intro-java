@@ -1,6 +1,6 @@
 ---
 title: Other content
-nav_order: 6
+nav_order: 8
 parent: 1 - First Steps with Java
 ---
 

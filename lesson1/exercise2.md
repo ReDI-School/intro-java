@@ -1,6 +1,6 @@
 ---
 title: "Exercise 2: Your first code changes in a Java Program"
-nav_order: 3
+nav_order: 4
 parent: 1 - First Steps with Java
 ---
 
@@ -102,6 +102,7 @@ public static void main(String[] args) {
 
 Can you think about a reason why you would like to be able to write some "random" text inside of your Java program?
 
+<!--
 ## Observations
 Given be our program
 
@@ -316,3 +317,4 @@ class Main {
   } 
 }
 ```
+-->

@@ -1,6 +1,6 @@
 ---
 title: "Exercise 4: What is all this stuff"
-nav_order: 5
+nav_order: 6
 parent: 1 - First Steps with Java
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: repl.it - a web-based Java editor
 parent: 1 - First Steps with Java
-nav_order: 1
+nav_order: 7
 ---
 
 # Write Java code with repl.it

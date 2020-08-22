@@ -1,6 +1,6 @@
 ---
 title: "Exercise 1: Running a Java Program"
-nav_order: 2
+nav_order: 3
 parent: 1 - First Steps with Java
 ---
 
@@ -53,6 +53,7 @@ How many steps do you observe while running your program?
 
 Do you have an idea, what each step is doing?
 
+<!--
 ## Observations
 We saw the following three parts when opening a new project in repl.it
 * on the left a folder with our source code file, _Main.java_
@@ -86,3 +87,4 @@ Luckily, when using a tool like *repl.it*, all these things are already given to
 The following image shows a simple overview of the steps from our source code file to our program actually running:
 
 ![compile and run java](javarunsteps.png)
+-->
