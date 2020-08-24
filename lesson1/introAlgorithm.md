@@ -47,7 +47,6 @@ Let's enact it!
   * you want the name of the student from nearest away?
 * Is this the only way to solve our problem? Could you imagine why you might want to change it? 
 
-<!--
 ## Insights
 
 ### Programming concepts
@@ -83,12 +82,11 @@ We just need to change the condition we defined in last step: we check if it is 
 
 Most programming tasks have more than one solution.
 
-Which solution you want to use depends on the context.
+Which solution you want to use depends also on the context.
 
 Examples:
 
 We used the website to calculate the distance to Berlin for each student. Now imagine that we do not have a computer in the class room but we would need to go somewhere else to use a computer. In that case, you would not like to go for each students - instead you would collect all cities the students came from and then just go once to the computer to ask the distances for all cities.
 
 We might want to split the work: let one just count all students, one determine the number of new and existing students and one find the student from farthest away. All three can work at the same time (we report then the results when everybody is done)
- -->
 
