@@ -102,7 +102,6 @@ public static void main(String[] args) {
 
 Can you think about a reason why you would like to be able to write some "random" text inside of your Java program?
 
-<!--
 ## Observations
 Given be our program
 
@@ -317,4 +316,3 @@ class Main {
   } 
 }
 ```
--->

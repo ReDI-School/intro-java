@@ -78,7 +78,6 @@ class Main {
   * Now change the word _Main_ (in the original) to something else again and run it.
   * Now change the word _main_ in the copy to something else again and run it.
 
-<!--  
 
 ## Observations
 Depending on what we change, we can observe three different outcomes:
@@ -194,4 +193,3 @@ So, let's try to summarize how a Java program starts:
 4. If it finds that, it will start the program by running that method
 5. If it does not find that method, it fails with the above mentioned _"Error: Main method not found"_ error
 
--->
