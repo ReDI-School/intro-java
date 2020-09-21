@@ -11,7 +11,7 @@ Basic version:
 ```java
 import java.util.Scanner;
 
-class Calculator {
+class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -49,7 +49,7 @@ More advanced version: with loop and check for division by zero
 ```java
 import java.util.Scanner;
 
-class Calculator {
+class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
