@@ -40,6 +40,8 @@ exclude:
   - meta
   - projects/tic-tac-toe
   - projects/quiz
-  - projects/covid19/library
-  - projects/bvg/library
+  - projects/covid19
+  - projects/bvg
+  - projects/mastermind
+  - projects/blackjack
   - review
