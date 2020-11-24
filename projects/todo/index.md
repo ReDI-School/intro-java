@@ -17,6 +17,39 @@ When running your application, it should give the user two options:
 - add a new TODO (a new TODO is just a text with the description of what to do e.g. Buy milk, Clean the dishes)
 - and of course the user should be able to exit the application
 
+Example:
+```bash
+Manage your TODOs
+
+Type
+1 to print all your TODOs
+2 to add a new TODO
+3 to quit
+Your choice?
+> 2
+Enter your new TODO
+> Buy milk
+
+Type
+1 to print all your TODOs
+2 to add a new TODO
+3 to quit
+Your choice?
+> 2
+Enter your new TODO
+> Bake a carrot cake
+
+Type
+1 to print all your TODOs
+2 to add a new TODO
+3 to quit
+Your choice?
+> 1
+You have 2 TODOs:
+* Buy milk
+* Bake a carrot cake
+```
+
 ### Step 2
 
 Extend the application from step 1.
@@ -30,6 +63,63 @@ Add new functionality:
 - when printing the TODOs, show also the status
 - extend showing TODOs such that the user can choose if he/she wants to see all TODOs, all open TODOs or all done TODOs
 
+Example:
+```bash
+Manage your TODOs
+
+Type
+1 to print all your TODOs
+2 to add a new TODO
+3 to mark a TODO as DONE
+4 to quit
+Your choice?
+> 2
+Enter your new TODO
+> Buy milk
+
+Type
+1 to print all your TODOs
+2 to add a new TODO
+3 to mark a TODO as DONE
+4 to quit
+Your choice?
+> 2
+Enter your new TODO
+> Bake a carrot cake
+
+Type
+1 to print all your TODOs
+2 to add a new TODO
+3 to mark a TODO as DONE
+4 to quit
+Your choice?
+> 1
+You have 2 TODOs:
+* OPEN: Buy milk
+* OPEN: Bake a carrot cake
+
+Type
+1 to print all your TODOs
+2 to add a new TODO
+3 to mark a TODO as DONE
+4 to quit
+Your choice?
+> 3
+Enter TODO to change to DONE
+> Buy milk
+
+Type
+1 to print all your TODOs
+2 to add a new TODO
+3 to mark a TODO as DONE
+4 to quit
+Your choice?
+> 1
+You have 2 TODOs:
+* DONE: Buy milk
+* OPEN: Bake a carrot cake
+```
+
 ### Step 3
 
 Extend the application from step 2.
@@ -41,6 +131,59 @@ When adding a new TODO, the user should be able to set priority and due date.
 Additionally, our application should
 - print priority and due date when showing TODOs
 - allow the user to change priority and due date of a TODO
+
+Example:
+```bash
+Type
+1 to print all your TODOs
+2 to add a new TODO
+3 to mark a TODO as DONE
+4 to change priority and due date of a TODO
+5 to quit
+Your choice?
+> 1
+You have 2 TODOs:
+* OPEN: Buy milk (priority 5, due 2020-12-24)
+* OPEN: Bake a carrot cake  (priority 8, due 2020-12-20)
+
+Type
+1 to print all your TODOs
+2 to add a new TODO
+3 to mark a TODO as DONE
+4 to change priority and due date of a TODO
+5 to quit
+Your choice?
+> 2
+Enter your new TODO
+> Buy presents
+Enter priority
+> 10
+Enter due date year
+> 2020
+Enter due date month
+> 12
+Enter due date day
+> 24
+
+Type
+1 to print all your TODOs
+2 to add a new TODO
+3 to mark a TODO as DONE
+4 to change priority and due date of a TODO
+5 to quit
+Your choice?
+> 4
+Enter TODO to be changed
+> Bake a carrot cake
+Enter priority
+> 3
+Enter due date year
+> 2020
+Enter due date month
+> 11
+Enter due date day
+> 30
+```
 
 ### Step 4
 
