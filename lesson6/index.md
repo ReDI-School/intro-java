@@ -11,13 +11,13 @@ has_children: true
 
 Congratulations! If you made it until this point you learned nearly everything you need to write simple programs with the Java programming language. With the things we discussed so far - variables, if statements and loops - you can solve the majority of problems and programming tasks.
 
-But as you hopefully learned from us, programming is not just giving instructions to a computer to tell it what it shall do! Otherwise we could type zeros and ones into the keyboard and the computer would still understand what it shall do (if we did it correctly)! A higher programming language like java has as main purpuse that we - the programmers - can express what the computer shall do in a way which is easily understandable for other people (collegues, friends, teachers, whoeverwants to read our code and even our future self). We should keep this in mind and write our programs in a way that it is easily understandable for other people or ourself.
+But as you hopefully learned from us, programming is not just giving instructions to a computer to tell it what it shall do! Otherwise we could type zeros and ones into the keyboard and the computer would still understand what it shall do (if we did it correctly)! A higher programming language like Java has as main purpose that we - the programmers - can express what the computer shall do in a way which is easily understandable for other people (colleagues, friends, teachers, whoever wants to read our code and even our future chef). We should keep this in mind and write our programs in a way that it is easily understandable for other people or ourselves.
 
 That is also the reason why we should try to use speaking names for our variables.
 
-But if our code gets more and more complicated, because the complexity of the problem we want to solve increses, we need to apply other techniques to keep our code as simple to read as possible.
+But if our code gets more and more complicated, because the complexity of the problem we want to solve increases, we need to apply other techniques to keep our code as simple to read as possible.
 
-Java and other higher programming languages give us some tools to support us in writing code which is easy too understand.
+Java and other higher programming languages give us some tools to support us in writing code which is easy to understand.
 
 One of these tools are **methods**.
 
@@ -29,7 +29,7 @@ E.g.: f(x) = x² + b or  f(x, z) = x³ + z² +b ...
 
 Functions in programming are similar. 
 
-- In Java **function** have a **name**, which is **f** is this case. In java the name of a function or method shall be speaking like variable names. This means the name of a function shall give a hint what happens during the execution time of the funtion.
+- In Java **function** has a **name**, which is **f** in this case. In java the name of a function or method shall be speaking like variable names. This means the name of a function shall give a hint what happens during the execution time of the function.
 
 - A **function** can have **parameters**, like **x** and **z** in the given examples. This means we can give values for x and z if we call the function. In math if **f(x) = x² is called with the value 2** => **f(2)**, the result we get will be **4**. So the value we hand over to the function kind of replaces the occurences of the variables, where the variables are still variables which means they can still change during the execution time of the function.
 
@@ -50,12 +50,12 @@ In Java a function is defined like this:
 So in Java we have some additional things. 
 
 - We have **modifiers**. So far we just used **public static**. In future classes we will get to know further modifiers.
-- We have a **returnType**. The return type specifies the type of the data the method returns, when the execution is done. The return type can be primitive data types like **int or long** or reference types like **String** oder **other classes**. If the method shall not return anything, we can use the returnType **void**.
+- We have a **returnType**. The return type specifies the type of the data the method returns, when the execution is done. The return type can be primitive data types like **int or long** or reference types like **String** or **other classes**. If the method shall not return anything, we can use the returnType **void**.
 - For the **nameOfMethod** we have the same rules as for **variable names**. A variable name should be in camel case and it should be formulated as a verb, because a **function** always does something e.g. **printGreeting, calculateSum, compareValues...**.
-- The **parameters** are specified as you now it from normal variable declarations: **dataType variableName**. You can specify as many parameters as you like. They are seperated via commas.
+- The **parameters** are specified as you know it from normal variable declarations: **dataType variableName**. You can specify as many parameters as you like. They are separated by commas.
 - The **modifiers, returnType, nameOfMethod and the parameters** define the **method signature**
-- The **method body** is encapsulated in curly brackets, which also define the **scope**. In between this brackets we have to define what the function shall do.
-- At the end of a function we always (**void functions excluded**) have to **return** a value. **return** is a keyword defined by the Java programming language. The value following by the **return** statement has to match the **returnType** which is specified in the **method signature**. So an function with **returnType** **int** can return a **0** but not a **"Hello world!"**
+- The **method body** is encapsulated in curly brackets, which also define the **scope**. Between these brackets we have to define what the function shall do.
+- At the end of a function we always (**void functions excluded**) have to **return** a value. **return** is a keyword defined by the Java programming language. The value followed by the **return** statement has to match the **returnType** which is specified in the **method signature**. So an function with **returnType** **int** can return a **0** but not a **"Hello world!"**
 
 - a function or method can be called from any other method in the program
 
@@ -95,10 +95,10 @@ public static int addKtimes(int n, int m, int k) {
     }
 }
 ```
-As this program has three different possible ways how it could execute (depending on values for _n_, _m_ or _k_), our program must make sure to return a value in each of this cases.  
+As this program has three different possible ways how it could execute (depending on values for _n_, _m_ or _k_), our program must make sure to return a value in each of these cases.  
 If we would forget a return statement, our program would fail and we would get an error about a _missing return statement_.
 
-Note: many developer however consider it a bad practice to have a multiple return statements in a method. We can rewrite our program in the following way to have only one:
+Note: many developers however consider it a bad practice to have multiple return statements in a method. We can rewrite our program in the following way to have only one:
 
 ```java
 public static int addKtimes(int n, int m, int k) {
@@ -136,7 +136,7 @@ Examples for scopes are:
 - the body after the definition of a loop. E.g.: **for** or **while**
 - the execution body of a **function** or **method**
 
-Scopes are important, when you need to think about the visibility of a variable. Scopes have a hierarchially struture. A scope can have exactly one direct parent. And a parent can have several direct children scopes.
+Scopes are important, when you need to think about the visibility of a variable. Scopes have a hierarchial struture. A scope can have exactly one direct parent. And a parent can have several direct children scopes.
 
 A variable defined in a scope is just visible in the scope itself or in the scope of the children. A variable defined in the scope of a child in not visible in the parent scope:
 
@@ -176,10 +176,10 @@ public class ScopeExample {
 ```
 
 Visibility of variables are important in two ways:
-* in a part of your program you can only use the variable that are visible there
-* if a variable is visible in a part of your program, you cannot define another variable with the same name. However, if there exists a variable that in your program that is not visible, you can actually reuse the name!
+* in a part of your program you can only use the variable that is visible there
+* if a variable is visible in a part of your program, you cannot define another variable with the same name. However, if there exists a variable in your program that is not visible, you can actually reuse the name!
 
-**Methods** also play an important role for scopes. Each method start a complete new independent scope - meaning a method block has no parent scope!
+**Methods** also play an important role for scopes. Each method starts a completely new independent scope - meaning a method block has no parent scope!
 Note: the parameters of the method are also part of the scope of the method.     
 Thus if we have two methods, _f_ and _g_ in our program
 * no variable defined in _f_ is accessible for _g_ (and also no variable of _g_ in _f_)
