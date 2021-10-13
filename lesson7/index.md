@@ -6,11 +6,11 @@ has_children: true
 
 # Strings
 
-As you already learned Strings are different than primitive datatpypes (byte,short, int, long, float, double, char, boolean).
+As you already learned Strings are different from primitive data types (byte,short, int, long, float, double, char, boolean).
 
 A string is a reference type or an object of the class **String**.
 
-This means you can call built-in methods on a String using the dot syntax:
+This means you can call built-in methods on a string using the dot syntax:
 ```java
 public class StringExamples {
 
@@ -24,21 +24,21 @@ public class StringExamples {
         // Prints: The length of the string 'Hello world!' is 12 characters!
         System.out.println("The length of the string '" + exampleString + "' is " + stringLength + " characters!");
 
-        // The string can also be accessed directly
+        // A string can also be accessed directly
         char firstCharacter = "Lorem ipsum".charAt(0);
 
-        System.out.println("The first character of the string 'Lorem ipsum is: '" + firstCharacter + "'!");
+        System.out.println("The first character of the string 'Lorem ipsum' is: " + firstCharacter + "!");
     }
 }
 ```
 
-Common used methods of the String class are (note these are all instance methods aka non-static methods):
+Commonly used methods of the String class are (note these are all instance methods aka non-static methods):
 
 ```java
 /** returns the length of a string*/
 public int length()
 
-/** returns true if the string contains no character or whitescpae i.e. its length is 0 */
+/** returns true if the string contains no character or whitespace i.e. its length is 0 */
 public boolean isEmpty()
 
 /** returns a copy of the string to just upper case letters */
@@ -86,7 +86,7 @@ string is bigger than otherString */
 public int compareTo(String otherString)
 ```
 
-For furher details or other methods please have a look at the [String-Reference](https://docs.oracle.com/javase/10/docs/api/java/lang/String.html).
+For further details or other methods please have a look at the [String-Reference](https://docs.oracle.com/javase/10/docs/api/java/lang/String.html).
 
 Or check out the official Java tutorial about Strings at [String-Tutorial](https://docs.oracle.com/javase/tutorial/java/data/strings.html)
 
