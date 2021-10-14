@@ -17,10 +17,10 @@ In Java there are several kinds of different loops:
 
 In this lesson, we will focus on the `for` and the `while` loop. Most of these loop types are interchangeable.
 This means it does not really matter if you use a for or a while loop to solve your problem.
-If you want you it is even possible to convert a for loop into a while loop and the other way around.
+If you want, it is even possible to convert a for loop into a while loop and the other way around.
 But in some cases and specially for better readability it is more applicable to use a for over a while loop and the other way around.
 
-Let's have a look at for loops first:
+Let's have a look at while loops first:
 
 ## while loops
 
@@ -43,7 +43,7 @@ The game works like this:
 1. A (random) number (`int`) will be stored in a variable
 2. The player guesses the number 
 3. The guess will be compared to the given number from step one
-4. Every loop a secondary variable will be increased to count the tries the player needed to guess the number
+4. In every loop a secondary variable will be increased to count the tries the player needed to guess the number
 4. If the player correctly guessed the given number, the loop stops
 5. Print the tries the player needed to guess the number
 
@@ -85,7 +85,7 @@ for (<INITIALIZATION>; <CONDITION>; <INCREMENT>) {
 }
 ```
 
-Where a `while` loop is mostly used to run statements until the condition changes to false `for` loops are often used
+Where a `while` loop is mostly used to run statements until the condition changes to false, `for` loops are often used
 to run the codeblock CODE TO EXECUTE between the `{` and `}` for a given amount of times.
 For this kind of loop it needs to be specified where to start which is done in the INITIALIZATION part.
 When to stop is defined in the CONDITION part. This condition is equal to the while loop a boolean expression.
@@ -140,7 +140,7 @@ public class NumberGuessingGameForLoop {
         }
 
         if (numberGuessed) {
-            System.out.println("Congratulations! You needed " + neededTries + " ties to guess the given number!");
+            System.out.println("Congratulations! You needed " + neededTries + " tries to guess the given number!");
         }
         else {
             System.out.println("Sorry but you lost the game!");
@@ -175,16 +175,16 @@ public class TallestPerson {
 This program will run once and compare the both numbers stored in `currentHeightInCm` and `newHeightInCm` and
 saves the largest of both numbers in the variable `currentHeightInCm`. When the program is finished the variable
 `currentHeightInCm` will contain the largest of these both numbers. So far so good.
-This is a good base for out program but now we need to execute this statements for every person in our class.
+This is a good base for our program but now we need to execute these statements for every person in our class.
 
 What we need to do:
 1. Ask the user how many people are members of our class
 2. Store this number 
 3. Create a new variable to store the height of the current tallest person (right now it is 0 because the tallest person is not evaluated yet)
-4. Ask the next person for their height
+4. Ask the next person for his/her height
 5. Store this height in a second variable
 6. Compare the new variable with the variable which contains the height of the person who is the tallest person so far
-7. If the new person is taller than the current tallest person store the new height in the variable for the current tallest person
+7. If the new person is taller than the current tallest person, store the new height in the variable for the current tallest person
 8. Repeat steps 4 -7 for all students in the class.
 
 ```java
@@ -217,7 +217,7 @@ public class TallestPersonEvaluator {
 ```
 
 Mostly for loops are used in combination with collections like an `ArrayList`.
-What an `ArrayList` is and how two iterate over it using a `for` loop will be discussed in a later chapter.
+What an `ArrayList` is and how to iterate over it using a `for` loop will be discussed in a later chapter.
 
 Material:
 - [Slides](https://drive.google.com/open?id=1rXD7s4BHbhagSCYkUmzy8VBnzEBWFUSoOUEWA01ZLlU)
