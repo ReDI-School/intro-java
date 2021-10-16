@@ -8,15 +8,15 @@ parent: 7 - Strings
 
 ## Looking at the Java reference documentation
 
-A reference is a technical documentation that explain all the capabilities available in a class or in a library.
+A reference is a technical documentation that explains all the capabilities available in a class or in a library.
 This exists also for every Java class.
 
 - Google for `java string reference` to find the reference documentation of the `String` class
-  or visit [](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html).
+  or visit !!! web link does not show at all !!! [](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html).
 - Try to find a method that does what you need, if it exists.
-- Do not use the `Search` box on the website but the search of the browser.
+- Do not use the `SEARCH` box on the website but the search of the browser.
 - Read the explanation and how it is used.
-- Use this information to solve the following exercises.
+- Use this information to solve(?do?) the following exercises.
 
 ### length(), isEmpty(), toUpperCase(), toLowerCase()
 
@@ -37,7 +37,7 @@ HELLO WORLD
 hello world
 ```
 
-### equals(String otherstring) and equalsIgnoreCase(String anotherString)
+### equals(String anotherString) and equalsIgnoreCase(String anotherString)
 
 Write a program that reads two strings from the input and checks if they are equal or only equal with case ignored.
 
@@ -107,7 +107,7 @@ Index: 4, Character: o
 
 ### indexOf(String substring)
 
-Write a program that takes two strings and print where in the first string the second string starts
+Write a program that takes two strings and prints where in the first string the second string starts
 
 ```text
 Input 1: This is a test
@@ -117,7 +117,7 @@ Output: is can be found at index 2
 
 ### indexOf(String substring, int index)
 
-Write a program that takes an int as position and two strings and print where in the first string the second string starts
+Write a program that takes an int as position and two strings and prints where in the first string the second string starts
 
 ```text
 Input 1: This is a test
