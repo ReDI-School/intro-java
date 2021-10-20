@@ -12,11 +12,11 @@ A reference is a technical documentation that explains all the capabilities avai
 This exists also for every Java class.
 
 - Google for `java string reference` to find the reference documentation of the `String` class
-  or visit !!! web link does not show at all !!! [](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html).
+  or visit [the official Java String Documentation](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html).
 - Try to find a method that does what you need, if it exists.
 - Do not use the `SEARCH` box on the website but the search of the browser.
 - Read the explanation and how it is used.
-- Use this information to solve(?do?) the following exercises.
+- Use this information to do the following exercises.
 
 ### length(), isEmpty(), toUpperCase(), toLowerCase()
 
