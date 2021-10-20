@@ -18,16 +18,16 @@ Ask the user how many people to create, then ask for the name of these people.
 For each person, create an instance of the class `Person`, giving it the name
 the user decided.
 
-Note that `Person` constructor requires a a `name` and a `surname`. Take the user
+Note that `Person` constructor requires a `name` and a `surname`. Take the user
 input, split it at the first space encountered (search online how) to separate
 the name from the surname. Otherwise, use the first letter of the name followed
 by a dot as surname. *HINT*: save this code to a method for later reuse.
 
-For every new person created, this person should present him/herself using the `sayHi()` method.
+For every new person created, this person should present him-/herself using the `sayHi()` method.
 
 In addition, the last person previously created should greet the new person using the
 `greet(...)` method and the new person should greet all the persons created so far.
-The first person should just present him/herself.
+The first person should just present him-/herself.
 
 Example:
 
@@ -64,9 +64,9 @@ objects of the class `Student`. After creating all the students, they all `sayHi
 in the order they're created.
 
 For each student, ask the user for the text of an exercise. Create a `Homework` with this text
-and tell the teacher to assign it the student. Repeat until every student has an exercise assigned.
+and tell the teacher to assign it to the student. Repeat until every student has an exercise assigned.
 
-When all the students have assigned homework, they do their homework, via the method `doHomework()`.
+When all the students get the assigned homework, they do their homework, via the method `doHomework()`.
 
 Example:
 
