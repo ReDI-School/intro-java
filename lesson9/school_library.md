@@ -9,7 +9,7 @@ parent: 9 - Using Classes
 The school library contains 4 classes that model persons, among which there are students and teachers,
 and homework that teachers can assign to students and students can do.
 
-Download and copy the classes in your workspace as described in the [README](../libraries/school/README.md)
+Download and copy the classes in your workspace as described in the (!!! 404 File not found !!!) [README](../libraries/school/README.md)
 file of the library.
 
 ## People greeting each other
