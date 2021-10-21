@@ -16,7 +16,7 @@ Write them down/remember them to share later with the class.
 ## Precondition
 You should have opened the [repl.it](https://repl.it/) website and created a new *Java* repl (do not yet change things).
 
-If not, please visit (!! 404! There isn't a GitHub Pages site here.!!) [this page](/replit) to find out how and come back here after that.
+If not, please visit [this page](replit) to find out how and come back here after that.
 
 ## Objective
 Goal of this exercise is to get an understanding of
@@ -71,7 +71,7 @@ Given our observations, we learned
 * what things we need to write & run a Java program
 * what are the steps to go from our source code to running a Java program
 
-Please also check our (!! 404! There isn't a GitHub Pages site here.!!) [glossary](/glossary) for terms that are unfamiliar or new to you!
+Please also check our [glossary](/intro-java/glossary) for terms that are unfamiliar or new to you!
 
 ### Things we need to write & run a Java program
 1. We need a file in that we can save our code. This is called our *Source Code File*. For Java, such a file always needs to have the file ending *.java*, e.g. *Main.java*
