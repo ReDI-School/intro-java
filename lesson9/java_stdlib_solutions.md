@@ -142,7 +142,7 @@ class PickRandomElement {
 }
 ```
 
-## Using dates
+## Use dates
 
 ### Which day of the week is today?
 
@@ -205,7 +205,7 @@ class TimePassed {
 }
 ```
 
-### Random day of year
+### Random day of a year
 
 ```java
 import java.time.LocalDate;
