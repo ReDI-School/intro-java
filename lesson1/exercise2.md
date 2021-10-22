@@ -42,12 +42,12 @@ So in the end, it should print
 ```bash
 Hello A, B, C!
 ```
-where _A_,_B_,_C_ would be your names!
+where _A_,_B_,_C_ would be the names of the group members!
 
 Note: if you change the program you might break it (so that it won't run).
 
-If that happens:
-can you find out what change broke your program (to share that later in class)?
+If that happens,
+can you find out what change broke your program (please share that later in class)?
 
 ### Question 2
 How would you change the program to print out for each of your group members a _Hello_ message?
@@ -58,15 +58,15 @@ Hello A!
 Hello B!
 Hello C!
 ```
-where _A_,_B_,_C_ would be your names!
+where _A_,_B_,_C_ would be the names of the group members!
 
 Note: if you change the program you might break it (so that it won't run).
 
-If that happens:
-can you find out what change broke your program (to share that later in class)?
+If that happens,
+can you find out what change broke your program (please share that later in class)?
 
 ### Question 3
-Having achieved this, can tell what the line
+Having achieved this, can you tell what the line
 ```java
 System.out.println(...);
 ```
@@ -92,7 +92,7 @@ and place it somewhere else in the Java file and try to run it?
 What can you conclude from this?
 
 ### Question 6
-What can you observe if you just some random text inside
+What can you observe if you just type some random text inside
 ```java
 public static void main(String[] args) {
     ...
@@ -103,7 +103,7 @@ public static void main(String[] args) {
 Can you think about a reason why you would like to be able to write some "random" text inside of your Java program?
 
 ## Observations
-Given be our program
+Given our program
 
 ```java
 class Main {
@@ -113,7 +113,7 @@ class Main {
 }
 ```
 
-firstly, if we delete the *double quotes* around _Hello world!_ or delete the semicolon at the end of line 3, our program will not compile anymore.
+Firstly, if we delete the *double quotes* around _Hello world!_ or delete the semicolon at the end of line 3, our program will not compile anymore.
 Instead we see in the console the following message (here for the removed semicolon):
 ```bash
 > javac -classpath .:/run_dir/junit-4.12.jar -d . Main.java
@@ -168,13 +168,13 @@ class Main {
 }
 ```
 
-our code fails again to compile (and the error message is again kind of cryptic)
+our code fails again to compile (and the error message is again a kind of cryptic)
 
 ## Insights
 In this exercise, we have seen
 * how to print text to the console
 * different ways how our program can break due to a compile error
-* some rules we need to follow to write a correct Java program
+* some rules we need to follow in writing a correct Java program
 * how to write comments in Java
 
 ### How to print text in Java to the console
@@ -193,9 +193,9 @@ System.out.println("Hello B!");
 
 ### What is a compile error?
 A compile error means that the Java compiler checked our program and found syntax errors, e.g.
-* a typo in some keyword
+* a typo in a keyword
 * a missing character like a _double quote_, _bracket_ or a _semicolon_
-* a statement or a method wrongly placed
+* a statement or a method wrongly placed 
 
 The compiler will print a message to the console which may help us to resolve the error.
 
