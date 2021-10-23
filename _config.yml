@@ -36,7 +36,6 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-  - libraries
   - meta
   - projects/tic-tac-toe
   - projects/quiz
