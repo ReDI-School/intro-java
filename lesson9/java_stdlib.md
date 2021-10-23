@@ -10,7 +10,7 @@ Java is provided with a standard library which contains many classes that
 perform the most diverse tasks. `String`, `Scanner` are few of the many classes
 available that developers can use to build their programs.
 
-The Java standard library is documented at [here](https://docs.oracle.com/javase/8/docs/api/index.html).
+The Java standard library is documented [here](https://docs.oracle.com/javase/8/docs/api/index.html).
 Select the package you're interested in to see all the classes it contains.
 
 ## Using random number generators
@@ -47,10 +47,10 @@ Ask the user to guess what number was generated:
 
 - The user types a number.
 - If it's the generated one, print "Yeah, you've found it!" and terminate the game.
-- If it's less than the generated one, print "Wrong, it's too small" and ask the input again.
-- If it's greater than the generated, print "Wrong, it's too big" and ask the input again.
+- If it's less than the generated one, print "Wrong, it's too small." and ask the input again.
+- If it's greater than the generated, print "Wrong, it's too big." and ask the input again.
 
-Play the game yourself: you against your own software, let's see who is smarter!
+Play the game by yourself: you against your own software, let's see who is smarter!
 
 *EXTRA*: If the user wins, print how many tentatives he has needed.
 
