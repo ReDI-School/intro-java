@@ -50,10 +50,10 @@ class Main {
 }
 ``` 
 
-will it do the same as in question 2?
+will it do the same as in question 1?
 
 Can you assign a new String to `test` after the print statement?
-if you print `test` than again, what would be the output?
+If you print `test` than again, what would be the output?
 
 ### Question 3
 Java cannot only deal with text but also work with numbers.
