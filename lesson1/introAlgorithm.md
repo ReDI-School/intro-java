@@ -86,7 +86,7 @@ Which solution you want to use depends also on the context.
 
 Examples:
 
-We used the website to calculate the distance to Berlin for each student. Now imagine that we do not have a computer in the classroom but we would need to go somewhere else to use a computer. In that case, you would not like to go for each student - instead you would collect all cities the students came from and then just go at once to the computer to ask the distances for all cities. (!!sorry, I do not quite catch it here!!)
+We used the website to calculate the distance to Berlin for each student. Now imagine that we do not have a computer in the classroom but we would need to go somewhere else to use a computer. In that case, you would not like to go for each student - instead you would collect all cities the students came from and then just go once to the computer to ask the distances for all cities.
 
 We might want to split the work: let one just count all students, one determine the number of new and existing students and one find the student from farthest away. All three can work at the same time (we report then the results when everybody is done)
 
