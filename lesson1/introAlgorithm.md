@@ -13,9 +13,9 @@ Given a problem, let's try to solve it using an **algorithm**.
 _Fadi_ and _Carys_ need the following information from each class at ReDI:
 
 * the total number of students in class
-* the number of students who already did some course at ReDI
+* the number of students who already has some courses at ReDI
 * the number of students who do their first course at ReDI
-* the name of the student that comes from farthest away from Berlin
+* the name of the student who comes farthest away to Berlin
 
 ## Our Algorithm
 
@@ -25,11 +25,11 @@ _Output_ : number of students, number of students with previous ReDI class, numb
 
 _Algorithm_ :
 
-While there are still _unprocessed_ students:
+Well, there are still _unprocessed_ students:
 * get the next student
-* increment count of total number of students
-* if student is new to ReDI, increment count of new students else increment count of students with previous ReDI class
-* calculate how far from Berlin student came from using a distance calculator ([https://www.distancecalculator.net/])
+* increase count of total number of students
+* if student is new to ReDI, increase count of new students else increase count of students with previous ReDI class
+* calculate how far to Berlin the student came from by using a distance calculator ([https://www.distancecalculator.net/])
 * if first student
   * save name and distance as coming from farthest away
 * else
@@ -40,9 +40,9 @@ Let's enact it!
 
 ## Questions
 
-* What in our algorithm would you consider a programming concept ?
+* What in our algorithm would you consider as programming concept ?
 * How would you change this algorithm if
-  * instead of the number of new/existing students you want the percentage?
+  * instead of the number of new/existing students, you want the percentage?
   * you do not want the name of the student from farthest away but his/her city?
   * you want the name of the student from nearest away?
 * Is this the only way to solve our problem? Could you imagine why you might want to change it? 
@@ -56,7 +56,7 @@ Following concepts can be found:
 
 **Variables**, i.e. something that can store a value. We can retrieve this value and update it. Variables can be part of our output (and input) but we might also have some helper variables we only use inside our program (e.g. here the farthest distance)
 
-**Conditional execution**, i.e. our program should run only one of two (or more) possible program sequences depending on if a condition is met or not (here e.g. we increment either the new student count or the existing student count depending on if they are new to ReDI or not)
+**Conditional execution**, i.e. our program should run only one of two (or more) possible program sequences depending on if a condition is met or not (here e.g. we increase either the new student count or the existing student count depending on if they are new to ReDI)
 
 **Loops**, i.e. we repeat the same program sequence again and again - until we reach some stop condition (here: we asked all students)
 
@@ -86,7 +86,7 @@ Which solution you want to use depends also on the context.
 
 Examples:
 
-We used the website to calculate the distance to Berlin for each student. Now imagine that we do not have a computer in the class room but we would need to go somewhere else to use a computer. In that case, you would not like to go for each students - instead you would collect all cities the students came from and then just go once to the computer to ask the distances for all cities.
+We used the website to calculate the distance to Berlin for each student. Now imagine that we do not have a computer in the classroom but we would need to go somewhere else to use a computer. In that case, you would not like to go for each student - instead you would collect all cities the students came from and then just go once to the computer to ask the distances for all cities.
 
 We might want to split the work: let one just count all students, one determine the number of new and existing students and one find the student from farthest away. All three can work at the same time (we report then the results when everybody is done)
 
