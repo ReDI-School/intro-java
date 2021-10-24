@@ -25,21 +25,21 @@ At the end of this you should understand:
 
 Programming has a deep connection with Mathematics, first computing devices were built to solve simple math problems such as counting items or simple arithmetic. That's why there's a great deal of brackets that are in use -- they come from math.
 
-**INFO:** If you're interested in more on this, look up the article on the [History of computing hardware](https://en.wikipedia.org/wiki/History_of_computing_hardware) on Wikipedia, and this [question and answer](https://softwareengineering.stackexchange.com/questions/136987/what-does-mathematics-have-to-do-with-programming) on StackExchange.
+**INFO:** If you're interested in more on this, look up the article on the [History of computing hardware](https://en.wikipedia.org/wiki/History_of_computing_hardware) on Wikipedia, also [question and answer](https://softwareengineering.stackexchange.com/questions/136987/what-does-mathematics-have-to-do-with-programming) on StackExchange.
 
 Here are the types of brackets used in Java (and many similar programming languages).
 
 | Bracket             | Name            | Use                                                                                             |
 |:--------------------|:----------------|:------------------------------------------------------------------------------------------------|
-| **`{`** and **`}`** | Curly brackets  | Organize code into blocks, we'll learn about different blocks of code in later lessons          |
-| **`(`** and **`)`** | Round brackets  | Used to group parameters and expressions, think _f(x) = x + 1_                                  |
-| **`[`** and **`]`** | Square brackets | Used to declare and access arrays, arrays are way to work with multiple values of the same type |
+| **`{`** and **`}`** | Curly brackets  | Organize code into blocks, we'll learn about different blocks of code in later lessons                |
+| **`(`** and **`)`** | Round brackets  | Used to group parameters and expressions, think _f(x) = x + 1_                                        |
+| **`[`** and **`]`** | Square brackets | Used to declare and access arrays (arrays is a way to work with multiple values of the same data type)|
 
 There are other names for these, depending on the region or context, have look at the different names on [wikipedia](https://en.wikipedia.org/wiki/Bracket#Names_for_various_bracket_symbols).
 
 ### Curly brackets organize code
 
-We often need to organize code, or in other words, we give the source code structure. We do this with blocks of code that start with an opening curly bracket: **`{`** and ending with a closing curly bracket **`}`**.
+We often need to organize code, or in other words, we give the source code structure. We do this with blocks of code that start with an opening curly bracket: **`{`** and end with a closing curly bracket **`}`**.
 
 Here's some code, try to identify different blocks  and how they relate to each other:
 
@@ -71,7 +71,7 @@ In the same example above, we can see the use of round brackets multiple times. 
 
 ### Square brackets are for arrays
 
-And we won't learn about arrays in this lesson. #fail
+And we won't learn about arrays in this lesson. #fail (??? typo ???)
 
 ## Other ways of structuring code
 
@@ -89,7 +89,7 @@ public static void main(String[]args){
 System.out.println("Hello");}}
 ```
 
-This is better, but it can be improved still, we know that the curly brackets are for blocks and that blocks can contain other blocks, let's use indentation and additional space characters to improve on this:
+This is better now, but still it can be improved. We know that the curly brackets are for blocks and that blocks can contain other blocks. Let's use indentation and additional space characters to improve on this:
 
 
 ```java
@@ -100,9 +100,9 @@ public class Main {
 }
 ```
 
-In this example `⸽` was added to illustrate the span of the blocks, this is not valid Java code just to illustrate that if we also indent the code it makes it easy to read and see what is contained in what block.
+In this example `⸽` was added to illustrate the span of the blocks, this is not valid Java code just to illustrate that. If we also indent the code, it makes it easy to read and see what is contained in which block.
 
-Take also note that the Java code editors help with showing where a block begins and where it ends. Try positioning the text cursor, i.e. the text insertion marker `|` after a open or closed curly bracket and notice that the corresponding bracket pair is higlighted.
+Take also a note that the Java code editors help with showing where a block begins and where it ends. Try positioning the text cursor, i.e. the text insertion marker `|` after an open or closing curly bracket and notice that the corresponding bracket pair is higlighted.
 
 ## Keywords
 
