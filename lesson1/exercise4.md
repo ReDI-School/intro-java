@@ -71,7 +71,7 @@ In the same example above, we can see the use of round brackets multiple times. 
 
 ### Square brackets are for arrays
 
-And we won't learn about arrays in this lesson. #fail (??? typo ???)
+And we won't learn about arrays in this lesson. #fail
 
 ## Other ways of structuring code
 
@@ -102,7 +102,7 @@ public class Main {
 
 In this example `⸽` was added to illustrate the span of the blocks, this is not valid Java code just to illustrate that. If we also indent the code, it makes it easy to read and see what is contained in which block.
 
-Take also a note that the Java code editors help with showing where a block begins and where it ends. Try positioning the text cursor, i.e. the text insertion marker `|` after an open or closing curly bracket and notice that the corresponding bracket pair is higlighted.
+Take also a note that the Java code editors help with showing where a block begins and where it ends. Try positioning the text cursor, i.e. the text insertion marker `|` after an open or closing curly bracket and notice that the corresponding bracket pair is highlighted.
 
 ## Keywords
 
