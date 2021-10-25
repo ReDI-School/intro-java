@@ -14,7 +14,7 @@ Write them down/remember them to share later with the class.
 {:toc}
 
 ## Objective
-In Java, we have several number types that allow to express different kind of numbers (numbers of different sizes and precisions).
+In Java, we have several number types that allow to express different kinds of numbers (numbers of different sizes and precisions).
 In this exercise, we'll see how these types are compatible with each other.
 
 ## Questions
@@ -81,7 +81,7 @@ class Main {
 }
 ```
 
-and compare what with result of the first one.
+and compare with the result of the first one.
 
 What can you conclude (hint: think about how assignments work)?
 
