@@ -28,22 +28,22 @@ Look at this statement:
 This statement does two things:
 
 1. It declares a variable of type `int` and name `salary`.
-2. It assigns the value `2200` to `salary.
+2. It assigns the value `2200` to `salary`.
 
-In Java, each variable (and not only) **must** have a type.
+In Java, each variable, and not only, **must** have a type.
 
-Statement like `a = 10` are not accepted. `int a = 10;` is the correct form to declare `a`.
+Statement like `a = 10` is not accepted. `int a = 10;` is the correct form to declare `a`.
 
-Variables are called so because we can change their value. In our example,
+Variables are called so because we can change their values. In our example,
 we can change the value of `salary`, like this:
 
 `salary = 2500;`
 
 In Java the `=` symbol is used for assignment, unlike in maths where it means equality.
 In programming both sides of the equal sign do not need to have the same value.
-The value _right_ of the `=` sign is assigned (copied) to what's on the _left_, our variable.
+The value _right_ of the `=` sign is assigned (copied) to what it is on the _left_, our variable.
 
-If `salary` had a different value before (`2200` in our example), that previous value is lost
+If `salary` had a different value before (`2200` in our example), that previous value got lost
 after a new value is assigned to it.
 
 Statements like `salary = salary + 100;` are correct, in Java. Not in math.
@@ -64,7 +64,7 @@ Rules:
 
 Each variable must have a data type.
 
-Data types determine, what type of values we can put in a variable and what actions can be done with them
+Data types determine, what type of values we can put in a variable and what actions can be done with them.
 A variable declaration is always starting with stating the type of the variable.
 
 ```java
@@ -98,7 +98,7 @@ to separate the decimal part from the fractional part:
 
 Example: `3.1415`, not `3,1415`.
 
-HINT: **use always use `int` for numbers**, unless you know the concept
+HINT: **always use `int` for numbers**, unless you know the concept
 you're trying to represent with a variable is fractional, then use `double`.
 
 Examples:
@@ -133,7 +133,7 @@ For text, use `String`.
 Examples:
 
 - `String firstName = "Martha";`
-- `String midName = "";` yes this is valid, just some empty text.
+- `String midName = "";` yes, this is valid, just some empty text.
 - `String surname = "Smith";`
 - `String fullName = "Martha Smith";`
 
