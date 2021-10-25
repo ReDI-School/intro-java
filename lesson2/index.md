@@ -98,7 +98,7 @@ to separate the decimal part from the fractional part:
 
 Example: `3.1415`, not `3,1415`.
 
-HINT: **use (??? intended twice use ???) always use `int` for numbers**, unless you know the concept
+HINT: **always use `int` for numbers**, unless you know the concept
 you're trying to represent with a variable is fractional, then use `double`.
 
 Examples:
