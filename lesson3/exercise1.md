@@ -15,7 +15,7 @@ Write them down/remember them to share later with the class.
 
 ## Objective
 Goal of this exercise is to get to know
-* how to mathematical operations with numbers in Java
+* how to handle / deal mathematical operations with numbers in Java
 * how to concatenate Strings
 * how to compare numbers
 
@@ -23,7 +23,7 @@ Goal of this exercise is to get to know
 Try to find the answers within your group (in case of questions/problems => ask one of your teachers!)
 
 ### Question 1
-If you have numbers, you should be able to also use them in mathematical operations.
+If you have numbers, you should also be able to use them in mathematical operations.
 
 Can you guess how to write a program that does
 * addition
