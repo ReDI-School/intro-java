@@ -51,8 +51,8 @@ Note, that the result of the division depends on if you use a type for fractiona
 
 Note that the same rules like in normal math apply regarding which operations are computed first in a more complex formula:
 * operations are executed from left to right
-* a division or multiplication takes precedence over addition or substraction, i.e. _2 + 5 * 2_ is _12_
-* you can use round brackets to explicitely define the order of operation, i.e. _(2 + 5) * 2_ is _14_
+* a division or multiplication takes precedence over addition or subtraction, i.e. _2 + 5 * 2_ is _12_
+* you can use round brackets to explicitly define the order of operation, i.e. _(2 + 5) * 2_ is _14_
 
 ## String Concatenation
 With String concatenation, you can take two String and produce a new one (you _sum_ them up):
@@ -89,11 +89,11 @@ what will be the resulting type?
 Java follows this rule to determine that:
 Given one value of type _A_ and one of type _B_ and applying an operator on both, the type of the result will be the **more expressive** one of _A_ and _B_
 
-So when is a type _A_ more expressive then a type _B_?
+So when is a type _A_ more expressive than a type _B_?
 
 If all possible values of _B_ are part of _A_ but not all possible values of _A_ are part of _B_!
 
-Let us look at some example for clarity:
+Let us look at some examples for clarity:
 * *long* is more expressive than *int* as *int* only contains numbers from -2000000000 to +2000000000 while *long* contains both bigger and smaller numbers
 * *double* is more expressive than *int* as *int* can only contain numbers like _1, 2, ..._ while *double* can contain also all the numbers between e.g. _1_ and _2_ like _1.1, 1.2, 1.25 ..._
 * *String* is more expressive than *double* as every *double* can be represented as *String* (e.g. _1.5_ is just _"1.5"_) while e.g. the *String* _"A"_ cannot be represented as *double* 
@@ -115,7 +115,7 @@ The program will print **6.0429** as
 * we go from left to right
 * first we add to _int i_ the _double d_ and the result of this is a _double_ so _6.0_
 * then we _add_ a _String_ to that _double_, the result is of type _String_ so we get as result the concatenation of _6.042_
-* then we _add_ the _int t_ but as the other type is a _String_ this will be again just be treated as concatenation and we end up with the _String_ _6.0429_ 
+* then we _add_ the _int t_ but as the other type is a _String_ this will be again just treated as concatenation and we end up with the _String_ _6.0429_ 
 
 We can observe a similar effect also for **assignments**:
 
@@ -144,9 +144,9 @@ The first program will run and print out _4.0_.
 The second program will not compile.  
 This is again due to the expressiveness of the involved types:
 * in the first program we put an _int_ into a _double_. As we know, each _int_ can be represented as _double_ so the assignment is allowed (and the _int 4_ is converted into the corresponding _double 4.0_)
-* in the second program we try to put an _double_ value into an _int_ value. Java does not allow that as we might lose information (e.g. all doubles _4.0, 4.1, 4.2_ cannot be represented lossless as an _int_ => all values would be converted to just the same, a _4_)
+* in the second program we try to put a _double_ value into an _int_ value. Java does not allow that as we might lose information (e.g. all doubles _4.0, 4.1, 4.2_ cannot be represented lossless as an _int_ => all values would be converted to just the same, a _4_)
 
-However, there might be an occasion where we actually want to perform the second case, We can achieve this but must tell Java explicitely to execute the conversion from _double_ to _int_. This process is called **casting** (e.g. casting a double to an int) and can be expressed in code like this:
+However, there might be an occasion where we actually want to perform the second case. We can achieve this but must tell Java explicitly to execute the conversion from _double_ to _int_. This process is called **casting** (e.g. casting a double to an int) and can be expressed in code like this:
 ```java
 class Main {
     public static void main(String[] args) {
@@ -181,7 +181,7 @@ class Main {
 ```
 
 ## Logical Operators (Boolean)
-Logical operator allow you to combine two boolean expressions (either just a boolean value like _true_ or _false_ but also comparison like the ones from the previous section).
+Logical operators allow you to combine two boolean expressions (either just a boolean value like _true_ or _false_ but also comparison like the ones from the previous section).
 
 Logical operators will again return a new boolean value.
 
