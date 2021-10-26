@@ -11,7 +11,7 @@ Here's the solution.
 ```java
 public static void main(String[] args) {
 
-   // There are 2 cake (one chocolate and one with raspberries).
+   // There are 2 cakes (one chocolate and one with raspberries).
    // Each cake can be cut into 8 pieces.
 
    int chocolatePieces = 8;
@@ -24,7 +24,7 @@ public static void main(String[] args) {
    // Bob wants 2 pieces of chocolate and 3 pieces of raspberry cake
    // Jo wants 2 pieces of chocolate and 4 pieces of raspberry
 
-   // is there enough chocolate cake?
+   // Is there enough chocolate cake?
 
    int chocoMary = 4;
    int chocoBob = 2;
