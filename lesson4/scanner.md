@@ -29,7 +29,7 @@ public class ScannerExperiments {
 ```
 
 Please first read through this piece of code: What do you expect to happen if the user types "Mario" on
-the keyboard after they are asked for their name? Note the output you expect to be printed to the console.
+the keyboard after he is asked for the name? Note the output you expect to be printed to the console.
 
 ## Exercise 2
 
@@ -45,7 +45,7 @@ instead of:
 input.nextLine(); 
 ```
 
-Ask the user their name, surname, age and weight (in kilos, with a precision of 100g). Print the result.
+Ask the user his name, surname, age and weight (in kilos, with a precision of 100g). Print the result.
 
 ```java
 import java.util.Scanner;
@@ -62,7 +62,7 @@ public class ScannerExperiments {
 
 ## Exercise 3
 
-A customer enters in a shop to buys some good. Let's say milk boxes.
+A customer enters a shop to buy some goods. Let's say milk boxes.
 We simulate a simple cash register. The user is the cashier and uses
 our cash register to calculate the total price and the rest for the customer.
 
@@ -124,7 +124,7 @@ Now try to run it and
 * enter an _a_ as first
 * enter an _b_ as second
 
-The (for many surprising) result is that the program will not ask the user for a third value to enter but instead print the following
+The result, many will be surprised, is that the program will not ask the user for a third value to enter but instead print the following
 
 ```bash
 Enter first:
@@ -166,7 +166,7 @@ Scanner {
 }
 ```
 
-So it has a reference to read the input from your keyboard (by using System.in) and an empty state (we see later what happens).
+So it has a reference to read the input from your keyboard (by using System.in) and an empty state (we will see later what happens).
 
 Now our program executes the first _sc.next()_.  
 As the state of _sc_ is empty, the keyboard is asked for input (i.e. we use the passed _System.in_).  
