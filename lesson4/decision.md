@@ -107,7 +107,7 @@ Attention
 {: .label .label-red }
 
 If you add a semicolon directly after the `if`-condition, nothing is executed even if the condition is true.
-But all code directly after the semicolon is always be executed.
+But all code directly after the semicolon is always executed.
 
 E.g.:
 
@@ -127,7 +127,7 @@ public class Attention {
 
 ## else
 
-If the condition does not evaluate to true, we can specify alternative codeblock to execute. This is done with the `else`-keyword.
+If the condition does not evaluate to true, we can specify an alternative codeblock to execute. This is done with the `else`-keyword.
 
 Let's imagine we want to build an application similar to a streaming platform.
 Depending on the age of the user we want to recommend different movies:
@@ -149,7 +149,7 @@ public class StreamingPlatform {
 }
 ```
 
-Similar to the `if` statement, the `else`-block is be executed if the condition evaluates to false.
+Similar to the `if` statement, the `else`-block is executed if the condition evaluates to false.
 All statements in the block are executed.
 
 ## else if
