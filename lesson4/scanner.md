@@ -29,7 +29,7 @@ public class ScannerExperiments {
 ```
 
 Please first read through this piece of code: What do you expect to happen if the user types "Mario" on
-the keyboard after he is asked for the name? Note the output you expect to be printed to the console.
+the keyboard after they are asked for their name? Note the output you expect to be printed to the console.
 
 ## Exercise 2
 
@@ -45,7 +45,7 @@ instead of:
 input.nextLine(); 
 ```
 
-Ask the user his name, surname, age and weight (in kilos, with a precision of 100g). Print the result.
+Ask the user their name, surname, age and weight (in kilos, with a precision of 100g). Print the result.
 
 ```java
 import java.util.Scanner;
