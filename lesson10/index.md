@@ -12,7 +12,7 @@ We already used classes which exist in Java (E.g.: Scanner, ArrayList, String)
 
 ![Creating an object from a class](Img/ObjectCreationWithDescription.png)
 
-Here the word Scanner is the class, which also defines the datatype of our variable scanner. The **new** keyword tells Java to create a new object of this class. It calls the **contructor** of this class, which need one parameter (System.in in this case). Later in this lesson you will learn what a constructor is and for what it is used. Right now you just need to know, that a constructor is need to create a new object of a class.
+Here the word Scanner is the class, which also defines the datatype of our variable scanner. The **new** keyword tells Java to create a new object of this class. It calls the **contructor** of this class, which needs one parameter (System.in in this case). Later in this lesson you will learn what a constructor is and for what it is used. Right now you just need to know, that a constructor is needed to create a new object of a class.
 
 This lesson is about implementing class. In the following steps you will learn how to build your own classes.
 
@@ -21,7 +21,7 @@ This lesson is about implementing class. In the following steps you will learn h
 Java is an object oriented language. This means if we build a program we normally have to work with objects and classes a lot.
 Objects are created from classes, where a class describes the properties and the behavior of an object. An object is a unique representation of its class. We as programmers also say an object is an instance of a class.
 
-The relationship between a class and an object is comparable to a plan for a building of an architect and the real building. The plan tells how the building shall look like but the building itself may have properties, which are not exactly defined by the plan: It can be located at a special locatiob, maybe the size of the rooms is different or the building has some additional features like a garage or a balcony... So a class is like a plan of the building and a specific realisation of this class is comparable to an object. But with the plan of the architect you could build several buildings at different places!
+The relationship between a class and an object is comparable to a plan for a building of an architect and the real building. The plan tells how the building shall look like but the building itself may have properties, which are not exactly defined by the plan: It can be located at a special location, maybe the size of the rooms is different or the building has some additional features like a garage or a balcony... So a class is like a plan of the building and a specific realisation of this class is comparable to an object. But with the plan of the architect you could build several buildings at different places!
 
 An object represents a specific state of a class. So if we change an object, by calling a method on it (e.g. adding an element to an ArrayList), we change the state of the object, but the class stays the same
 
@@ -35,7 +35,7 @@ class Main {
 ```
 Normally a program consists of serveral classes which are defined by us (the creators of the program). 
 
-Often (but not always!) classes are an abstact representation of something what exists in the real world. Let's imagine we want to build an online shop. For this we would probably need classes like costumer or shopping cart.
+Often (but not always!) classes are an abstact representation of something what exists in the real world. Let's imagine we want to build an online shop. For this we would probably need classes like customer or shopping cart.
 
 Can you think of other possible needed classes?
 
@@ -43,11 +43,11 @@ What are possible properties and methods of these classes?
 
 ## A first working class
 
-As a first example we will now build a working class, which has a properties, methods and constructor.
+As a first example we will now build a working class, which has properties, methods and a constructor.
 
 Our first class will be a product, which represents a product in our online store.
 
-An empty skeleton of this product will look like this:
+An empty skeleton of this product looks like this:
 
 ```java
 class Product {
@@ -56,7 +56,7 @@ class Product {
 ```
 Hint:
 {: .label .label-yellow }
-In contrast to variable or method names the name of a class shall start with an upper case letter. Our code will also compile if we ignore this rule but java programmers agreed on starting class names with an upper case letter so that it is easier to distinguish between class names and other code parts like variable or method names. 
+In contrast to variable or method names the name of a class shall start with an upper case letter. Our code will also compile if we ignore this rule but Java programmers agreed on starting class names with an upper case letter so that it is easier to distinguish between class names and other code parts like variable or method names. 
 
 A class like this is not very useful. So we should add some properties to this class:
 
@@ -120,9 +120,9 @@ public static void main(String[] args) {
 }
 ```
 
-A **static** variable or a **static** method can accessed without having an instance of the class. This methods and variable are even existent, if no instance of the class exists at all. But a static variable of a class with the same name exists just once. So if a static variable is modified from somewhere in the program this modification is valid for the following times this variable is accessed until its value is changed again. 
+A **static** variable or a **static** method can be accessed without having an instance of the class. These methods and variable are even NOT existent, if no instance of the class exists at all. But a static variable of a class with the same name exists just once. So if a static variable is modified from somewhere in the program this modification is valid for the following times this variable is accessed until its value is changed again. 
 
-If you want make a variable of a class a **static** variable you just have to add the **static** keyword to the variable definition as we already did with methods:
+If you want to make a variable of a class a **static** variable, you just have to add the **static** keyword to the variable definition as we already did with methods:
 
 ```java
 class Product {
@@ -149,10 +149,10 @@ class Product {
 
 The above example increases the value productCount every time an new Product object is created via the constructor.
 
-As you may have recognized from the constructor example above, we used an other keyword: **this**.
-This keyword is used to reference to the current instańce of the class.
+As you may have recognized from the constructor example above, we used another keyword: **this**.
+This keyword is used to refer to the current instance of the class.
 
-This is useful if you have parameters in a method which have the same name as the instance variables. With the **this** keyword you can solve name collision as the keyword tells java that you want to access the instance variable.
+This is useful if you have parameters in a method which have the same name as the instance variables. With the **this** keyword you can solve name collision as the keyword tells Java that you want to access the instance variable.
 
 So you can use the **this** keyword just in **non static** methods.
 
