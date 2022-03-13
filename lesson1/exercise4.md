@@ -112,9 +112,9 @@ Computers are very strict about what they understand and what they do not unders
 Try to do the exercises together within your group (in case of questions/problems => ask one of your teachers!)
 
 ### Question 1
-Open a *Java* repl in [repl.it](https://repl.it/).
+Open a *Java* project in [codeboard.io](https://codeboard.io/).
 
-Use the example above (copy-paste it over existing code in repl.it) and point out each bracket, and it's meaning:
+Use the example above (copy-paste it over existing code in codeboard.io) and point out each bracket, and it's meaning:
 
  * For code blocks point where the block starts and where it ends
  * Point out where grouping is used, start and end of each group

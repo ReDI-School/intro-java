@@ -14,9 +14,9 @@ Write them down/remember them to share later with the class.
 {:toc}
 
 ## Precondition
-You should have opened the [repl.it](https://repl.it/) website and created a new *Java* repl (do not yet change things).
+You should have opened the [codeboard.io](https://codeboard.io/) website and created a new *Java* codeboard (do not yet change things).
 
-If not, please visit [this page](replit) to find out how and come back here after that.
+You can fine the setup instructions [here](codeboard.md)
 
 ## Objective
 Goal of this exercise is to get an understanding of
@@ -34,7 +34,7 @@ If you have an idea, explain why!
 Now run the program - does it do the thing you have expected?
 
 ### Question 2
-Take another look at your opened *Java* repl.
+Take another look at your opened *Java* project.
 
 You can see that it consists of three major parts.
 
@@ -54,7 +54,7 @@ How many steps do you observe while running your program?
 Do you have an idea, what each step is doing?
 
 ## Observations
-We saw the following three parts when opening a new project in repl.it
+We saw the following three parts when opening a new project
 * on the left a folder with our source code file, _Main.java_
 * in the middle our code editor: it showed the content of _Main.java_ and we can edit it there
 * on the right, a console: as soon as we press the *Run* button we see some text output related to running our Java program
@@ -79,7 +79,7 @@ Please also check our [glossary](/intro-java/glossary) for terms that are unfami
 3. We need a console where we can run the necessary commands to run our program and see its output.
 4. We need of course the specific commands *javac* and *java* available on our computer.
 
-Luckily, when using a tool like *repl.it*, all these things are already given to you, the only thing you need is Internet access.
+Luckily, when using a tool like *codeboard.io*, all these things are already given to you, the only thing you need is Internet access.
 
 ### Steps to go from source code to running a program
 

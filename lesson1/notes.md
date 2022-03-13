@@ -19,7 +19,7 @@ Question 3 => basically they report back what happens in the console
 
 Possibilities to go deeper here if wanted (or at some later point we might want to do that)
 * a high-level explanation of the process from Java code in source file, via compilation to class file, then running on JVM
-* do the whole compile/run process as exercise outside of repl.it (i.e. create a local file and do all on command line) => to show it is no magic
+* do the whole compile/run process as exercise outside of codeboard.io (i.e. create a local file and do all on command line) => to show it is no magic
 
 ## Notes Exercise 2
 Question 1 to 3: how to print things (same line, new lines)
