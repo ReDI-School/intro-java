@@ -29,7 +29,7 @@ To be clear: starting point means where our program starts its execution
 Try to do the exercises together within your group (in case of questions/problems => ask one of your teachers!)
 
 ### Question 1
-Open a *Java* repl in [repl.it](https://repl.it/).
+Open a *Java* project in [codeboard.io](https://codeboard.io/).
 
 Given your experiences from previous exercises, can you find some criteria that define the starting point of a Java program?
 
@@ -153,7 +153,7 @@ If we run our program, it will print out _Hello World from Main.main!_.
 
 Let's try to understand why.
 
-But this time, we will not use repl.it but try to compile and run our code on our local computer (using the console).
+But this time, we will not use codeboard.io but try to compile and run our code on our local computer (using the console).
 
 Let's place our _Main.java_ file there (note: the file is placed in a folder _java-test_ and _ls_ is a command to show all files in the folder)
 ```bash
@@ -161,7 +161,7 @@ nloo@Kubuntu1804:~/java-test$ ls
 Main.java
 ```
 
-Now let us compile the Java file (like repl.it does) and after that see what is contained in our _java-test_ folder:
+Now let us compile the Java file (like codeboard.io does) and after that see what is contained in our _java-test_ folder:
 ```bash
 nloo@Kubuntu1804:~/java-test$ javac Main.java
 nloo@Kubuntu1804:~/java-test$ ls
@@ -176,7 +176,7 @@ However, as you can see, that was not fully true: the Java compiler creates a ne
 
 So _Main.class_ is the computer-readable version of the class _Main_ while _Test.class_ is the computer-readable version of the class _Test_.
 
-Let's run our program, first like repl.it does, but then a second time with a little change:
+Let's run our program, first like codeboard.io does, but then a second time with a little change:
 ```bash
 nloo@Kubuntu1804:~/java-test$ java Main
 Hello world from Main.main!
