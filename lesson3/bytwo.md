@@ -15,13 +15,22 @@ Write code that prints the following, where the last number in each line is the 
 17 divided by 2 is 8
 17 modulo 2 is 1
 ```
-- now change so that you use the number 18 instead of 17 - you should only have to change in one place
-  - check that the new output is as expected
+
+Now change so that you use the number 18 instead of 17 - you should only have to change in one place! 
+- The new output should look like below
+```java
+18 plus 2 is 20
+18 minus 2 is 16
+18 multiplied by 2 is 36
+18 divided by 2 is 9
+18 modulo 2 is 0
+```
+
 
 # Exercise: By Three
-  - Change the code you wrote in "by two" so that you use 3 instead of two.
+  - Change the code you wrote in "By Two" so that you use 3 instead of two.
   - Do you have to change in more than one place? How could you change your code so that you only need to change in one place?
-  - After you have updated the code so you only need to change it in one place test it out by changing from 3 to 4.
+  - After you have updated the code so that you only need to change it in one place test it out by changing from 3 to 4.
 
 You should see the following output
 ```java

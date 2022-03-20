@@ -1,6 +1,6 @@
 ---
 title: "Exercise: Cakes"
-nav_order: 6
+nav_order: 5
 parent: 3 - Operators
 ---
 
