@@ -40,7 +40,7 @@ class Main {
         int divided = a / b;
         System.out.println(divided);
         int modulo = a % b;
-        System.out.println(modulo)
+        System.out.println(modulo);
     }
 }
 ```
@@ -49,6 +49,7 @@ Note, that the result of the division depends on if you use a type for fractiona
 * for fractional numbers, you will get an exact result, e.g. _3.0 / 2.0_ will give you back _1.5_
 * for non-fractional result, for the same calculation _3 / 2_ you get just _1_
 
+### Order of Precedence
 Note that the same rules like in normal math apply regarding which operations are computed first in a more complex formula:
 * operations are executed from left to right
 * a division or multiplication takes precedence over addition or subtraction, i.e. _2 + 5 * 2_ is _12_
