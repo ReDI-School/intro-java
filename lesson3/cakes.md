@@ -49,7 +49,7 @@ public static void main(String[] args) {
    }
 
    // if each of the people would want 2 pieces of the chocolate cake, how much of it would be left over?
-
+   int numberOfPeople =
    chocoLeftOver =
 
    System.out.println("There are " + chocoLeftOver + " pieces of chocolate cake left over");
@@ -59,6 +59,7 @@ public static void main(String[] args) {
 
    int orangePieces = 4;
    totalPieces
+   numberOfPeople      
 
    int cakeLeftOver =
 
