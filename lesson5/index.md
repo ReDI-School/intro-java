@@ -6,25 +6,25 @@ has_children: true
 
 # Loops
 
-Another concept in the area of control flow are loops. Loops are used if your program shall run the same block of code several times:
+Another concept in the area of control flow are loops. Loops are used in your program to run the same block of code several times.
 
-In Java there are several kinds of different loops:
+In Java there are different kinds of loops:
 
 1. `for`
 2. `while`
 3. `do` ... `while`
 4. `for` each
 
-In this lesson, we will focus on the `for` and the `while` loop. Most of these loop types are interchangeable.
-This means it does not really matter if you use a for or a while loop to solve your problem.
-If you want, it is even possible to convert a for loop into a while loop and the other way around.
-But in some cases and specially for better readability it is more applicable to use a for over a while loop and the other way around.
+In this lesson we will focus on `for` and `while` loops. However, please note, most of these loop types are interchangeable.
+It does not really matter if you use a `for` or a `while` loop to solve your problem.
+It is even possible to convert a `for` loop into a `while` loop and vice versa.
+But in some cases—for better readability for example—it can be more applicable to use one type of loop instead of another.
 
-Let's have a look at while loops first:
+Given the syntax is slightly simpler, let's have a look at `while` loops first:
 
-## while loops
+## While loops
 
-The structure of a while loop is very similar to the structure as we know it of an if statement:
+The structure of a `while` loop is very similar to the structure of an `if` statement:
 
 ```java
 while (<CONDITION>) {
@@ -32,20 +32,20 @@ while (<CONDITION>) {
 }
 ```
 
-Let's rip this block of code apart:
+Let's deconstruct this block of code:
 
-1. Like the `if` statement the `while` keyword is a part of the Java language you just have to learn by heart
-2. Like you learned from the if statement the CONDITION is a boolean expression, which evaluates to true or false.
-3. The block between `{` and `}` CODE TO EXECUTE will be executed as long as the CONDITION evaluates to true.
+1. Like the `if` keyword the `while` keyword is a part of the Java language, you just have to learn it by heart.
+2. Like you learned studying the `if` statement, the `<CONDITION>` represents a boolean expression, which evaluates to `true` or `false`.
+3. The block between the curly braces—`{}`—will be executed as long as the `<CONDITION>` evaluates to `true`.
 
-An example for the use of a while loop could be a simple number guessing game:
-The game works like this:
-1. A (random) number (`int`) will be stored in a variable
-2. The player guesses the number 
-3. The guess will be compared to the given number from step one
-4. In every loop a secondary variable will be increased to count the tries the player needed to guess the number
-4. If the player correctly guessed the given number, the loop stops
-5. Print the tries the player needed to guess the number
+An example for the use of a `while` loop is a simple number guessing game. The game works like this:
+
+1. A random number of type `int` will be stored in a variable.
+2. The player guesses the number. 
+3. The guess will be compared to the random number variable declared in step one.
+4. In every loop a secondary variable will be increased to count the tries the player needed to guess the number.
+4. If the player correctly guessed the given number, the loop stops.
+5. The program then prints the tries the player needed to guess the number.
 
 ```java
 import java.util.Scanner;
@@ -75,25 +75,26 @@ public class NumberGuessingGame {
 }
 ```
 
-## for loops
+## For loops
 
-The structure of a for loop is a little more complicated:
+The structure of a `for` loop is a little more complicated:
 
 ```java
-for (<INITIALIZATION>; <CONDITION>; <INCREMENT>) {
+for (<INITIAL_VALUE>; <CONDITION>; <INCREMENT>) {
     <CODE TO EXECUTE>
 }
 ```
 
-Where a `while` loop is mostly used to run statements until the condition changes to false, `for` loops are often used
-to run the codeblock CODE TO EXECUTE between the `{` and `}` for a given amount of times.
-For this kind of loop it needs to be specified where to start which is done in the INITIALIZATION part.
-When to stop is defined in the CONDITION part. This condition is equal to the while loop a boolean expression.
-Often this condition is a comparison between two numbers (for example the **counting variable** defined in the INITIALIZATION
-part and a limit). The value of the **counting variable** is increased in the INCREMENT part.
+Where a `while` loop is mostly used to run statements until a condition evaluates to `false`, `for` loops are often used to run a code block—represented by `<CODE TO EXECUTE>` between the `{}`—a given amount of times.
 
-A very simple example for a for loop would be increasing an integer by 1 in every loop
-and printing the value of the **counting variable**:
+For this kind of loop a few values must be defined.
+
+1. `<INITIAL_VALUE>`: The starting value.
+2. `<CONDITION>`: When to stop.
+3. `<INCREMENT>`: How much to add to the `<INITIAL_VALUE>` on each loop.
+
+A very simple example of a `for` loop is increasing an integer by 1 for every loop
+and printing the value of the **counting variable**, in our case, the `int i = 0`:
 
 ```java
 public class SimpleForLoopExample {
@@ -107,10 +108,9 @@ public class SimpleForLoopExample {
 }
 ```
 
-This example does not make a lot of sense, because it is just printing the value of i from 0 to 9.
-
-But we could convert the example for the while loop - The number guessing game - by using a for loop.
-What will be changed in this version is, that the player gets a limited amount of tries to guess the number:
+This example does not do a lot, given it’s just printing the value of `i` from 0 to 9. 
+To see the power of `for` loops, let's convert our earlier example of the number guessing game and substitute the `while` loop for a `for` loop.
+The goal here is to limit the tries a player has to guess the number:
 
 ```java
 import java.util.Scanner;
@@ -149,9 +149,9 @@ public class NumberGuessingGameForLoop {
 }
 ```
 
-Another example is the first programming example game we did in our first lesson, where we tried to find the tallest
-person in our group. If you remember we learned how to compare the height (or just two numbers) of two people
-in our previous class about decision statements:
+Another example is the programming game we developed in our first lesson, where we tried to find the tallest person in our group. 
+
+If you remember, we learned how to compare the height (or just two numbers) of two people in our previous class about decision statements:
 
 Recap:
 {: .label .label-red }
@@ -172,19 +172,20 @@ public class TallestPerson {
 }
 ```
 
-This program will run once and compare the both numbers stored in `currentHeightInCm` and `newHeightInCm` and
-saves the largest of both numbers in the variable `currentHeightInCm`. When the program is finished the variable
-`currentHeightInCm` will contain the largest of these both numbers. So far so good.
-This is a good base for our program but now we need to execute these statements for every person in our class.
+This program will run once and compare both numbers stored in `currentHeightInCm` and `newHeightInCm` and
+save the largest of both numbers in the variable `currentHeightInCm`. When the program is finished the variable
+`currentHeightInCm` will contain the largest of these two numbers. So far so good.
+This is a good start, but imagine we now need to execute these statements for every person in our class. How would we do this?
 
 What we need to do:
-1. Ask the user how many people are members of our class
-2. Store this number 
-3. Create a new variable to store the height of the current tallest person (right now it is 0 because the tallest person is not evaluated yet)
-4. Ask the next person for his/her height
-5. Store this height in a second variable
-6. Compare the new variable with the variable which contains the height of the person who is the tallest person so far
-7. If the new person is taller than the current tallest person, store the new height in the variable for the current tallest person
+
+1. Ask the user how many people are members of our class.
+2. Store this number. 
+3. Create a new variable to store the height of the current tallest person (right now it’s 0 because the tallest person is not yet evaluated).
+4. Ask the next person for his/her height.
+5. Store this height in a second variable.
+6. Compare the new variable with the variable which contains the height of the person who is the tallest person so far.
+7. If the new person is taller than the current tallest person, store the new height in the variable for the current tallest person.
 8. Repeat steps 4 -7 for all students in the class.
 
 ```java
@@ -195,7 +196,7 @@ public class TallestPersonEvaluator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Tell me: How many people are in your class");
+        System.out.println("Tell me: How many people are in your class?");
 
         int numberOfPeople = input.nextInt();
 
@@ -216,7 +217,7 @@ public class TallestPersonEvaluator {
 }
 ```
 
-Mostly for loops are used in combination with collections like an `ArrayList`.
+Mostly `for` loops are used in combination with collections like an `ArrayList`.
 What an `ArrayList` is and how to iterate over it using a `for` loop will be discussed in a later chapter.
 
 Material:
