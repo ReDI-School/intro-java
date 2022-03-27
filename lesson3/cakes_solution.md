@@ -49,8 +49,8 @@ public static void main(String[] args) {
    }
 
    // if each of the people would want 2 pieces of the chocolate cake, how much of it would be left over?
-
-   chocoLeftOver = chocolatePieces % 3;
+   int numberOfPeople = 3;
+   chocoLeftOver = chocolatePieces - (2*numberOfPeople);
 
    System.out.println("There are " + chocoLeftOver + " pieces of chocolate cake left over");
 
@@ -59,8 +59,9 @@ public static void main(String[] args) {
 
    int orangePieces = 4;
    totalPieces += orangePieces;
+   numberOfPeople += 1;
 
-   int cakeLeftOver = totalPieces % 4;
+   int cakeLeftOver = totalPieces - (4*numberOfPeople);
 
    if (cakeLeftOver >= 0) {
        System.out.println("There is enough cake");
