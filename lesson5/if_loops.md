@@ -8,12 +8,14 @@ parent: 5 - Loops
 
 ## Exercise 1: Multiplication Table
 
-1. Read a one number with Scanner
-2. Print the multiplication table of the number from 1 till 10, e.g:
+1. Read in one number with the `Scanner` class.
+2. Print the multiplication table of that number from 1 to 10, e.g.:
 
 ```text
 Input: 2
+
 Output:
+
 2 x 1 = 2
 2 x 2 = 4
 2 x 3 = 6
@@ -26,58 +28,101 @@ Output:
 2 x 10 = 20
 ```
 
-## Exercise 2: Dividable numbers
+## Exercise 2: Divisible numbers
 
-1. Read two numbers with Scanner
-2. Print each number from 1 to the first entered number that is dividable without remainder by the second number (e.g. 6 is dividable by 3 without remainder as 6 / 3 is 2 with remainder 0, but 6 is not dividable by 4 without remainder as 6 / 4 is 1 with remainder 2)
+1. Read in two numbers with the `Scanner` class.
+2. Calculate if each number in an inclusive range (including the last number) of 1..`<FIRST_NUMBER>` (the dividend) is divisible—without remainder—by the second number (the divisor).
+
+If our first input were 6 and second 3, only two results would pass the acceptance criteria and be printed:
+
+        - 1 / 3 = 0 R 1 FAIL
+        - 2 / 3 = 0 R 2 FAIL
+        - 3 / 3 = 1 R 0 PASS
+        - 4 / 3 = 1 R 1 FAIL
+        - 5 / 3 = 1 R 2 FAIL
+        - 6 / 3 = 2 R 0 PASS
 
 Example:
 ```text
-First: 16
-Second: 5
+First: 6
+Second: 3
+
 Output:
-5 is dividable by 5
-10 is dividable by 5
-15 is dividable by 5
+
+3 is divisible by 3
+6 is divisible by 6
+
 ```
 
 ## Exercise 3: Bank Account
 
-1. Your program should start with a variable holding current money on user's bank account (start with e.g. 100)
-2. User should now enter an amount
-3. and he should enter if he wants to deposit to his account or if he wants to withdraw (e.g. 1 for deposit, 2 for withdrawal)
-4. Variable holding money on account should be updated accordingly and current money should be printed.
-5. Program should run and let user interact until the money on his account is zero or less.
+```text
+AS a user I want to be able to deposit and withdraw from my bank account.
+
+Example: New User
+    GIVEN I am a new user, my balance should start at 100
+    WHEN the program is initially run, "Current balance is: 100" is printed
+    THEN "Enter 1 for withdraw and 2 for deposit" is printed
+
+Example: Withdraw money (Happy day)
+    GIVEN I am shown "Enter 1 for withdraw and 2 for deposit"
+    WHEN I enter 1
+    THEN I am asked "What is the amount you wish to withdraw?"
+    WHEN I submit the amount
+    THEN the amount is subtracted from my balance
+    WHEN the result of this calculation is zero or less
+    THEN "<AMOUNT> was withdrawn successfully, current balance is <CURRENT_BALANCE>" is printed
+
+Example: Withdraw money (Sad day)
+    GIVEN I am shown "Enter 1 for withdraw and 2 for deposit"
+    WHEN I enter 1
+    THEN I am asked "What is the amount you wish to withdraw?"
+    WHEN I submit the amount
+    THEN the amount is subtracted from my balance
+    WHEN subtracting the amount from my balance is less than zero
+    THEN "Withdrawing <AMOUNT> exceeds current balance of <CURRENT_BALANCE>" is printed
+    AND The program exits
+
+
+Example: Deposit money
+    GIVEN I am shown "Enter 1 for withdraw and 2 for deposit"
+    WHEN I enter 2
+    THEN I am asked "What is the amount you wish to deposit?"
+    WHEN I submit the amount
+    THEN "<AMOUNT> was deposited successfully, current balance is <CURRENT_BALANCE>" is printed
+```
 
 Example:
 ```text
-Current money on account: 100
-Enter amount:
-30
-Enter 1 for deposit, 2 for withdrawal
-2
-Current money on account: 70
-Enter amount:
-60
-Enter 1 for deposit, 2 for withdrawal
-2
-Current money on account: 10
-Enter amount:
-20
-Enter 1 for deposit, 2 for withdrawal
+
+Current balance is: 100
+
+Enter 1 for withdraw and 2 for deposit
 1
-Current money on account: 30
-Enter amount:
-30
-Enter 1 for deposit, 2 for withdrawal
+What is the amount you wish to withdraw?:
+60
+60 was withdrawn successfully, current balance is 40
+
+Enter 1 for withdraw and 2 for deposit
 2
-You have no money left, program stopped ...
+What is the amount you wish to deposit?
+30
+30 was deposited successfully, current balance is 70
+
+Enter 1 for withdraw and 2 for deposit
+1
+What is the amount you wish to withdraw?:
+80
+Withdrawing 80 exceeds current balance of 70
 ```
 
 ## Exercise 4: FizzBuzz
 
-Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number
-and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+Write a program that prints the numbers in the range 1..100. 
+
+- For multiples of three print “Fizz”.
+- For multiples of five print “Buzz”. 
+- For mulitples of both three and five print “FizzBuzz”.
 
 ## Exercise 5: Stars
 
