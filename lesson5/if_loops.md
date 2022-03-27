@@ -79,7 +79,7 @@ Example: Withdraw money (Sad day)
     THEN I am asked "What is the amount you wish to withdraw?"
     WHEN I submit the amount
     THEN the amount is subtracted from my balance
-    WHEN subtracting the amount from my balance is < 0
+    WHEN the result of this calculation is < 0
     THEN "<AMOUNT> was withdrawn successfully, current balance is <CURRENT_BALANCE>" is printed
     THEN "You are now in your overdraft, program stopped!"
     THEN the program exits
