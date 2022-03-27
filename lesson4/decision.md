@@ -40,7 +40,7 @@ Let's look into this code fragment in more detail:
 
 ### The if keyword
 
-If a block of code should only be executed if a condition is `true` we have to use the `if` statement.
+If a block of code should only be executed if a condition is `true`, we have to use the `if` statement.
 
 ```java
 if (<CONDITION>) {
@@ -52,7 +52,7 @@ if (<CONDITION>) {
 
 ### The Condition
 
-The condition of an `if` statement has to be inside round parentheses. The CONDITION part has to be a boolean expression,
+The condition of an `if` statement has to be inside parentheses, e.g. `if (1 < 2)`. The CONDITION part has to be a boolean expression,
 which we already told you about in chapter "3 - Operators" -> "Exercise 2: Operators on Boolean Types".
 
 A boolean condition can have different forms:
