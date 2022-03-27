@@ -6,9 +6,8 @@ has_children: true
 
 # Input and Decision Statements
 
-The main purpose of a program is reading some input, processing this input and returning the results of the processed steps.
 
-Until now we mainly focused on the output (printing some text to the screen).
+Most real-world Java programs do not simply execute a series of fixed instructions but need to dynamically react to user input. So far, we have mainly focused on the output (printing some text to the screen).
 
 Example:
 
@@ -18,23 +17,15 @@ Example:
 
 ## Input
 
-In the next steps we will focus on the input and processing parts.
-
-To make our programs more interactive we will now learn how to read some keyboard input from the user.
-
-How to read input from the user is presented in chapter [Scanner](scanner.md).
+In this chapter we focus on the input and processing parts of a program. To make our programs more interactive we will first learn how to read keyboard input from the user, presented in section [Scanner](scanner.md).
 
 ## Decision Statements
 
-Depending on the users' input the program can behave differently. This is a major point in programming.
+Depending on the users' input the program can behave differently. This is a major concept in programming.
 This input dependent behaviour is called control flow.
 
-In the [following sections](decision.md) we will mainly present the options which we can use to implement
-control flow / behaviour of our program.
-
-This session focuses on decision statements! Decision statements are tightly connected to boolean expressions
-(see 3 - Operators -> Exercise 2: Operators on boolean types). This means that we can tell our program
-that some code shall or shall not be executed if a boolean expression is true.
+In the section [Decision Statements](decision.md) we learn how to write code that dynamically reacts to user input. This session focuses on decision statements, which are closely linked to boolean expressions
+(see 3 - Operators -> Exercise 2: Operators on boolean types). For example, we can tell our program that parts of the code shall only be executed if a boolean expression is true.
 
 Example: if the shopping cart is empty, print "There are no items in your shopping cart!"
 
