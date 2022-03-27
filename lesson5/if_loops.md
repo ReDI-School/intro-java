@@ -61,7 +61,7 @@ AS a user I want to be able to deposit and withdraw from my bank account.
 
 Example: New User
     GIVEN I am a new user, my balance should start at 100.0
-    WHEN the program is initially run, "Current balance is: 100" is printed
+    WHEN the program is initially run, "Current balance is: 100.0" is printed
     THEN "Enter 1 for withdraw or 2 for deposit" is printed
 
 Example: Withdraw money (Happy day)
