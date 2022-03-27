@@ -6,7 +6,7 @@ parent: 5 - Loops
 
 # Solutions: if and loops
 
-## Exercise 1
+## Exercise 1: Multiplication Table
 
 ```java
 import java.util.Scanner;
@@ -24,7 +24,7 @@ class Main {
     }
 }
 ```
-## Exercise 2
+## Exercise 2: Divisible numbers
 
 ```java
 import java.util.Scanner;
@@ -39,67 +39,76 @@ class Main {
 
         for (int i = number2; i <= number1; i++) {
             if(i % number2 == 0) {
-                System.out.println(i + " is dividable by " + number2);
+                System.out.println(i + " is divisible by " + number2);
             }
         }
     }
 }
 ```
 
-## Exercise 3
+## Exercise 3: Bank Account
 
 ```java
 import java.util.Scanner;
 
 class Main {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        double accountBalance = 100.0;
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    double accountBalance = 100.0;
 
-        System.out.println("Current money on account: " + accountBalance);
+    System.out.println("Current balance is: " + accountBalance);
 
-        while(accountBalance > 0) {
-            System.out.println("Enter amount:");
-            double amount = input.nextDouble();
-            System.out.println("Enter 1 for deposit, 2 for withdrawal");
-            int operation = input.nextInt();
-            if(operation == 1) {
-                accountBalance += amount;
-                System.out.println("Current money on account: " + accountBalance);
-            } else if(operation == 2) {
-                accountBalance -= amount;
-                System.out.println("Current money on account: " + accountBalance);
-            } else {
-                System.out.println("Invalid input, please try transaction again ...")
-            }
-        }
+    while (accountBalance > 0) {
+      System.out.println("Enter 1 for withdraw or 2 for deposit");
 
-        System.out.println("You have no money left, program stopped ...");
+      int operation = input.nextInt();
+
+      if (operation == 1) {
+        System.out.println("What is the amount you wish to withdraw?");
+
+        double amount = input.nextDouble();
+
+        accountBalance -= amount;
+
+        System.out.println(amount + " was withdrawn successfully, current balance is " + accountBalance);
+
+      } else if (operation == 2) {
+        System.out.println("What is the amount you wish to deposit?");
+
+        double amount = input.nextDouble();
+
+        accountBalance += amount;
+
+        System.out.println(amount + " was deposited successfully, current balance is " + accountBalance);
+      } else {
+        System.out.println("Invalid input, please try transaction again ...");
+      }
+
     }
+
+    System.out.println("You are now in your overdraft, program stopped!");
+  }
 }
 ```
 
-## Exercise 4
+## Exercise 4: FizzBuzz
 
 ```java
 class FizzBuzz {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        for (int i = 1; i <= 100; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
-                System.out.println("FizzBuzz");
-            }
-            else if (i % 3 == 0) { // i % 5 can only be != 0 at this point, no need to check
-                System.out.println("Fizz");
-            }
-            else if (i % 5 == 0) { // i % 3 can only be != 0 at this point, no need to check
-                System.out.println("Buzz");
-            }
-            else {
-                System.out.println(i);
-            }
-        }
+    for (int i = 1; i<= 100; i++) {
+      if (i % 3 == 0 && i % 5 == 0) {
+        System.out.println("FizzBuzz");
+      } else if (i % 3 == 0) { // i % 5 can only be != 0 at this point, no need to check
+        System.out.println("Fizz");
+      } else if (i % 5 == 0) { // i % 3 can only be != 0 at this point, no need to check
+        System.out.println("Buzz");
+      } else {
+        System.out.println(i);
+      }
     }
+  }
 }
 ```
 
@@ -129,7 +138,7 @@ class Line {
 }
 ```
 
-The version that asks two numbers and prints a rectangle:
+#### The version that asks two numbers and prints a rectangle:
 
 ```java
 import java.util.Scanner;
@@ -156,7 +165,7 @@ class Rectangle {
 
 ### Triangle
 
-Straight triangle:
+#### Straight triangle:
 
 ```java
 import java.util.Scanner;
@@ -179,26 +188,26 @@ class Triangle {
 }
 ```
 
-Inverted triangle:
+#### Inverted triangle:
 
 ```java
 import java.util.Scanner;
 
 class InvertedTriangle {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
 
-        System.out.println("How many rows?");
-        int rows = scanner.nextInt();
+    System.out.println("How many rows?");
+    int rows = scanner.nextInt();
 
-        for (int r = 0; r < rows; r++) {
-            for (int c = 0; c < (rows - r); c++) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+    for (int r = 0; r<rows; r++) {
+      for (int c = 0; c<(rows - r); c++) {
+        System.out.print("* ");
+      }
+      System.out.println();
     }
+  }
 }
 ```
 

@@ -60,37 +60,39 @@ Output:
 AS a user I want to be able to deposit and withdraw from my bank account.
 
 Example: New User
-    GIVEN I am a new user, my balance should start at 100
-    WHEN the program is initially run, "Current balance is: 100" is printed
-    THEN "Enter 1 for withdraw and 2 for deposit" is printed
+    GIVEN I am a new user, my balance should start at 100.0
+    WHEN the program is initially run, "Current balance is: 100.0" is printed
+    THEN "Enter 1 for withdraw or 2 for deposit" is printed
 
 Example: Withdraw money (Happy day)
-    GIVEN I am shown "Enter 1 for withdraw and 2 for deposit"
+    GIVEN I am shown "Enter 1 for withdraw or 2 for deposit"
     WHEN I enter 1
     THEN I am asked "What is the amount you wish to withdraw?"
     WHEN I submit the amount
     THEN the amount is subtracted from my balance
-    WHEN the result of this calculation is zero or less
+    WHEN the result of this calculation is > 0
     THEN "<AMOUNT> was withdrawn successfully, current balance is <CURRENT_BALANCE>" is printed
 
 Example: Withdraw money (Sad day)
-    GIVEN I am shown "Enter 1 for withdraw and 2 for deposit"
+    GIVEN I am shown "Enter 1 for withdraw or 2 for deposit"
     WHEN I enter 1
     THEN I am asked "What is the amount you wish to withdraw?"
     WHEN I submit the amount
     THEN the amount is subtracted from my balance
-    WHEN subtracting the amount from my balance is less than zero
-    THEN "Withdrawing <AMOUNT> exceeds current balance of <CURRENT_BALANCE>" is printed
-    AND The program exits
+    WHEN the result of this calculation is < 0
+    THEN "<AMOUNT> was withdrawn successfully, current balance is <CURRENT_BALANCE>" is printed
+    THEN "You are now in your overdraft, program stopped!"
+    THEN the program exits
 
-
-Example: Deposit money
+Example: Deposit money (Happy day)
     GIVEN I am shown "Enter 1 for withdraw and 2 for deposit"
     WHEN I enter 2
     THEN I am asked "What is the amount you wish to deposit?"
     WHEN I submit the amount
+    THEN the amount is added to my balance
     THEN "<AMOUNT> was deposited successfully, current balance is <CURRENT_BALANCE>" is printed
 ```
+
 
 Example:
 ```text
