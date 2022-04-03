@@ -175,3 +175,37 @@ public class StreamingPlatform {
     }
 }
 ```
+
+## Nested if statments
+
+You can also nest if statements to check multiple things at once. Here's an example of a nested if statement to decide what clothes to wear based on the weather:
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+
+        boolean isRaining = true;
+        boolean isCold = false;
+
+        if (isRaining) {
+
+            if (isCold) {
+                System.out.println("Wear a jumper and jacket");
+            } else {
+                System.out.println("Wear a jacket");
+            }
+
+        } else {
+
+            if (isCold) {
+                System.out.println("Wear a jumper");
+            } else {
+                System.out.println("Wear a t-shirt");
+            }
+
+        }
+    }
+}
+```
+
