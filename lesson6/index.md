@@ -149,8 +149,8 @@ public class ScopeExample {
         if (true) {
             String visibleInIf1AndChildren = "I am visible in the scope of the first if statement and the scope of my children";
 
-                System.out.println(visibleInWholeMain);
-                System.out.println(visibleInIf1AndChildren);
+            System.out.println(visibleInWholeMain);
+            System.out.println(visibleInIf1AndChildren);
 
             if(false) {
                 String visibleInSecondIfStatement = "I am visible in the scope of the second if statement";
@@ -168,7 +168,7 @@ public class ScopeExample {
             System.out.println(visibleInWholeMain);
             System.out.println(visibleInElseStatement);
 
-            String test = "can also be named test as test from first if statement is invisible here!"
+            String test = "can also be named test as test from first if statement is invisible here!";
         }
         System.out.println(visibleInWholeMain);
     }
