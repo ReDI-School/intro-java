@@ -261,19 +261,19 @@ Some people are very passionate about code formatting, people argue about whethe
 
 For this course we recommend the following simple rules. These are also the default rules that Codeboard uses.
 
-###Formatting Rules
+### Formatting Rules
 When doing your homeworks try to keep to the following rules:
 
 1. When you open a `{` all code should be indented by 1 tab or 4 spaces until the closing `}`.
 e.g.
 ```java
-if(true){
+if (true) {
     System.out.println("The line I am on is indented by 4 spaces");    
 }
 ```
 2. When you have nested brackets (i.e. when you have another set of `{}` brackets within the first `{}` brackets), the code inside this second set of brackets should be indented by <i>another</i> 4 spaces (total 8 spaces).
 ```java
-if(true){
+if (true) {
     System.out.println("The line I am on is indented by 4 spaces");
     if (true) {
         System.out.println("The line I am on is indented by 8 spaces");
@@ -284,7 +284,8 @@ if(true){
 3. You should follow the same pattern for each subsequent set of `{}`
 e.g.
 ```java
-if(true){
+
+if (true) {
     System.out.println("The line I am on is indented by 4 spaces");
     if (true) {
         System.out.println("The line I am on is indented by 8 spaces");
@@ -297,11 +298,13 @@ if(true){
 
 4. Whenever you have a closing `}` bracket it should go on a new line by itself. This makes it easier to see where a code block ends.
 e.g.
+
 ```java
-if(true){
+
+if (true) {
     System.out.println("This is wrong!");} // Don't do this!
 
-if(true){
+if (true) {
     System.out.println("This is correct!");
 } // Do this
 ```
