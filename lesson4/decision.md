@@ -209,3 +209,113 @@ public class Main {
 }
 ```
 
+## Indentation and Formatting
+
+Now that we've started writing our own code blocks (code within `{}` brackets) code formatting is important.
+
+
+As you already know the java compiler does not care how much or how little white space you use in your code.
+Like we discussed earlier you could write your code all on one line like this:
+
+```java
+public class Main {public static void main(String[] args) {System.out.println("Hello");}}
+```
+
+But writing code like that makes it hard for other people to read it. As humans we need things to be laid out in a way that is easy to understand visually. 
+
+How you organise your code visually is known as <b>code formatting</b>. Most organisations have agreed on standards for how code should be formatted so that everyone formats their code in the same way. 
+
+The two main aspects to code formatting are when to use whitespace (tab or space characters) and when to use new lines.
+
+Indentation refers to how far your code is indented from the left margin (how much whitespace there is to the left of your code)
+
+Here is some example code without proper formatting. Can you tell what value `i` has at the end of this code snippet?
+
+```java
+int i = 1;
+if (true) {
+i = 2;
+if (false) {
+i = 3;
+i = 4;}
+i = 5;}
+```
+
+Here is the same code formatted:
+
+```java
+int i = 1;
+if (true) {
+    i = 2;
+    if (false) {
+        i = 3;
+        i = 4;
+    }
+    i = 5;
+}
+```
+
+Notice how with the formatted code we can easily tell what lines of code are within each code block. This makes it easier to understand what the code does.
+
+Some people are very passionate about code formatting, people argue about whether you should use tabs or spaces, whether you should indent your code with 2, 4, or 8 spaces, etc. Mostly these debates aren't very important as long as you are consistent in how you format your code.
+
+For this course we recommend the following simple rules. These are also the default rules that Codeboard uses.
+
+###Formatting Rules
+When doing your homeworks try to keep to the following rules:
+
+1. When you open a `{` all code should be indented by 1 tab or 4 spaces until the closing `}`.
+e.g.
+```java
+if(true){
+    System.out.println("The line I am on is indented by 4 spaces");    
+}
+```
+2. When you have nested brackets (i.e. when you have another set of `{}` brackets within the first `{}` brackets), the code inside this second set of brackets should be indented by <i>another</i> 4 spaces (total 8 spaces).
+```java
+if(true){
+    System.out.println("The line I am on is indented by 4 spaces");
+    if (true) {
+        System.out.println("The line I am on is indented by 8 spaces");
+    }
+    System.out.println("I am outside the second if block so the line I am on is only indented by 4 spaces");
+}
+```
+3. You should follow the same pattern for each subsequent set of `{}`
+e.g.
+```java
+if(true){
+    System.out.println("The line I am on is indented by 4 spaces");
+    if (true) {
+        System.out.println("The line I am on is indented by 8 spaces");
+        if (true) {
+            System.out.println("The line I am on is indented by 12 spaces");
+        }
+    }
+}
+```
+
+4. Whenever you have a closing `}` bracket it should go on a new line by itself. This makes it easier to see where a code block ends.
+e.g.
+```java
+if(true){
+    System.out.println("This is wrong!");} // Don't do this!
+
+if(true){
+    System.out.println("This is correct!");
+} // Do this
+```
+
+
+5. Note that the code we write in the main method is already inside two sets of `{}` brackets, so our starting indentation is 8 spaces:
+```java
+public class Main { // This line is fully on the left
+    public static void main(String[] args) { // This line is indented 4 spaces
+        System.out.println("hello"); // Our code starts off indented 8 spaces
+    }
+}
+```
+
+ 
+
+
