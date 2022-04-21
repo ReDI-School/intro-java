@@ -265,7 +265,7 @@ For this course we recommend the following simple rules. These are also the defa
 
 When doing your homeworks try to keep to the following rules:
 
-1. When you open a `{` all code should be indented by 1 tab or 4 spaces until the closing `}`.
+* When you open a `{` all code should be indented by 1 tab or 4 spaces until the closing `}`.
 e.g.
 
 ```java
@@ -273,7 +273,8 @@ if (true) {
     System.out.println("The line I am on is indented by 4 spaces");    
 }
 ```
-2. When you have nested brackets (i.e. when you have another set of `{}` brackets within the first `{}` brackets), the code inside this second set of brackets should be indented by <i>another</i> 4 spaces (total 8 spaces).
+
+* When you have nested brackets (i.e. when you have another set of `{}` brackets within the first `{}` brackets), the code inside this second set of brackets should be indented by <i>another</i> 4 spaces (total 8 spaces).
 
 ```java
 if (true) {
@@ -285,7 +286,7 @@ if (true) {
 }
 ```
 
-3. You should follow the same pattern for each subsequent set of `{}`
+* You should follow the same pattern for each subsequent set of `{}`
 e.g.
 
 ```java
@@ -301,7 +302,7 @@ if (true) {
 }
 ```
 
-4. Whenever you have a closing `}` bracket it should go on a new line by itself. This makes it easier to see where a code block ends.
+* Whenever you have a closing `}` bracket it should go on a new line by itself. This makes it easier to see where a code block ends.
 e.g.
 
 ```java
@@ -315,13 +316,16 @@ if (true) {
 ```
 
 
-5. Note that the code we write in the main method is already inside two sets of `{}` brackets, so our starting indentation is 8 spaces:
+* Note that the code we write in the main method is already inside two sets of `{}` brackets, so our starting indentation is 8 spaces:
+
 ```java
-public class Main { // This line is fully on the left
-    public static void main(String[] args) { // This line is indented 4 spaces
-        System.out.println("hello"); // Our code starts off indented 8 spaces
+
+public class Main { // This line is fully on the left 
+    public static void main(String[] args) { // This line is indented 4 spaces 
+        System.out.println("hello"); // Our code starts off indented 8 spaces 
     }
 }
+
 ```
 
  
